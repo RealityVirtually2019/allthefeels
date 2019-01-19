@@ -40,37 +40,46 @@ public class HueColour {
 
 public class BlockParticleBehavior : ParticleBehavior {
 
+    public float launchDelay = 2f;
+    float timeSinceLaunch = 0f;
+
+
     public override void Start() {
         base.Start();
 
         GetComponent<MeshRenderer>().material.color = HueColour.HueColourValue((HueColour.HueColorNames)Random.Range(0, 10));
 
+        timeSinceLaunch = Time.time;
+
     }
 
     public override void Update() {
-        rigidbody.AddForce(new Vector3(0, gravity, 0), ForceMode.Acceleration);
+        if (Time.time - timeSinceLaunch >= launchDelay) {
 
-        if (Time.time - time >= interval + intervalBetween) {
-            intervalBetween = Random.Range(intervalBetweenRandomness.x, intervalBetweenRandomness.y);
-            interval = Random.Range(intervalRandomness.x, intervalRandomness.y);
-            speed = Random.Range(speedRandomness.x, speedRandomness.y);
+            rigidbody.drag = 0.95f;
 
-            time = Time.time;
-            intervalTime = Time.time;
+            if (Time.time - time >= interval + intervalBetween) {
+                intervalBetween = Random.Range(intervalBetweenRandomness.x, intervalBetweenRandomness.y);
+                interval = Random.Range(intervalRandomness.x, intervalRandomness.y);
+                speed = Random.Range(speedRandomness.x, speedRandomness.y);
 
-            direction = CalculateTrajectory();
-        }
+                time = Time.time;
+                intervalTime = Time.time;
 
-        if (Time.time - time <= interval) {
+                direction = CalculateTrajectory();
+            }
 
-            float delta = movementVelocity.Evaluate((Time.time - intervalTime) / interval);
+            if (Time.time - time <= interval) {
 
-            if (Time.time - time <= interval / 3) {
-                rigidbody.velocity = new Vector3(direction.x, 0, 0) * delta * speed;
-            } else if (Time.time - time > interval / 3 && Time.time - time <= interval/1.5f) {
-                rigidbody.velocity = new Vector3(0, direction.y, 0) * delta * speed;
-            } else if (Time.time - time > interval / 1.5f && Time.time - time <= interval) {
-                rigidbody.velocity = new Vector3(0, 0, direction.z) * delta * speed;
+                float delta = movementVelocity.Evaluate((Time.time - intervalTime) / interval);
+
+                if (Time.time - time <= interval / 3) {
+                    rigidbody.velocity = new Vector3(direction.x, 0, 0) * delta * speed;
+                } else if (Time.time - time > interval / 3 && Time.time - time <= interval / 1.5f) {
+                    rigidbody.velocity = new Vector3(0, direction.y, 0) * delta * speed;
+                } else if (Time.time - time > interval / 1.5f && Time.time - time <= interval) {
+                    rigidbody.velocity = new Vector3(0, 0, direction.z) * delta * speed;
+                }
             }
         }
     }
