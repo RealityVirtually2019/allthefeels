@@ -1,6 +1,8 @@
 <manifest xmlns:ml="magicleap" ml:developer_id="8e7343e0-9c81-4127-9f58-576b9e7441ce" ml:package="com.realityvirtually.allthefeels" ml:version_code="1" ml:version_name="">
   <application ml:min_api_level="3" ml:sdk_version="1.0" ml:visible_name="RealityVirtually">
     <uses-privilege ml:name="LowLatencyLightwear" />
+    <uses-privilege ml:name="GesturesConfig" />
+    <uses-privilege ml:name="GesturesSubscribe" />
     <uses-privilege ml:name="Internet" />
     <uses-privilege ml:name="LocalAreaNetwork" />
     <uses-privilege ml:name="BackgroundDownload" />

@@ -131,13 +131,9 @@ public class ParticleBehavior : MonoBehaviour {
                 }
             }
 
-            Debug.Log(vcount);
-
             if (vcount > 0)
                 v /= vcount;
         }
-
-        Debug.Log("v = " + v);
 
         v = v.magnitude > 0
             ? v * AttractionWeight + new Vector3(UnityEngine.Random.Range(-1.00f, 1.00f), UnityEngine.Random.Range(-1.00f, 1.00f), UnityEngine.Random.Range(-1.00f, 1.00f)) * (1 - AttractionWeight)

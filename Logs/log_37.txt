@@ -1,0 +1,150 @@
+10416: fps 59.88  ms/f 16.70
+10716: fps 59.89  ms/f 16.70
+11016: fps 59.89  ms/f 16.70
+11313: fps 59.27  ms/f 16.87
+11608: fps 58.86  ms/f 16.99
+11902: fps 58.66  ms/f 17.05
+12186: fps 56.64  ms/f 17.66
+12469: fps 56.58  ms/f 17.67
+12743: fps 54.66  ms/f 18.29
+12995: fps 50.25  ms/f 19.90
+13243: fps 49.37  ms/f 20.26
+13427: fps 36.78  ms/f 27.19
+13600: fps 34.54  ms/f 28.95
+13786: fps 36.94  ms/f 27.07
+UnityPerf: Entering main at 0.000000 seconds.
+Lumin Unity Player built with Lumin SDK Version: 0.18.0.20180913p
+No argument list from lifecycle was found.
+Error: MeshingExample._visualBounds is not set, disabling script.
+UnityEngine.CSSLayout.Native:.cctor()
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+MagicLeap.MeshingExample:Awake()
+System.Security.Cryptography.RijndaelTransform:Decrypt256(Byte[], Byte[], UInt32[])
+UnityEngine.CSSLayout.Native:.cctor()
+ 
+(Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+
+MLMeshingCreateClient returned 7
+ML: Near clip distance 0.370370 meters is smaller than 0.370371 meter minimum. Setting to minimum.
+AutoMuse Start
+UnityEngine.CSSLayout.Native:.cctor()
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AutoMuse:Start()
+System.Security.Cryptography.RijndaelTransform:Decrypt256(Byte[], Byte[], UInt32[])
+UnityEngine.CSSLayout.Native:.cctor()
+ 
+(Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+
+NullReferenceException: A null value was found where an object instance was required.
+  at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+  at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+  at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+  at AutoMuse.Start () [0x00000] in <filename unknown>:0 
+  at System.Security.Cryptography.RijndaelTransform.Decrypt256 (System.Byte[] indata, System.Byte[] outdata, System.UInt32[] ekey) [0x00000] in <filename unknown>:0 
+  at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+System.Security.Cryptography.RijndaelTransform:Decrypt256(Byte[], Byte[], UInt32[])
+UnityEngine.CSSLayout.Native:.cctor()
+ 
+(Filename: currently not available on il2cpp Line: -1)
+
+233: fps 46.78  ms/f 21.38
+533: fps 59.96  ms/f 16.68
+833: fps 59.94  ms/f 16.68
+1133: fps 59.98  ms/f 16.67
+1433: fps 59.99  ms/f 16.67
+1733: fps 60.00  ms/f 16.67
+2033: fps 59.97  ms/f 16.67
+2333: fps 59.99  ms/f 16.67
+2633: fps 59.99  ms/f 16.67
+2933: fps 59.98  ms/f 16.67
+3233: fps 59.99  ms/f 16.67
+3533: fps 59.96  ms/f 16.68
+3833: fps 59.99  ms/f 16.67
+4133: fps 59.99  ms/f 16.67
+4426: fps 58.52  ms/f 17.09
+4726: fps 60.00  ms/f 16.67
+5026: fps 59.99  ms/f 16.67
+5326: fps 59.99  ms/f 16.67
+5626: fps 59.99  ms/f 16.67
+LocalAreaNetwork Privilege Granted
+UnityEngine.CSSLayout.Native:.cctor()
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+UnityEngine.XR.MagicLeap.PrivilegeRequester:HandlePrivilegeAsyncRequest(MLResult, MLPrivilegeId)
+System.Action`2:Invoke(T1, T2)
+UnityEngine.XR.MagicLeap.MLPrivileges:ProcessCompletedQueries(List`1)
+UnityEngine.XR.MagicLeap.MLPrivileges:ProcessPendingQueries()
+UnityEngine.XR.MagicLeap.MLPrivileges:Update(Single, IntPtr)
+System.Action`2:Invoke(T1, T2)
+UnityEngine.XR.MagicLeap.MagicLeapDevice:Update()
+System.Security.Cryptography.RijndaelTransform:Decrypt256(Byte[], Byte[], UInt32[])
+UnityEngine.CSSLayout.Native:.cctor()
+ 
+(Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+
+5926: fps 59.97  ms/f 16.68
+6226: fps 59.98  ms/f 16.67
+6527: fps 60.02  ms/f 16.66
+6827: fps 60.00  ms/f 16.67
+7127: fps 60.00  ms/f 16.67
+7427: fps 59.99  ms/f 16.67
+7727: fps 60.00  ms/f 16.67
+8027: fps 59.98  ms/f 16.67
+8327: fps 59.99  ms/f 16.67
+8627: fps 59.92  ms/f 16.69
+8927: fps 59.99  ms/f 16.67
+9228: fps 60.00  ms/f 16.67
+9528: fps 59.99  ms/f 16.67
+9828: fps 59.94  ms/f 16.68
+10128: fps 59.88  ms/f 16.70
+10428: fps 59.98  ms/f 16.67
+10728: fps 59.97  ms/f 16.67
+11028: fps 59.89  ms/f 16.70
+11328: fps 59.87  ms/f 16.70
+11628: fps 59.95  ms/f 16.68
+11928: fps 59.87  ms/f 16.70
+12227: fps 59.62  ms/f 16.77
+12526: fps 59.76  ms/f 16.73
+12811: fps 56.84  ms/f 17.59
+13078: fps 53.21  ms/f 18.79
+13269: fps 38.03  ms/f 26.29
+13459: fps 37.90  ms/f 26.38
+13632: fps 34.43  ms/f 29.04
+13779: fps 29.34  ms/f 34.09
+13893: fps 22.79  ms/f 43.88
+14013: fps 23.98  ms/f 41.71
+14120: fps 21.29  ms/f 46.97
+14221: fps 20.02  ms/f 49.96
+14317: fps 19.13  ms/f 52.27
+14412: fps 18.79  ms/f 53.21
+14497: fps 16.99  ms/f 58.85
+14583: fps 16.97  ms/f 58.93
+14668: fps 16.90  ms/f 59.17
+14746: fps 15.54  ms/f 64.34
+14823: fps 15.32  ms/f 65.25
+14895: fps 14.35  ms/f 69.68
+14970: fps 14.99  ms/f 66.73
+15043: fps 14.45  ms/f 69.19
+15108: fps 12.96  ms/f 77.17
+UnityPerf: Entering main at 0.000000 seconds.
+Lumin Unity Player built with Lumin SDK Version: 0.18.0.20180913p
+No argument list from lifecycle was found.
+Error: MeshingExample._visualBounds is not set, disabling script.
+System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+UnityEngine.StackTraceUtility:ExtractStackTrace()
+UnityEngine.CSSLayout.Native:.cctor()
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+MagicLeap.MeshingExample:Awake()
+System.Security.Cryptography.RijndaelTransform:Decrypt256(Byte[], Byte[], UInt32[])
+UnityEngine.CSSLayout.Native:.cctor()

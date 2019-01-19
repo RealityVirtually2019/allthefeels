@@ -1,0 +1,60 @@
+ERR: Gestures feature is not available due to lack of privileges. Please request for GesturesConfig and GesturesSubscribe privilege.
+ERR: Gestures feature is not available due to lack of privileges. Please request for GesturesConfig and GesturesSubscribe privilege.
+Error: MLHands.StartAPI failed to initialize native hand tracker. Reason: MLResult_PrivilegeDenied
+System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+UnityEngine.StackTraceUtility:ExtractStackTrace()
+UnityEngine.CSSLayout.Native:.cctor()
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogErrorFormat(String, Object[])
+UnityEngine.XR.MagicLeap.MLPluginLog:ErrorFormat(String, Object[])
+UnityEngine.XR.MagicLeap.MLHands:StartAPI()
+UnityEngine.XR.MagicLeap.MLAPISingleton`1:BaseStart()
+UnityEngine.XR.MagicLeap.MLHands:Start()
+Grab:Start()
+System.Security.Cryptography.RijndaelTransform:Decrypt256(Byte[], Byte[], UInt32[])
+UnityEngine.CSSLayout.Native:.cctor()
+ 
+(Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+
+Error: MLAPISingleton.BaseStart failed to start MLHands API. Reason: MLResult_PrivilegeDenied
+System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+UnityEngine.StackTraceUtility:ExtractStackTrace()
+UnityEngine.CSSLayout.Native:.cctor()
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogErrorFormat(String, Object[])
+UnityEngine.XR.MagicLeap.MLPluginLog:ErrorFormat(String, Object[])
+UnityEngine.XR.MagicLeap.MLAPISingleton`1:BaseStart()
+UnityEngine.XR.MagicLeap.MLHands:Start()
+Grab:Start()
+System.Security.Cryptography.RijndaelTransform:Decrypt256(Byte[], Byte[], UInt32[])
+UnityEngine.CSSLayout.Native:.cctor()
+ 
+(Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+
+Error: HandTrackingVisualizer failed starting MLHands, disabling script. Reason: MLResult_PrivilegeDenied
+System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+UnityEngine.StackTraceUtility:ExtractStackTrace()
+UnityEngine.CSSLayout.Native:.cctor()
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogErrorFormat(String, Object[])
+Grab:Start()
+System.Security.Cryptography.RijndaelTransform:Decrypt256(Byte[], Byte[], UInt32[])
+UnityEngine.CSSLayout.Native:.cctor()
+ 
+(Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+
+227: fps 45.50  ms/f 21.98
+527: fps 59.94  ms/f 16.68
+819: fps 58.40  ms/f 17.12
+1119: fps 59.93  ms/f 16.69
+ALW: reason=autoOpaqueControllerInRecovery,id=t-0-autoopaq
+ERR: reason=autoOpaqueControllerLockLost,id=t-0-autoopaq
+ALW: reason=autoOpaqueControllerLockFound,id=t-0-autoopaq
+ALW: reason=autoOpaqueControllerRecovered,id=t-0-autoopaq
+1419: fps 59.99  ms/f 16.67

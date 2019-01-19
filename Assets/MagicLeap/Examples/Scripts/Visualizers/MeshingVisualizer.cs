@@ -45,7 +45,7 @@ namespace MagicLeap
         [SerializeField, Tooltip("The material to apply for point cloud rendering.")]
         private Material _pointCloudMaterial;
 
-        private RenderMode _renderMode = RenderMode.Wireframe;
+        private RenderMode _renderMode = RenderMode.Occlusion;
         #endregion
 
         #region Unity Methods

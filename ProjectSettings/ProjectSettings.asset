@@ -674,6 +674,8 @@ PlayerSettings:
   - LocalAreaNetwork
   - Internet
   - BackgroundDownload
+  - GesturesConfig
+  - GesturesSubscribe
   luminMinimumPlatformAPILevel: 3
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2

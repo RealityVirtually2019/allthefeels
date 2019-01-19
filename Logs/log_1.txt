@@ -1,0 +1,65 @@
+01-19 11:18:59.342   680   734 E graph_pss: ERR: reason=autoOpaqueControllerLockLost,id=t-0-autoopaq
+01-19 11:18:59.346   680   735 D graph_pss: ALW: reason=autoOpaqueControllerLockFound,id=t-0-autoopaq
+01-19 11:18:59.346   680   735 D graph_pss: ALW: reason=autoOpaqueControllerRecovered,id=t-0-autoopaq
+01-19 11:19:39.461   680   734 D graph_pss: ALW: reason=autoOpaqueControllerInRecovery,id=t-0-autoopaq
+01-19 11:19:39.526   680   741 E graph_pss: ERR: reason=autoOpaqueControllerLockLost,id=t-0-autoopaq
+01-19 11:19:39.538   680   741 D graph_pss: ALW: reason=autoOpaqueControllerLockFound,id=t-0-autoopaq
+01-19 11:19:39.538   680   741 D graph_pss: ALW: reason=autoOpaqueControllerRecovered,id=t-0-autoopaq
+01-19 11:19:40.478   680   740 D graph_pss: ALW: reason=autoOpaqueControllerInRecovery,id=t-0-autoopaq
+01-19 11:19:40.542   680   735 E graph_pss: ERR: reason=autoOpaqueControllerLockLost,id=t-0-autoopaq
+01-19 11:19:40.551   680   739 D graph_pss: ALW: reason=autoOpaqueControllerLockFound,id=t-0-autoopaq
+01-19 11:19:40.551   680   739 D graph_pss: ALW: reason=autoOpaqueControllerRecovered,id=t-0-autoopaq
+01-19 11:19:46.826   680   737 D graph_pss: ALW: reason=autoOpaqueControllerInRecovery,id=t-0-autoopaq
+01-19 11:19:46.890   680   734 E graph_pss: ERR: reason=autoOpaqueControllerLockLost,id=t-0-autoopaq
+01-19 11:19:46.898   680   734 D graph_pss: ALW: reason=autoOpaqueControllerLockFound,id=t-0-autoopaq
+01-19 11:19:46.898   680   734 D graph_pss: ALW: reason=autoOpaqueControllerRecovered,id=t-0-autoopaq
+01-19 11:20:02.378   680   737 D graph_pss: ALW: reason=autoOpaqueControllerInRecovery,id=t-0-autoopaq
+01-19 11:20:02.442   680   734 D graph_pss: ALW: reason=autoOpaqueControllerRecovered,id=t-0-autoopaq
+01-19 11:20:56.395   680   736 D graph_pss: ALW: reason=autoOpaqueControllerInRecovery,id=t-0-autoopaq
+01-19 11:20:56.459   680   737 E graph_pss: ERR: reason=autoOpaqueControllerLockLost,id=t-0-autoopaq
+01-19 11:20:56.471   680   741 D graph_pss: ALW: reason=autoOpaqueControllerLockFound,id=t-0-autoopaq
+01-19 11:20:56.471   680   741 D graph_pss: ALW: reason=autoOpaqueControllerRecovered,id=t-0-autoopaq
+01-19 11:21:10.047   680   737 D graph_pss: ALW: reason=autoOpaqueControllerInRecovery,id=t-0-autoopaq
+01-19 11:21:10.107   680   736 E graph_pss: ERR: reason=autoOpaqueControllerLockLost,id=t-0-autoopaq
+01-19 11:21:10.115   680   737 D graph_pss: ALW: reason=autoOpaqueControllerLockFound,id=t-0-autoopaq
+01-19 11:21:10.115   680   737 D graph_pss: ALW: reason=autoOpaqueControllerRecovered,id=t-0-autoopaq
+01-19 11:21:56.460   680   740 D graph_pss: ALW: reason=autoOpaqueControllerInRecovery,id=t-0-autoopaq
+01-19 11:21:56.520   680   737 E graph_pss: ERR: reason=autoOpaqueControllerLockLost,id=t-0-autoopaq
+01-19 11:21:56.524   680   741 D graph_pss: ALW: reason=autoOpaqueControllerLockFound,id=t-0-autoopaq
+01-19 11:21:56.524   680   741 D graph_pss: ALW: reason=autoOpaqueControllerRecovered,id=t-0-autoopaq
+01-19 11:22:39.083   680   741 D graph_pss: ALW: reason=autoOpaqueControllerInRecovery,id=t-0-autoopaq
+01-19 11:22:39.141   680   734 E graph_pss: ERR: reason=autoOpaqueControllerLockLost,id=t-0-autoopaq
+01-19 11:22:39.153   680   740 D graph_pss: ALW: reason=autoOpaqueControllerLockFound,id=t-0-autoopaq
+01-19 11:22:39.154   680   740 D graph_pss: ALW: reason=autoOpaqueControllerRecovered,id=t-0-autoopaq
+01-19 11:23:59.213   680   734 D graph_pss: ALW: reason=autoOpaqueControllerInRecovery,id=t-0-autoopaq
+01-19 11:23:59.277   680   734 E graph_pss: ERR: reason=autoOpaqueControllerLockLost,id=t-0-autoopaq
+01-19 11:23:59.278   680   734 D graph_pss: ALW: reason=autoOpaqueControllerLockFound,id=t-0-autoopaq
+01-19 11:23:59.278   680   734 D graph_pss: ALW: reason=autoOpaqueControllerRecovered,id=t-0-autoopaq
+01-19 11:23:59.470   680   736 D graph_pss: ALW: reason=autoOpaqueControllerInRecovery,id=t-0-autoopaq
+01-19 11:23:59.534   680   737 E graph_pss: ERR: reason=autoOpaqueControllerLockLost,id=t-0-autoopaq
+01-19 11:23:59.543   680   736 D graph_pss: ALW: reason=autoOpaqueControllerLockFound,id=t-0-autoopaq
+01-19 11:23:59.544   680   736 D graph_pss: ALW: reason=autoOpaqueControllerRecovered,id=t-0-autoopaq
+01-19 11:38:16.885   680   738 E graph_pss: ERR: reason=autoOpaqueControllerLockLost,id=t-0-autoopaq
+01-19 11:38:18.366   680   739 D graph_pss: ALW: reason=autoOpaqueControllerLockFound,id=t-0-autoopaq
+01-19 11:38:19.102   680   734 D graph_pss: ALW: reason=autoOpaqueControllerInRecovery,id=t-0-autoopaq
+01-19 11:38:19.166   680   741 E graph_pss: ERR: reason=autoOpaqueControllerLockLost,id=t-0-autoopaq
+01-19 11:38:19.198   680   735 D graph_pss: ALW: reason=autoOpaqueControllerLockFound,id=t-0-autoopaq
+01-19 11:38:19.198   680   735 D graph_pss: ALW: reason=autoOpaqueControllerRecovered,id=t-0-autoopaq
+01-19 11:38:21.765   680   734 D graph_pss: ALW: reason=autoOpaqueControllerInRecovery,id=t-0-autoopaq
+01-19 11:38:21.829   680   740 E graph_pss: ERR: reason=autoOpaqueControllerLockLost,id=t-0-autoopaq
+01-19 11:38:21.837   680   738 D graph_pss: ALW: reason=autoOpaqueControllerLockFound,id=t-0-autoopaq
+01-19 11:38:21.837   680   738 D graph_pss: ALW: reason=autoOpaqueControllerRecovered,id=t-0-autoopaq
+01-19 11:40:54.255  1094  1094 E PackageManagerService: PackageManagerService: No user input received for install certificate dialog
+01-19 11:46:06.440  1094  1094 E PackageManagerService: PackageManagerService: No user input received for install certificate dialog
+01-19 11:47:06.914  1094  1094 E PackageManagerService: PackageManagerService: No user input received for install certificate dialog
+01-19 11:48:20.400  1094  1094 E PackageManagerService: PackageManagerService: No user input received for install certificate dialog
+01-19 11:49:20.886  1094  1094 E PackageManagerService: PackageManagerService: No user input received for install certificate dialog
+01-19 11:50:21.359  1094  1094 E PackageManagerService: PackageManagerService: No user input received for install certificate dialog
+01-19 11:50:46.439   680   736 E graph_pss: ERR: reason=autoOpaqueControllerLockLost,id=t-0-autoopaq
+01-19 11:50:47.797   680   739 D graph_pss: ALW: reason=autoOpaqueControllerLockFound,id=t-0-autoopaq
+01-19 11:50:48.309   680   736 D graph_pss: ALW: reason=autoOpaqueControllerInRecovery,id=t-0-autoopaq
+01-19 11:50:48.373   680   734 E graph_pss: ERR: reason=autoOpaqueControllerLockLost,id=t-0-autoopaq
+01-19 11:50:48.376   680   734 D graph_pss: ALW: reason=autoOpaqueControllerLockFound,id=t-0-autoopaq
+01-19 11:50:48.376   680   734 D graph_pss: ALW: reason=autoOpaqueControllerRecovered,id=t-0-autoopaq
+01-19 11:51:01.773  2141     1 I VDS     : [ML1SparseDeviceApplication.cpp:109] Starting ZI server (built against MLSDK 0.19.0.20181206r)
+01-19 11:51:01.774  2141     1 I VDS     : [ML1SparseDeviceApplication.cpp:130] ... inited lifecycle

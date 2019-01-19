@@ -1,0 +1,1635 @@
+01-19 14:02:11.313  3114     1 I Unity   : [S]System.Net.Sockets.SocketException: Access denied
+01-19 14:02:11.313  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.313  3114     1 I Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.313  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.313  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.313  3114     1 I Unity   :   at LiteNetLib.NetSocket.SendTo (System.Byte[] data, Int32 offset, Int32 size, System.Net.IPEndPoint remoteEndPoint, SocketError& errorCode) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.313  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRaw (System.Byte[] message, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.313  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRawAndRecycle (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.313  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.313  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.313  3114     1 I Unity   :   at GameServer.OnNetworkReceiveUnconnected (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, UnconnectedMessageType messageType) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.313  3114     1 I Unity   :   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.313  3114     1 I Unity   :   at LiteNetLib.NetManager.PollEvents () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.313  3114     1 I Unity   :   at GameServer.Update () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.313  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.313  3114     1 I Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.313  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:11.313  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:11.313  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.313  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:11.313  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:11.313  3114     1 I Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 14:02:11.313  3114     1 I Unity   : UnityEngine.Debug:LogFormat(String, Object[])
+01-19 14:02:11.313  3114     1 I Unity   : GameServer:WriteNet(NetLogLevel, String, Object[])
+01-19 14:02:11.313  3114     1 I Unity   : LiteNetLib.NetDebug:WriteLogic(NetLogLevel, String, Object[])
+01-19 14:02:11.313  3114     1 I Unity   : LiteNetLib.NetDebug:WriteError(String, Object[])
+01-19 14:02:11.313  3114     1 I Unity   : LiteNetLib.NetSocket:SendTo(Byte[], Int32, Int32, IPEndPoint, SocketError&)
+01-19 14:02:11.313  3114     1 I Unity   : LiteNetLib.NetManager:SendRaw(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:11.313  3114     1 I Unity   : LiteNetLib.NetManager:SendRawAndRecycle(NetPacket, IPEndPoint)
+01-19 14:02:11.313  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:11.313  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], IPEndPoint)
+01-19 14:02:11.313  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:11.313  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:11.313  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:11.313  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:11.313  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:11.313  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.313  3114     1 I Unity   :  
+01-19 14:02:11.313  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:11.313  3114     1 I Unity   : 
+01-19 14:02:11.353  3114     1 I Unity   : [SERVER] Received discovery request. Send discovery response
+01-19 14:02:11.353  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:11.353  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:11.353  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.353  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:11.353  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:11.353  3114     1 I Unity   : UnityEngine.Logger:Log(LogType, Object)
+01-19 14:02:11.353  3114     1 I Unity   : UnityEngine.Debug:Log(Object)
+01-19 14:02:11.353  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:11.353  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:11.353  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:11.353  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:11.353  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:11.353  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.353  3114     1 I Unity   :  
+01-19 14:02:11.353  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:11.353  3114     1 I Unity   : 
+01-19 14:02:11.372  3114     1 I Unity   : [S]System.Net.Sockets.SocketException: Access denied
+01-19 14:02:11.372  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.372  3114     1 I Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.372  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.372  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.372  3114     1 I Unity   :   at LiteNetLib.NetSocket.SendTo (System.Byte[] data, Int32 offset, Int32 size, System.Net.IPEndPoint remoteEndPoint, SocketError& errorCode) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.372  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRaw (System.Byte[] message, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.372  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRawAndRecycle (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.372  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.372  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.372  3114     1 I Unity   :   at GameServer.OnNetworkReceiveUnconnected (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, UnconnectedMessageType messageType) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.372  3114     1 I Unity   :   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.372  3114     1 I Unity   :   at LiteNetLib.NetManager.PollEvents () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.372  3114     1 I Unity   :   at GameServer.Update () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.372  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.372  3114     1 I Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.372  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:11.372  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:11.372  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.372  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:11.372  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:11.372  3114     1 I Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 14:02:11.372  3114     1 I Unity   : UnityEngine.Debug:LogFormat(String, Object[])
+01-19 14:02:11.372  3114     1 I Unity   : GameServer:WriteNet(NetLogLevel, String, Object[])
+01-19 14:02:11.372  3114     1 I Unity   : LiteNetLib.NetDebug:WriteLogic(NetLogLevel, String, Object[])
+01-19 14:02:11.372  3114     1 I Unity   : LiteNetLib.NetDebug:WriteError(String, Object[])
+01-19 14:02:11.372  3114     1 I Unity   : LiteNetLib.NetSocket:SendTo(Byte[], Int32, Int32, IPEndPoint, SocketError&)
+01-19 14:02:11.372  3114     1 I Unity   : LiteNetLib.NetManager:SendRaw(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:11.372  3114     1 I Unity   : LiteNetLib.NetManager:SendRawAndRecycle(NetPacket, IPEndPoint)
+01-19 14:02:11.372  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:11.372  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], IPEndPoint)
+01-19 14:02:11.372  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:11.372  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:11.372  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:11.372  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:11.372  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:11.372  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.372  3114     1 I Unity   :  
+01-19 14:02:11.372  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:11.372  3114     1 I Unity   : 
+01-19 14:02:11.380  3114     1 I Unity   : [SERVER] Received discovery request. Send discovery response
+01-19 14:02:11.380  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:11.380  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:11.380  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.380  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:11.380  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:11.380  3114     1 I Unity   : UnityEngine.Logger:Log(LogType, Object)
+01-19 14:02:11.380  3114     1 I Unity   : UnityEngine.Debug:Log(Object)
+01-19 14:02:11.380  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:11.380  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:11.380  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:11.380  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:11.380  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:11.380  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.380  3114     1 I Unity   :  
+01-19 14:02:11.380  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:11.380  3114     1 I Unity   : 
+01-19 14:02:11.399  3114     1 I Unity   : [S]System.Net.Sockets.SocketException: Access denied
+01-19 14:02:11.399  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.399  3114     1 I Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.399  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.399  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.399  3114     1 I Unity   :   at LiteNetLib.NetSocket.SendTo (System.Byte[] data, Int32 offset, Int32 size, System.Net.IPEndPoint remoteEndPoint, SocketError& errorCode) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.399  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRaw (System.Byte[] message, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.399  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRawAndRecycle (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.399  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.399  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.399  3114     1 I Unity   :   at GameServer.OnNetworkReceiveUnconnected (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, UnconnectedMessageType messageType) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.399  3114     1 I Unity   :   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.399  3114     1 I Unity   :   at LiteNetLib.NetManager.PollEvents () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.399  3114     1 I Unity   :   at GameServer.Update () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.399  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.399  3114     1 I Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.399  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:11.399  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:11.399  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.399  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:11.399  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:11.399  3114     1 I Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 14:02:11.399  3114     1 I Unity   : UnityEngine.Debug:LogFormat(String, Object[])
+01-19 14:02:11.399  3114     1 I Unity   : GameServer:WriteNet(NetLogLevel, String, Object[])
+01-19 14:02:11.399  3114     1 I Unity   : LiteNetLib.NetDebug:WriteLogic(NetLogLevel, String, Object[])
+01-19 14:02:11.399  3114     1 I Unity   : LiteNetLib.NetDebug:WriteError(String, Object[])
+01-19 14:02:11.399  3114     1 I Unity   : LiteNetLib.NetSocket:SendTo(Byte[], Int32, Int32, IPEndPoint, SocketError&)
+01-19 14:02:11.399  3114     1 I Unity   : LiteNetLib.NetManager:SendRaw(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:11.399  3114     1 I Unity   : LiteNetLib.NetManager:SendRawAndRecycle(NetPacket, IPEndPoint)
+01-19 14:02:11.399  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:11.399  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], IPEndPoint)
+01-19 14:02:11.399  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:11.399  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:11.399  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:11.399  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:11.399  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:11.399  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.399  3114     1 I Unity   :  
+01-19 14:02:11.399  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:11.399  3114     1 I Unity   : 
+01-19 14:02:11.447  3114     1 I Unity   : [SERVER] Received discovery request. Send discovery response
+01-19 14:02:11.447  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:11.447  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:11.447  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.447  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:11.447  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:11.447  3114     1 I Unity   : UnityEngine.Logger:Log(LogType, Object)
+01-19 14:02:11.447  3114     1 I Unity   : UnityEngine.Debug:Log(Object)
+01-19 14:02:11.447  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:11.447  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:11.447  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:11.447  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:11.447  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:11.447  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.447  3114     1 I Unity   :  
+01-19 14:02:11.447  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:11.447  3114     1 I Unity   : 
+01-19 14:02:11.467  3114     1 I Unity   : [S]System.Net.Sockets.SocketException: Access denied
+01-19 14:02:11.467  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.467  3114     1 I Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.467  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.467  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.467  3114     1 I Unity   :   at LiteNetLib.NetSocket.SendTo (System.Byte[] data, Int32 offset, Int32 size, System.Net.IPEndPoint remoteEndPoint, SocketError& errorCode) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.467  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRaw (System.Byte[] message, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.467  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRawAndRecycle (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.467  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.467  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.467  3114     1 I Unity   :   at GameServer.OnNetworkReceiveUnconnected (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, UnconnectedMessageType messageType) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.467  3114     1 I Unity   :   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.467  3114     1 I Unity   :   at LiteNetLib.NetManager.PollEvents () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.467  3114     1 I Unity   :   at GameServer.Update () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.467  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.467  3114     1 I Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.467  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:11.467  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:11.467  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.467  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:11.467  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:11.467  3114     1 I Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 14:02:11.467  3114     1 I Unity   : UnityEngine.Debug:LogFormat(String, Object[])
+01-19 14:02:11.467  3114     1 I Unity   : GameServer:WriteNet(NetLogLevel, String, Object[])
+01-19 14:02:11.467  3114     1 I Unity   : LiteNetLib.NetDebug:WriteLogic(NetLogLevel, String, Object[])
+01-19 14:02:11.467  3114     1 I Unity   : LiteNetLib.NetDebug:WriteError(String, Object[])
+01-19 14:02:11.467  3114     1 I Unity   : LiteNetLib.NetSocket:SendTo(Byte[], Int32, Int32, IPEndPoint, SocketError&)
+01-19 14:02:11.467  3114     1 I Unity   : LiteNetLib.NetManager:SendRaw(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:11.467  3114     1 I Unity   : LiteNetLib.NetManager:SendRawAndRecycle(NetPacket, IPEndPoint)
+01-19 14:02:11.467  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:11.467  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], IPEndPoint)
+01-19 14:02:11.467  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:11.467  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:11.467  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:11.467  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:11.467  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:11.467  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.467  3114     1 I Unity   :  
+01-19 14:02:11.467  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:11.467  3114     1 I Unity   : 
+01-19 14:02:11.476  3114     1 I Unity   : [SERVER] Received discovery request. Send discovery response
+01-19 14:02:11.476  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:11.476  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:11.476  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.476  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:11.476  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:11.476  3114     1 I Unity   : UnityEngine.Logger:Log(LogType, Object)
+01-19 14:02:11.476  3114     1 I Unity   : UnityEngine.Debug:Log(Object)
+01-19 14:02:11.476  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:11.476  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:11.476  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:11.476  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:11.476  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:11.476  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.476  3114     1 I Unity   :  
+01-19 14:02:11.476  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:11.476  3114     1 I Unity   : 
+01-19 14:02:11.495  3114     1 I Unity   : [S]System.Net.Sockets.SocketException: Access denied
+01-19 14:02:11.495  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.495  3114     1 I Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.495  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.495  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.495  3114     1 I Unity   :   at LiteNetLib.NetSocket.SendTo (System.Byte[] data, Int32 offset, Int32 size, System.Net.IPEndPoint remoteEndPoint, SocketError& errorCode) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.495  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRaw (System.Byte[] message, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.495  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRawAndRecycle (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.495  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.495  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.495  3114     1 I Unity   :   at GameServer.OnNetworkReceiveUnconnected (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, UnconnectedMessageType messageType) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.495  3114     1 I Unity   :   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.495  3114     1 I Unity   :   at LiteNetLib.NetManager.PollEvents () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.495  3114     1 I Unity   :   at GameServer.Update () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.495  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.495  3114     1 I Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.495  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:11.495  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:11.495  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.495  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:11.495  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:11.495  3114     1 I Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 14:02:11.495  3114     1 I Unity   : UnityEngine.Debug:LogFormat(String, Object[])
+01-19 14:02:11.495  3114     1 I Unity   : GameServer:WriteNet(NetLogLevel, String, Object[])
+01-19 14:02:11.495  3114     1 I Unity   : LiteNetLib.NetDebug:WriteLogic(NetLogLevel, String, Object[])
+01-19 14:02:11.495  3114     1 I Unity   : LiteNetLib.NetDebug:WriteError(String, Object[])
+01-19 14:02:11.495  3114     1 I Unity   : LiteNetLib.NetSocket:SendTo(Byte[], Int32, Int32, IPEndPoint, SocketError&)
+01-19 14:02:11.495  3114     1 I Unity   : LiteNetLib.NetManager:SendRaw(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:11.495  3114     1 I Unity   : LiteNetLib.NetManager:SendRawAndRecycle(NetPacket, IPEndPoint)
+01-19 14:02:11.495  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:11.495  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], IPEndPoint)
+01-19 14:02:11.495  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:11.495  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:11.495  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:11.495  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:11.495  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:11.495  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.495  3114     1 I Unity   :  
+01-19 14:02:11.495  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:11.495  3114     1 I Unity   : 
+01-19 14:02:11.542  3114     1 I Unity   : [SERVER] Received discovery request. Send discovery response
+01-19 14:02:11.542  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:11.542  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:11.542  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.542  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:11.542  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:11.542  3114     1 I Unity   : UnityEngine.Logger:Log(LogType, Object)
+01-19 14:02:11.542  3114     1 I Unity   : UnityEngine.Debug:Log(Object)
+01-19 14:02:11.542  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:11.542  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:11.542  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:11.542  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:11.542  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:11.542  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.542  3114     1 I Unity   :  
+01-19 14:02:11.542  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:11.542  3114     1 I Unity   : 
+01-19 14:02:11.561  3114     1 I Unity   : [S]System.Net.Sockets.SocketException: Access denied
+01-19 14:02:11.561  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.561  3114     1 I Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.561  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.561  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.561  3114     1 I Unity   :   at LiteNetLib.NetSocket.SendTo (System.Byte[] data, Int32 offset, Int32 size, System.Net.IPEndPoint remoteEndPoint, SocketError& errorCode) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.561  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRaw (System.Byte[] message, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.561  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRawAndRecycle (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.561  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.561  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.561  3114     1 I Unity   :   at GameServer.OnNetworkReceiveUnconnected (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, UnconnectedMessageType messageType) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.561  3114     1 I Unity   :   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.561  3114     1 I Unity   :   at LiteNetLib.NetManager.PollEvents () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.561  3114     1 I Unity   :   at GameServer.Update () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.561  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.561  3114     1 I Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.561  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:11.561  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:11.561  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.561  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:11.561  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:11.561  3114     1 I Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 14:02:11.561  3114     1 I Unity   : UnityEngine.Debug:LogFormat(String, Object[])
+01-19 14:02:11.561  3114     1 I Unity   : GameServer:WriteNet(NetLogLevel, String, Object[])
+01-19 14:02:11.561  3114     1 I Unity   : LiteNetLib.NetDebug:WriteLogic(NetLogLevel, String, Object[])
+01-19 14:02:11.561  3114     1 I Unity   : LiteNetLib.NetDebug:WriteError(String, Object[])
+01-19 14:02:11.561  3114     1 I Unity   : LiteNetLib.NetSocket:SendTo(Byte[], Int32, Int32, IPEndPoint, SocketError&)
+01-19 14:02:11.561  3114     1 I Unity   : LiteNetLib.NetManager:SendRaw(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:11.561  3114     1 I Unity   : LiteNetLib.NetManager:SendRawAndRecycle(NetPacket, IPEndPoint)
+01-19 14:02:11.561  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:11.561  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], IPEndPoint)
+01-19 14:02:11.561  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:11.561  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:11.561  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:11.561  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:11.561  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:11.561  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.561  3114     1 I Unity   :  
+01-19 14:02:11.561  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:11.561  3114     1 I Unity   : 
+01-19 14:02:11.570  3114     1 I Unity   : [SERVER] Received discovery request. Send discovery response
+01-19 14:02:11.570  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:11.570  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:11.570  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.570  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:11.570  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:11.570  3114     1 I Unity   : UnityEngine.Logger:Log(LogType, Object)
+01-19 14:02:11.570  3114     1 I Unity   : UnityEngine.Debug:Log(Object)
+01-19 14:02:11.570  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:11.570  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:11.570  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:11.570  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:11.570  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:11.570  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.570  3114     1 I Unity   :  
+01-19 14:02:11.570  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:11.570  3114     1 I Unity   : 
+01-19 14:02:11.589  3114     1 I Unity   : [S]System.Net.Sockets.SocketException: Access denied
+01-19 14:02:11.589  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.589  3114     1 I Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.589  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.589  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.589  3114     1 I Unity   :   at LiteNetLib.NetSocket.SendTo (System.Byte[] data, Int32 offset, Int32 size, System.Net.IPEndPoint remoteEndPoint, SocketError& errorCode) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.589  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRaw (System.Byte[] message, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.589  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRawAndRecycle (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.589  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.589  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.589  3114     1 I Unity   :   at GameServer.OnNetworkReceiveUnconnected (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, UnconnectedMessageType messageType) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.589  3114     1 I Unity   :   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.589  3114     1 I Unity   :   at LiteNetLib.NetManager.PollEvents () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.589  3114     1 I Unity   :   at GameServer.Update () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.589  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.589  3114     1 I Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.589  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:11.589  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:11.589  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.589  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:11.589  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:11.589  3114     1 I Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 14:02:11.589  3114     1 I Unity   : UnityEngine.Debug:LogFormat(String, Object[])
+01-19 14:02:11.589  3114     1 I Unity   : GameServer:WriteNet(NetLogLevel, String, Object[])
+01-19 14:02:11.589  3114     1 I Unity   : LiteNetLib.NetDebug:WriteLogic(NetLogLevel, String, Object[])
+01-19 14:02:11.589  3114     1 I Unity   : LiteNetLib.NetDebug:WriteError(String, Object[])
+01-19 14:02:11.589  3114     1 I Unity   : LiteNetLib.NetSocket:SendTo(Byte[], Int32, Int32, IPEndPoint, SocketError&)
+01-19 14:02:11.589  3114     1 I Unity   : LiteNetLib.NetManager:SendRaw(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:11.589  3114     1 I Unity   : LiteNetLib.NetManager:SendRawAndRecycle(NetPacket, IPEndPoint)
+01-19 14:02:11.589  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:11.589  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], IPEndPoint)
+01-19 14:02:11.589  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:11.589  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:11.589  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:11.589  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:11.589  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:11.589  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.589  3114     1 I Unity   :  
+01-19 14:02:11.589  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:11.589  3114     1 I Unity   : 
+01-19 14:02:11.629  3114     1 I Unity   : [SERVER] Received discovery request. Send discovery response
+01-19 14:02:11.629  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:11.629  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:11.629  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.629  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:11.629  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:11.629  3114     1 I Unity   : UnityEngine.Logger:Log(LogType, Object)
+01-19 14:02:11.629  3114     1 I Unity   : UnityEngine.Debug:Log(Object)
+01-19 14:02:11.629  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:11.629  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:11.629  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:11.629  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:11.629  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:11.629  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.629  3114     1 I Unity   :  
+01-19 14:02:11.629  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:11.629  3114     1 I Unity   : 
+01-19 14:02:11.649  3114     1 I Unity   : [S]System.Net.Sockets.SocketException: Access denied
+01-19 14:02:11.649  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.649  3114     1 I Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.649  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.649  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.649  3114     1 I Unity   :   at LiteNetLib.NetSocket.SendTo (System.Byte[] data, Int32 offset, Int32 size, System.Net.IPEndPoint remoteEndPoint, SocketError& errorCode) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.649  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRaw (System.Byte[] message, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.649  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRawAndRecycle (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.649  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.649  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.649  3114     1 I Unity   :   at GameServer.OnNetworkReceiveUnconnected (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, UnconnectedMessageType messageType) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.649  3114     1 I Unity   :   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.649  3114     1 I Unity   :   at LiteNetLib.NetManager.PollEvents () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.649  3114     1 I Unity   :   at GameServer.Update () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.649  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.649  3114     1 I Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.649  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:11.649  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:11.649  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.649  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:11.649  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:11.649  3114     1 I Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 14:02:11.649  3114     1 I Unity   : UnityEngine.Debug:LogFormat(String, Object[])
+01-19 14:02:11.649  3114     1 I Unity   : GameServer:WriteNet(NetLogLevel, String, Object[])
+01-19 14:02:11.649  3114     1 I Unity   : LiteNetLib.NetDebug:WriteLogic(NetLogLevel, String, Object[])
+01-19 14:02:11.649  3114     1 I Unity   : LiteNetLib.NetDebug:WriteError(String, Object[])
+01-19 14:02:11.649  3114     1 I Unity   : LiteNetLib.NetSocket:SendTo(Byte[], Int32, Int32, IPEndPoint, SocketError&)
+01-19 14:02:11.649  3114     1 I Unity   : LiteNetLib.NetManager:SendRaw(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:11.649  3114     1 I Unity   : LiteNetLib.NetManager:SendRawAndRecycle(NetPacket, IPEndPoint)
+01-19 14:02:11.649  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:11.649  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], IPEndPoint)
+01-19 14:02:11.649  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:11.649  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:11.649  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:11.649  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:11.649  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:11.649  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.649  3114     1 I Unity   :  
+01-19 14:02:11.649  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:11.649  3114     1 I Unity   : 
+01-19 14:02:11.657  3114     1 I Unity   : [SERVER] Received discovery request. Send discovery response
+01-19 14:02:11.657  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:11.657  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:11.657  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.657  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:11.657  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:11.657  3114     1 I Unity   : UnityEngine.Logger:Log(LogType, Object)
+01-19 14:02:11.657  3114     1 I Unity   : UnityEngine.Debug:Log(Object)
+01-19 14:02:11.657  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:11.657  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:11.657  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:11.657  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:11.657  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:11.657  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.657  3114     1 I Unity   :  
+01-19 14:02:11.657  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:11.657  3114     1 I Unity   : 
+01-19 14:02:11.678  3114     1 I Unity   : [S]System.Net.Sockets.SocketException: Access denied
+01-19 14:02:11.678  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.678  3114     1 I Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.678  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.678  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.678  3114     1 I Unity   :   at LiteNetLib.NetSocket.SendTo (System.Byte[] data, Int32 offset, Int32 size, System.Net.IPEndPoint remoteEndPoint, SocketError& errorCode) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.678  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRaw (System.Byte[] message, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.678  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRawAndRecycle (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.678  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.678  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.678  3114     1 I Unity   :   at GameServer.OnNetworkReceiveUnconnected (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, UnconnectedMessageType messageType) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.678  3114     1 I Unity   :   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.678  3114     1 I Unity   :   at LiteNetLib.NetManager.PollEvents () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.678  3114     1 I Unity   :   at GameServer.Update () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.678  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.678  3114     1 I Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.678  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:11.678  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:11.678  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.678  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:11.678  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:11.678  3114     1 I Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 14:02:11.678  3114     1 I Unity   : UnityEngine.Debug:LogFormat(String, Object[])
+01-19 14:02:11.678  3114     1 I Unity   : GameServer:WriteNet(NetLogLevel, String, Object[])
+01-19 14:02:11.678  3114     1 I Unity   : LiteNetLib.NetDebug:WriteLogic(NetLogLevel, String, Object[])
+01-19 14:02:11.678  3114     1 I Unity   : LiteNetLib.NetDebug:WriteError(String, Object[])
+01-19 14:02:11.678  3114     1 I Unity   : LiteNetLib.NetSocket:SendTo(Byte[], Int32, Int32, IPEndPoint, SocketError&)
+01-19 14:02:11.678  3114     1 I Unity   : LiteNetLib.NetManager:SendRaw(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:11.678  3114     1 I Unity   : LiteNetLib.NetManager:SendRawAndRecycle(NetPacket, IPEndPoint)
+01-19 14:02:11.678  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:11.678  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], IPEndPoint)
+01-19 14:02:11.678  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:11.678  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:11.678  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:11.678  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:11.678  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:11.678  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.678  3114     1 I Unity   :  
+01-19 14:02:11.678  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:11.678  3114     1 I Unity   : 
+01-19 14:02:11.730  3114     1 I Unity   : [SERVER] Received discovery request. Send discovery response
+01-19 14:02:11.730  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:11.730  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:11.730  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.730  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:11.730  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:11.730  3114     1 I Unity   : UnityEngine.Logger:Log(LogType, Object)
+01-19 14:02:11.730  3114     1 I Unity   : UnityEngine.Debug:Log(Object)
+01-19 14:02:11.730  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:11.730  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:11.730  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:11.730  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:11.730  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:11.730  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.730  3114     1 I Unity   :  
+01-19 14:02:11.730  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:11.730  3114     1 I Unity   : 
+01-19 14:02:11.752  3114     1 I Unity   : [S]System.Net.Sockets.SocketException: Access denied
+01-19 14:02:11.752  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.752  3114     1 I Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.752  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.752  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.752  3114     1 I Unity   :   at LiteNetLib.NetSocket.SendTo (System.Byte[] data, Int32 offset, Int32 size, System.Net.IPEndPoint remoteEndPoint, SocketError& errorCode) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.752  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRaw (System.Byte[] message, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.752  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRawAndRecycle (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.752  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.752  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.752  3114     1 I Unity   :   at GameServer.OnNetworkReceiveUnconnected (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, UnconnectedMessageType messageType) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.752  3114     1 I Unity   :   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.752  3114     1 I Unity   :   at LiteNetLib.NetManager.PollEvents () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.752  3114     1 I Unity   :   at GameServer.Update () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.752  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.752  3114     1 I Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.752  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:11.752  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:11.752  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.752  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:11.752  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:11.752  3114     1 I Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 14:02:11.752  3114     1 I Unity   : UnityEngine.Debug:LogFormat(String, Object[])
+01-19 14:02:11.752  3114     1 I Unity   : GameServer:WriteNet(NetLogLevel, String, Object[])
+01-19 14:02:11.752  3114     1 I Unity   : LiteNetLib.NetDebug:WriteLogic(NetLogLevel, String, Object[])
+01-19 14:02:11.752  3114     1 I Unity   : LiteNetLib.NetDebug:WriteError(String, Object[])
+01-19 14:02:11.752  3114     1 I Unity   : LiteNetLib.NetSocket:SendTo(Byte[], Int32, Int32, IPEndPoint, SocketError&)
+01-19 14:02:11.752  3114     1 I Unity   : LiteNetLib.NetManager:SendRaw(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:11.752  3114     1 I Unity   : LiteNetLib.NetManager:SendRawAndRecycle(NetPacket, IPEndPoint)
+01-19 14:02:11.752  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:11.752  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], IPEndPoint)
+01-19 14:02:11.752  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:11.752  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:11.752  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:11.752  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:11.752  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:11.752  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.752  3114     1 I Unity   :  
+01-19 14:02:11.752  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:11.752  3114     1 I Unity   : 
+01-19 14:02:11.760  3114     1 I Unity   : [SERVER] Received discovery request. Send discovery response
+01-19 14:02:11.760  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:11.760  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:11.760  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.760  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:11.760  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:11.760  3114     1 I Unity   : UnityEngine.Logger:Log(LogType, Object)
+01-19 14:02:11.760  3114     1 I Unity   : UnityEngine.Debug:Log(Object)
+01-19 14:02:11.760  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:11.760  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:11.760  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:11.760  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:11.760  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:11.760  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.760  3114     1 I Unity   :  
+01-19 14:02:11.760  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:11.760  3114     1 I Unity   : 
+01-19 14:02:11.779  3114     1 I Unity   : [S]System.Net.Sockets.SocketException: Access denied
+01-19 14:02:11.779  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.779  3114     1 I Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.779  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.779  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.779  3114     1 I Unity   :   at LiteNetLib.NetSocket.SendTo (System.Byte[] data, Int32 offset, Int32 size, System.Net.IPEndPoint remoteEndPoint, SocketError& errorCode) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.779  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRaw (System.Byte[] message, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.779  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRawAndRecycle (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.779  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.779  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.779  3114     1 I Unity   :   at GameServer.OnNetworkReceiveUnconnected (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, UnconnectedMessageType messageType) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.779  3114     1 I Unity   :   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.779  3114     1 I Unity   :   at LiteNetLib.NetManager.PollEvents () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.779  3114     1 I Unity   :   at GameServer.Update () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.779  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.779  3114     1 I Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.779  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:11.779  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:11.779  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.779  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:11.779  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:11.779  3114     1 I Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 14:02:11.779  3114     1 I Unity   : UnityEngine.Debug:LogFormat(String, Object[])
+01-19 14:02:11.779  3114     1 I Unity   : GameServer:WriteNet(NetLogLevel, String, Object[])
+01-19 14:02:11.779  3114     1 I Unity   : LiteNetLib.NetDebug:WriteLogic(NetLogLevel, String, Object[])
+01-19 14:02:11.779  3114     1 I Unity   : LiteNetLib.NetDebug:WriteError(String, Object[])
+01-19 14:02:11.779  3114     1 I Unity   : LiteNetLib.NetSocket:SendTo(Byte[], Int32, Int32, IPEndPoint, SocketError&)
+01-19 14:02:11.779  3114     1 I Unity   : LiteNetLib.NetManager:SendRaw(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:11.779  3114     1 I Unity   : LiteNetLib.NetManager:SendRawAndRecycle(NetPacket, IPEndPoint)
+01-19 14:02:11.779  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:11.779  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], IPEndPoint)
+01-19 14:02:11.779  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:11.779  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:11.779  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:11.779  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:11.779  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:11.779  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.779  3114     1 I Unity   :  
+01-19 14:02:11.779  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:11.779  3114     1 I Unity   : 
+01-19 14:02:11.820  3114     1 I Unity   : [SERVER] Received discovery request. Send discovery response
+01-19 14:02:11.820  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:11.820  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:11.820  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.820  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:11.820  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:11.820  3114     1 I Unity   : UnityEngine.Logger:Log(LogType, Object)
+01-19 14:02:11.820  3114     1 I Unity   : UnityEngine.Debug:Log(Object)
+01-19 14:02:11.820  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:11.820  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:11.820  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:11.820  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:11.820  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:11.820  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.820  3114     1 I Unity   :  
+01-19 14:02:11.820  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:11.820  3114     1 I Unity   : 
+01-19 14:02:11.840  3114     1 I Unity   : [S]System.Net.Sockets.SocketException: Access denied
+01-19 14:02:11.840  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.840  3114     1 I Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.840  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.840  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.840  3114     1 I Unity   :   at LiteNetLib.NetSocket.SendTo (System.Byte[] data, Int32 offset, Int32 size, System.Net.IPEndPoint remoteEndPoint, SocketError& errorCode) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.840  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRaw (System.Byte[] message, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.840  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRawAndRecycle (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.840  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.840  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.840  3114     1 I Unity   :   at GameServer.OnNetworkReceiveUnconnected (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, UnconnectedMessageType messageType) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.840  3114     1 I Unity   :   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.840  3114     1 I Unity   :   at LiteNetLib.NetManager.PollEvents () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.840  3114     1 I Unity   :   at GameServer.Update () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.840  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.840  3114     1 I Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.840  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:11.840  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:11.840  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.840  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:11.840  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:11.840  3114     1 I Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 14:02:11.840  3114     1 I Unity   : UnityEngine.Debug:LogFormat(String, Object[])
+01-19 14:02:11.840  3114     1 I Unity   : GameServer:WriteNet(NetLogLevel, String, Object[])
+01-19 14:02:11.840  3114     1 I Unity   : LiteNetLib.NetDebug:WriteLogic(NetLogLevel, String, Object[])
+01-19 14:02:11.840  3114     1 I Unity   : LiteNetLib.NetDebug:WriteError(String, Object[])
+01-19 14:02:11.840  3114     1 I Unity   : LiteNetLib.NetSocket:SendTo(Byte[], Int32, Int32, IPEndPoint, SocketError&)
+01-19 14:02:11.840  3114     1 I Unity   : LiteNetLib.NetManager:SendRaw(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:11.840  3114     1 I Unity   : LiteNetLib.NetManager:SendRawAndRecycle(NetPacket, IPEndPoint)
+01-19 14:02:11.840  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:11.840  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], IPEndPoint)
+01-19 14:02:11.840  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:11.840  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:11.840  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:11.840  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:11.840  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:11.840  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.840  3114     1 I Unity   :  
+01-19 14:02:11.840  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:11.840  3114     1 I Unity   : 
+01-19 14:02:11.849  3114     1 I Unity   : [SERVER] Received discovery request. Send discovery response
+01-19 14:02:11.849  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:11.849  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:11.849  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.849  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:11.849  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:11.849  3114     1 I Unity   : UnityEngine.Logger:Log(LogType, Object)
+01-19 14:02:11.849  3114     1 I Unity   : UnityEngine.Debug:Log(Object)
+01-19 14:02:11.849  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:11.849  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:11.849  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:11.849  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:11.849  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:11.849  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.849  3114     1 I Unity   :  
+01-19 14:02:11.849  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:11.849  3114     1 I Unity   : 
+01-19 14:02:11.868  3114     1 I Unity   : [S]System.Net.Sockets.SocketException: Access denied
+01-19 14:02:11.868  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.868  3114     1 I Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.868  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.868  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.868  3114     1 I Unity   :   at LiteNetLib.NetSocket.SendTo (System.Byte[] data, Int32 offset, Int32 size, System.Net.IPEndPoint remoteEndPoint, SocketError& errorCode) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.868  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRaw (System.Byte[] message, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.868  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRawAndRecycle (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.868  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.868  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.868  3114     1 I Unity   :   at GameServer.OnNetworkReceiveUnconnected (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, UnconnectedMessageType messageType) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.868  3114     1 I Unity   :   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.868  3114     1 I Unity   :   at LiteNetLib.NetManager.PollEvents () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.868  3114     1 I Unity   :   at GameServer.Update () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.868  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.868  3114     1 I Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.868  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:11.868  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:11.868  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.868  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:11.868  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:11.868  3114     1 I Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 14:02:11.868  3114     1 I Unity   : UnityEngine.Debug:LogFormat(String, Object[])
+01-19 14:02:11.868  3114     1 I Unity   : GameServer:WriteNet(NetLogLevel, String, Object[])
+01-19 14:02:11.868  3114     1 I Unity   : LiteNetLib.NetDebug:WriteLogic(NetLogLevel, String, Object[])
+01-19 14:02:11.868  3114     1 I Unity   : LiteNetLib.NetDebug:WriteError(String, Object[])
+01-19 14:02:11.868  3114     1 I Unity   : LiteNetLib.NetSocket:SendTo(Byte[], Int32, Int32, IPEndPoint, SocketError&)
+01-19 14:02:11.868  3114     1 I Unity   : LiteNetLib.NetManager:SendRaw(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:11.868  3114     1 I Unity   : LiteNetLib.NetManager:SendRawAndRecycle(NetPacket, IPEndPoint)
+01-19 14:02:11.868  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:11.868  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], IPEndPoint)
+01-19 14:02:11.868  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:11.868  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:11.868  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:11.868  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:11.868  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:11.868  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.868  3114     1 I Unity   :  
+01-19 14:02:11.868  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:11.868  3114     1 I Unity   : 
+01-19 14:02:11.912  3114     1 I Unity   : [SERVER] Received discovery request. Send discovery response
+01-19 14:02:11.912  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:11.912  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:11.912  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.912  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:11.912  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:11.912  3114     1 I Unity   : UnityEngine.Logger:Log(LogType, Object)
+01-19 14:02:11.912  3114     1 I Unity   : UnityEngine.Debug:Log(Object)
+01-19 14:02:11.912  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:11.912  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:11.912  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:11.912  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:11.912  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:11.912  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.912  3114     1 I Unity   :  
+01-19 14:02:11.912  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:11.912  3114     1 I Unity   : 
+01-19 14:02:11.932  3114     1 I Unity   : [S]System.Net.Sockets.SocketException: Access denied
+01-19 14:02:11.932  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.932  3114     1 I Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.932  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.932  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.932  3114     1 I Unity   :   at LiteNetLib.NetSocket.SendTo (System.Byte[] data, Int32 offset, Int32 size, System.Net.IPEndPoint remoteEndPoint, SocketError& errorCode) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.932  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRaw (System.Byte[] message, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.932  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRawAndRecycle (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.932  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.932  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.932  3114     1 I Unity   :   at GameServer.OnNetworkReceiveUnconnected (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, UnconnectedMessageType messageType) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.932  3114     1 I Unity   :   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.932  3114     1 I Unity   :   at LiteNetLib.NetManager.PollEvents () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.932  3114     1 I Unity   :   at GameServer.Update () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.932  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.932  3114     1 I Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.932  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:11.932  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:11.932  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.932  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:11.932  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:11.932  3114     1 I Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 14:02:11.932  3114     1 I Unity   : UnityEngine.Debug:LogFormat(String, Object[])
+01-19 14:02:11.932  3114     1 I Unity   : GameServer:WriteNet(NetLogLevel, String, Object[])
+01-19 14:02:11.932  3114     1 I Unity   : LiteNetLib.NetDebug:WriteLogic(NetLogLevel, String, Object[])
+01-19 14:02:11.932  3114     1 I Unity   : LiteNetLib.NetDebug:WriteError(String, Object[])
+01-19 14:02:11.932  3114     1 I Unity   : LiteNetLib.NetSocket:SendTo(Byte[], Int32, Int32, IPEndPoint, SocketError&)
+01-19 14:02:11.932  3114     1 I Unity   : LiteNetLib.NetManager:SendRaw(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:11.932  3114     1 I Unity   : LiteNetLib.NetManager:SendRawAndRecycle(NetPacket, IPEndPoint)
+01-19 14:02:11.932  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:11.932  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], IPEndPoint)
+01-19 14:02:11.932  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:11.932  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:11.932  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:11.932  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:11.932  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:11.932  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.932  3114     1 I Unity   :  
+01-19 14:02:11.932  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:11.932  3114     1 I Unity   : 
+01-19 14:02:11.940  3114     1 I Unity   : [SERVER] Received discovery request. Send discovery response
+01-19 14:02:11.940  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:11.940  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:11.940  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.940  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:11.940  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:11.940  3114     1 I Unity   : UnityEngine.Logger:Log(LogType, Object)
+01-19 14:02:11.940  3114     1 I Unity   : UnityEngine.Debug:Log(Object)
+01-19 14:02:11.940  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:11.940  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:11.940  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:11.940  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:11.940  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:11.940  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.940  3114     1 I Unity   :  
+01-19 14:02:11.940  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:11.940  3114     1 I Unity   : 
+01-19 14:02:11.959  3114     1 I Unity   : [S]System.Net.Sockets.SocketException: Access denied
+01-19 14:02:11.959  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.959  3114     1 I Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.959  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.959  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.959  3114     1 I Unity   :   at LiteNetLib.NetSocket.SendTo (System.Byte[] data, Int32 offset, Int32 size, System.Net.IPEndPoint remoteEndPoint, SocketError& errorCode) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.959  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRaw (System.Byte[] message, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.959  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRawAndRecycle (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.959  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.959  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.959  3114     1 I Unity   :   at GameServer.OnNetworkReceiveUnconnected (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, UnconnectedMessageType messageType) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.959  3114     1 I Unity   :   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.959  3114     1 I Unity   :   at LiteNetLib.NetManager.PollEvents () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.959  3114     1 I Unity   :   at GameServer.Update () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.959  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:11.959  3114     1 I Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:02:11.959  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:11.959  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:11.959  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.959  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:11.959  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:11.959  3114     1 I Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 14:02:11.959  3114     1 I Unity   : UnityEngine.Debug:LogFormat(String, Object[])
+01-19 14:02:11.959  3114     1 I Unity   : GameServer:WriteNet(NetLogLevel, String, Object[])
+01-19 14:02:11.959  3114     1 I Unity   : LiteNetLib.NetDebug:WriteLogic(NetLogLevel, String, Object[])
+01-19 14:02:11.959  3114     1 I Unity   : LiteNetLib.NetDebug:WriteError(String, Object[])
+01-19 14:02:11.959  3114     1 I Unity   : LiteNetLib.NetSocket:SendTo(Byte[], Int32, Int32, IPEndPoint, SocketError&)
+01-19 14:02:11.959  3114     1 I Unity   : LiteNetLib.NetManager:SendRaw(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:11.959  3114     1 I Unity   : LiteNetLib.NetManager:SendRawAndRecycle(NetPacket, IPEndPoint)
+01-19 14:02:11.959  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:11.959  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], IPEndPoint)
+01-19 14:02:11.959  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:11.959  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:11.959  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:11.959  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:11.959  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:11.959  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:11.959  3114     1 I Unity   :  
+01-19 14:02:11.959  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:11.959  3114     1 I Unity   : 
+01-19 14:02:12.006  3114     1 I Unity   : [SERVER] Received discovery request. Send discovery response
+01-19 14:02:12.006  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:12.006  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:12.006  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.006  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:12.006  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:12.006  3114     1 I Unity   : UnityEngine.Logger:Log(LogType, Object)
+01-19 14:02:12.006  3114     1 I Unity   : UnityEngine.Debug:Log(Object)
+01-19 14:02:12.006  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:12.006  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:12.006  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:12.006  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:12.006  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:12.006  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.006  3114     1 I Unity   :  
+01-19 14:02:12.006  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:12.006  3114     1 I Unity   : 
+01-19 14:02:12.025  3114     1 I Unity   : [S]System.Net.Sockets.SocketException: Access denied
+01-19 14:02:12.025  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.025  3114     1 I Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.025  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.025  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.025  3114     1 I Unity   :   at LiteNetLib.NetSocket.SendTo (System.Byte[] data, Int32 offset, Int32 size, System.Net.IPEndPoint remoteEndPoint, SocketError& errorCode) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.025  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRaw (System.Byte[] message, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.025  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRawAndRecycle (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.025  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.025  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.025  3114     1 I Unity   :   at GameServer.OnNetworkReceiveUnconnected (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, UnconnectedMessageType messageType) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.025  3114     1 I Unity   :   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.025  3114     1 I Unity   :   at LiteNetLib.NetManager.PollEvents () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.025  3114     1 I Unity   :   at GameServer.Update () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.025  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.025  3114     1 I Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.025  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:12.025  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:12.025  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.025  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:12.025  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:12.025  3114     1 I Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 14:02:12.025  3114     1 I Unity   : UnityEngine.Debug:LogFormat(String, Object[])
+01-19 14:02:12.025  3114     1 I Unity   : GameServer:WriteNet(NetLogLevel, String, Object[])
+01-19 14:02:12.025  3114     1 I Unity   : LiteNetLib.NetDebug:WriteLogic(NetLogLevel, String, Object[])
+01-19 14:02:12.025  3114     1 I Unity   : LiteNetLib.NetDebug:WriteError(String, Object[])
+01-19 14:02:12.025  3114     1 I Unity   : LiteNetLib.NetSocket:SendTo(Byte[], Int32, Int32, IPEndPoint, SocketError&)
+01-19 14:02:12.025  3114     1 I Unity   : LiteNetLib.NetManager:SendRaw(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:12.025  3114     1 I Unity   : LiteNetLib.NetManager:SendRawAndRecycle(NetPacket, IPEndPoint)
+01-19 14:02:12.025  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:12.025  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], IPEndPoint)
+01-19 14:02:12.025  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:12.025  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:12.025  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:12.025  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:12.025  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:12.025  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.025  3114     1 I Unity   :  
+01-19 14:02:12.025  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:12.025  3114     1 I Unity   : 
+01-19 14:02:12.034  3114     1 I Unity   : [SERVER] Received discovery request. Send discovery response
+01-19 14:02:12.034  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:12.034  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:12.034  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.034  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:12.034  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:12.034  3114     1 I Unity   : UnityEngine.Logger:Log(LogType, Object)
+01-19 14:02:12.034  3114     1 I Unity   : UnityEngine.Debug:Log(Object)
+01-19 14:02:12.034  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:12.034  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:12.034  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:12.034  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:12.034  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:12.034  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.034  3114     1 I Unity   :  
+01-19 14:02:12.034  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:12.034  3114     1 I Unity   : 
+01-19 14:02:12.054  3114     1 I Unity   : [S]System.Net.Sockets.SocketException: Access denied
+01-19 14:02:12.054  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.054  3114     1 I Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.054  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.054  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.054  3114     1 I Unity   :   at LiteNetLib.NetSocket.SendTo (System.Byte[] data, Int32 offset, Int32 size, System.Net.IPEndPoint remoteEndPoint, SocketError& errorCode) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.054  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRaw (System.Byte[] message, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.054  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRawAndRecycle (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.054  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.054  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.054  3114     1 I Unity   :   at GameServer.OnNetworkReceiveUnconnected (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, UnconnectedMessageType messageType) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.054  3114     1 I Unity   :   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.054  3114     1 I Unity   :   at LiteNetLib.NetManager.PollEvents () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.054  3114     1 I Unity   :   at GameServer.Update () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.054  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.054  3114     1 I Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.054  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:12.054  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:12.054  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.054  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:12.054  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:12.054  3114     1 I Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 14:02:12.054  3114     1 I Unity   : UnityEngine.Debug:LogFormat(String, Object[])
+01-19 14:02:12.054  3114     1 I Unity   : GameServer:WriteNet(NetLogLevel, String, Object[])
+01-19 14:02:12.054  3114     1 I Unity   : LiteNetLib.NetDebug:WriteLogic(NetLogLevel, String, Object[])
+01-19 14:02:12.054  3114     1 I Unity   : LiteNetLib.NetDebug:WriteError(String, Object[])
+01-19 14:02:12.054  3114     1 I Unity   : LiteNetLib.NetSocket:SendTo(Byte[], Int32, Int32, IPEndPoint, SocketError&)
+01-19 14:02:12.054  3114     1 I Unity   : LiteNetLib.NetManager:SendRaw(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:12.054  3114     1 I Unity   : LiteNetLib.NetManager:SendRawAndRecycle(NetPacket, IPEndPoint)
+01-19 14:02:12.054  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:12.054  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], IPEndPoint)
+01-19 14:02:12.054  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:12.054  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:12.054  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:12.054  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:12.054  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:12.054  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.054  3114     1 I Unity   :  
+01-19 14:02:12.054  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:12.054  3114     1 I Unity   : 
+01-19 14:02:12.095  3114     1 I Unity   : [SERVER] Received discovery request. Send discovery response
+01-19 14:02:12.095  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:12.095  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:12.095  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.095  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:12.095  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:12.095  3114     1 I Unity   : UnityEngine.Logger:Log(LogType, Object)
+01-19 14:02:12.095  3114     1 I Unity   : UnityEngine.Debug:Log(Object)
+01-19 14:02:12.095  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:12.095  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:12.095  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:12.095  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:12.095  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:12.095  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.095  3114     1 I Unity   :  
+01-19 14:02:12.095  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:12.095  3114     1 I Unity   : 
+01-19 14:02:12.115  3114     1 I Unity   : [S]System.Net.Sockets.SocketException: Access denied
+01-19 14:02:12.115  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.115  3114     1 I Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.115  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.115  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.115  3114     1 I Unity   :   at LiteNetLib.NetSocket.SendTo (System.Byte[] data, Int32 offset, Int32 size, System.Net.IPEndPoint remoteEndPoint, SocketError& errorCode) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.115  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRaw (System.Byte[] message, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.115  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRawAndRecycle (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.115  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.115  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.115  3114     1 I Unity   :   at GameServer.OnNetworkReceiveUnconnected (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, UnconnectedMessageType messageType) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.115  3114     1 I Unity   :   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.115  3114     1 I Unity   :   at LiteNetLib.NetManager.PollEvents () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.115  3114     1 I Unity   :   at GameServer.Update () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.115  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.115  3114     1 I Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.115  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:12.115  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:12.115  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.115  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:12.115  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:12.115  3114     1 I Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 14:02:12.115  3114     1 I Unity   : UnityEngine.Debug:LogFormat(String, Object[])
+01-19 14:02:12.115  3114     1 I Unity   : GameServer:WriteNet(NetLogLevel, String, Object[])
+01-19 14:02:12.115  3114     1 I Unity   : LiteNetLib.NetDebug:WriteLogic(NetLogLevel, String, Object[])
+01-19 14:02:12.115  3114     1 I Unity   : LiteNetLib.NetDebug:WriteError(String, Object[])
+01-19 14:02:12.115  3114     1 I Unity   : LiteNetLib.NetSocket:SendTo(Byte[], Int32, Int32, IPEndPoint, SocketError&)
+01-19 14:02:12.115  3114     1 I Unity   : LiteNetLib.NetManager:SendRaw(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:12.115  3114     1 I Unity   : LiteNetLib.NetManager:SendRawAndRecycle(NetPacket, IPEndPoint)
+01-19 14:02:12.115  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:12.115  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], IPEndPoint)
+01-19 14:02:12.115  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:12.115  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:12.115  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:12.115  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:12.115  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:12.115  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.115  3114     1 I Unity   :  
+01-19 14:02:12.115  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:12.115  3114     1 I Unity   : 
+01-19 14:02:12.124  3114     1 I Unity   : [SERVER] Received discovery request. Send discovery response
+01-19 14:02:12.124  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:12.124  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:12.124  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.124  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:12.124  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:12.124  3114     1 I Unity   : UnityEngine.Logger:Log(LogType, Object)
+01-19 14:02:12.124  3114     1 I Unity   : UnityEngine.Debug:Log(Object)
+01-19 14:02:12.124  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:12.124  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:12.124  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:12.124  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:12.124  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:12.124  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.124  3114     1 I Unity   :  
+01-19 14:02:12.124  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:12.124  3114     1 I Unity   : 
+01-19 14:02:12.143  3114     1 I Unity   : [S]System.Net.Sockets.SocketException: Access denied
+01-19 14:02:12.143  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.143  3114     1 I Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.143  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.143  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.143  3114     1 I Unity   :   at LiteNetLib.NetSocket.SendTo (System.Byte[] data, Int32 offset, Int32 size, System.Net.IPEndPoint remoteEndPoint, SocketError& errorCode) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.143  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRaw (System.Byte[] message, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.143  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRawAndRecycle (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.143  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.143  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.143  3114     1 I Unity   :   at GameServer.OnNetworkReceiveUnconnected (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, UnconnectedMessageType messageType) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.143  3114     1 I Unity   :   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.143  3114     1 I Unity   :   at LiteNetLib.NetManager.PollEvents () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.143  3114     1 I Unity   :   at GameServer.Update () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.143  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.143  3114     1 I Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.143  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:12.143  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:12.143  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.143  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:12.143  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:12.143  3114     1 I Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 14:02:12.143  3114     1 I Unity   : UnityEngine.Debug:LogFormat(String, Object[])
+01-19 14:02:12.143  3114     1 I Unity   : GameServer:WriteNet(NetLogLevel, String, Object[])
+01-19 14:02:12.143  3114     1 I Unity   : LiteNetLib.NetDebug:WriteLogic(NetLogLevel, String, Object[])
+01-19 14:02:12.143  3114     1 I Unity   : LiteNetLib.NetDebug:WriteError(String, Object[])
+01-19 14:02:12.143  3114     1 I Unity   : LiteNetLib.NetSocket:SendTo(Byte[], Int32, Int32, IPEndPoint, SocketError&)
+01-19 14:02:12.143  3114     1 I Unity   : LiteNetLib.NetManager:SendRaw(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:12.143  3114     1 I Unity   : LiteNetLib.NetManager:SendRawAndRecycle(NetPacket, IPEndPoint)
+01-19 14:02:12.143  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:12.143  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], IPEndPoint)
+01-19 14:02:12.143  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:12.143  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:12.143  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:12.143  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:12.143  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:12.143  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.143  3114     1 I Unity   :  
+01-19 14:02:12.143  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:12.143  3114     1 I Unity   : 
+01-19 14:02:12.192  3114     1 I Unity   : [SERVER] Received discovery request. Send discovery response
+01-19 14:02:12.192  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:12.192  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:12.192  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.192  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:12.192  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:12.192  3114     1 I Unity   : UnityEngine.Logger:Log(LogType, Object)
+01-19 14:02:12.192  3114     1 I Unity   : UnityEngine.Debug:Log(Object)
+01-19 14:02:12.192  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:12.192  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:12.192  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:12.192  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:12.192  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:12.192  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.192  3114     1 I Unity   :  
+01-19 14:02:12.192  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:12.192  3114     1 I Unity   : 
+01-19 14:02:12.211  3114     1 I Unity   : [S]System.Net.Sockets.SocketException: Access denied
+01-19 14:02:12.211  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.211  3114     1 I Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.211  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.211  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.211  3114     1 I Unity   :   at LiteNetLib.NetSocket.SendTo (System.Byte[] data, Int32 offset, Int32 size, System.Net.IPEndPoint remoteEndPoint, SocketError& errorCode) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.211  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRaw (System.Byte[] message, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.211  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRawAndRecycle (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.211  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.211  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.211  3114     1 I Unity   :   at GameServer.OnNetworkReceiveUnconnected (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, UnconnectedMessageType messageType) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.211  3114     1 I Unity   :   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.211  3114     1 I Unity   :   at LiteNetLib.NetManager.PollEvents () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.211  3114     1 I Unity   :   at GameServer.Update () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.211  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.211  3114     1 I Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.211  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:12.211  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:12.211  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.211  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:12.211  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:12.211  3114     1 I Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 14:02:12.211  3114     1 I Unity   : UnityEngine.Debug:LogFormat(String, Object[])
+01-19 14:02:12.211  3114     1 I Unity   : GameServer:WriteNet(NetLogLevel, String, Object[])
+01-19 14:02:12.211  3114     1 I Unity   : LiteNetLib.NetDebug:WriteLogic(NetLogLevel, String, Object[])
+01-19 14:02:12.211  3114     1 I Unity   : LiteNetLib.NetDebug:WriteError(String, Object[])
+01-19 14:02:12.211  3114     1 I Unity   : LiteNetLib.NetSocket:SendTo(Byte[], Int32, Int32, IPEndPoint, SocketError&)
+01-19 14:02:12.211  3114     1 I Unity   : LiteNetLib.NetManager:SendRaw(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:12.211  3114     1 I Unity   : LiteNetLib.NetManager:SendRawAndRecycle(NetPacket, IPEndPoint)
+01-19 14:02:12.211  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:12.211  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], IPEndPoint)
+01-19 14:02:12.211  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:12.211  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:12.211  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:12.211  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:12.211  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:12.211  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.211  3114     1 I Unity   :  
+01-19 14:02:12.211  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:12.211  3114     1 I Unity   : 
+01-19 14:02:12.219  3114     1 I Unity   : [SERVER] Received discovery request. Send discovery response
+01-19 14:02:12.219  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:12.219  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:12.219  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.219  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:12.219  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:12.219  3114     1 I Unity   : UnityEngine.Logger:Log(LogType, Object)
+01-19 14:02:12.219  3114     1 I Unity   : UnityEngine.Debug:Log(Object)
+01-19 14:02:12.219  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:12.219  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:12.219  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:12.219  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:12.219  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:12.219  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.219  3114     1 I Unity   :  
+01-19 14:02:12.219  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:12.219  3114     1 I Unity   : 
+01-19 14:02:12.239  3114     1 I Unity   : [S]System.Net.Sockets.SocketException: Access denied
+01-19 14:02:12.239  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.239  3114     1 I Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.239  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.239  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.239  3114     1 I Unity   :   at LiteNetLib.NetSocket.SendTo (System.Byte[] data, Int32 offset, Int32 size, System.Net.IPEndPoint remoteEndPoint, SocketError& errorCode) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.239  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRaw (System.Byte[] message, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.239  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRawAndRecycle (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.239  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.239  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.239  3114     1 I Unity   :   at GameServer.OnNetworkReceiveUnconnected (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, UnconnectedMessageType messageType) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.239  3114     1 I Unity   :   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.239  3114     1 I Unity   :   at LiteNetLib.NetManager.PollEvents () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.239  3114     1 I Unity   :   at GameServer.Update () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.239  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.239  3114     1 I Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.239  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:12.239  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:12.239  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.239  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:12.239  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:12.239  3114     1 I Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 14:02:12.239  3114     1 I Unity   : UnityEngine.Debug:LogFormat(String, Object[])
+01-19 14:02:12.239  3114     1 I Unity   : GameServer:WriteNet(NetLogLevel, String, Object[])
+01-19 14:02:12.239  3114     1 I Unity   : LiteNetLib.NetDebug:WriteLogic(NetLogLevel, String, Object[])
+01-19 14:02:12.239  3114     1 I Unity   : LiteNetLib.NetDebug:WriteError(String, Object[])
+01-19 14:02:12.239  3114     1 I Unity   : LiteNetLib.NetSocket:SendTo(Byte[], Int32, Int32, IPEndPoint, SocketError&)
+01-19 14:02:12.239  3114     1 I Unity   : LiteNetLib.NetManager:SendRaw(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:12.239  3114     1 I Unity   : LiteNetLib.NetManager:SendRawAndRecycle(NetPacket, IPEndPoint)
+01-19 14:02:12.239  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:12.239  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], IPEndPoint)
+01-19 14:02:12.239  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:12.239  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:12.239  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:12.239  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:12.239  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:12.239  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.239  3114     1 I Unity   :  
+01-19 14:02:12.239  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:12.239  3114     1 I Unity   : 
+01-19 14:02:12.268  3114     1 I Unity   : [SERVER] Received discovery request. Send discovery response
+01-19 14:02:12.268  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:12.268  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:12.268  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.268  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:12.268  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:12.268  3114     1 I Unity   : UnityEngine.Logger:Log(LogType, Object)
+01-19 14:02:12.268  3114     1 I Unity   : UnityEngine.Debug:Log(Object)
+01-19 14:02:12.268  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:12.268  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:12.268  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:12.268  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:12.268  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:12.268  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.268  3114     1 I Unity   :  
+01-19 14:02:12.268  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:12.268  3114     1 I Unity   : 
+01-19 14:02:12.286  3114     1 I Unity   : [S]System.Net.Sockets.SocketException: Access denied
+01-19 14:02:12.286  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.286  3114     1 I Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.286  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.286  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.286  3114     1 I Unity   :   at LiteNetLib.NetSocket.SendTo (System.Byte[] data, Int32 offset, Int32 size, System.Net.IPEndPoint remoteEndPoint, SocketError& errorCode) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.286  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRaw (System.Byte[] message, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.286  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRawAndRecycle (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.286  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.286  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.286  3114     1 I Unity   :   at GameServer.OnNetworkReceiveUnconnected (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, UnconnectedMessageType messageType) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.286  3114     1 I Unity   :   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.286  3114     1 I Unity   :   at LiteNetLib.NetManager.PollEvents () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.286  3114     1 I Unity   :   at GameServer.Update () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.286  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.286  3114     1 I Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.286  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:12.286  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:12.286  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.286  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:12.286  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:12.286  3114     1 I Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 14:02:12.286  3114     1 I Unity   : UnityEngine.Debug:LogFormat(String, Object[])
+01-19 14:02:12.286  3114     1 I Unity   : GameServer:WriteNet(NetLogLevel, String, Object[])
+01-19 14:02:12.286  3114     1 I Unity   : LiteNetLib.NetDebug:WriteLogic(NetLogLevel, String, Object[])
+01-19 14:02:12.286  3114     1 I Unity   : LiteNetLib.NetDebug:WriteError(String, Object[])
+01-19 14:02:12.286  3114     1 I Unity   : LiteNetLib.NetSocket:SendTo(Byte[], Int32, Int32, IPEndPoint, SocketError&)
+01-19 14:02:12.286  3114     1 I Unity   : LiteNetLib.NetManager:SendRaw(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:12.286  3114     1 I Unity   : LiteNetLib.NetManager:SendRawAndRecycle(NetPacket, IPEndPoint)
+01-19 14:02:12.286  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:12.286  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], IPEndPoint)
+01-19 14:02:12.286  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:12.286  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:12.286  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:12.286  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:12.286  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:12.286  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.286  3114     1 I Unity   :  
+01-19 14:02:12.286  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:12.286  3114     1 I Unity   : 
+01-19 14:02:12.312  3114     1 I Unity   : [SERVER] Received discovery request. Send discovery response
+01-19 14:02:12.312  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:12.312  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:12.312  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.312  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:12.312  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:12.312  3114     1 I Unity   : UnityEngine.Logger:Log(LogType, Object)
+01-19 14:02:12.312  3114     1 I Unity   : UnityEngine.Debug:Log(Object)
+01-19 14:02:12.312  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:12.312  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:12.312  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:12.312  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:12.312  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:12.312  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.312  3114     1 I Unity   :  
+01-19 14:02:12.312  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:12.312  3114     1 I Unity   : 
+01-19 14:02:12.331  3114     1 I Unity   : [S]System.Net.Sockets.SocketException: Access denied
+01-19 14:02:12.331  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.331  3114     1 I Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.331  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.331  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.331  3114     1 I Unity   :   at LiteNetLib.NetSocket.SendTo (System.Byte[] data, Int32 offset, Int32 size, System.Net.IPEndPoint remoteEndPoint, SocketError& errorCode) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.331  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRaw (System.Byte[] message, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.331  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRawAndRecycle (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.331  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.331  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.331  3114     1 I Unity   :   at GameServer.OnNetworkReceiveUnconnected (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, UnconnectedMessageType messageType) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.331  3114     1 I Unity   :   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.331  3114     1 I Unity   :   at LiteNetLib.NetManager.PollEvents () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.331  3114     1 I Unity   :   at GameServer.Update () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.331  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.331  3114     1 I Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.331  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:12.331  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:12.331  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.331  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:12.331  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:12.331  3114     1 I Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 14:02:12.331  3114     1 I Unity   : UnityEngine.Debug:LogFormat(String, Object[])
+01-19 14:02:12.331  3114     1 I Unity   : GameServer:WriteNet(NetLogLevel, String, Object[])
+01-19 14:02:12.331  3114     1 I Unity   : LiteNetLib.NetDebug:WriteLogic(NetLogLevel, String, Object[])
+01-19 14:02:12.331  3114     1 I Unity   : LiteNetLib.NetDebug:WriteError(String, Object[])
+01-19 14:02:12.331  3114     1 I Unity   : LiteNetLib.NetSocket:SendTo(Byte[], Int32, Int32, IPEndPoint, SocketError&)
+01-19 14:02:12.331  3114     1 I Unity   : LiteNetLib.NetManager:SendRaw(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:12.331  3114     1 I Unity   : LiteNetLib.NetManager:SendRawAndRecycle(NetPacket, IPEndPoint)
+01-19 14:02:12.331  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:12.331  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], IPEndPoint)
+01-19 14:02:12.331  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:12.331  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:12.331  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:12.331  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:12.331  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:12.331  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.331  3114     1 I Unity   :  
+01-19 14:02:12.331  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:12.331  3114     1 I Unity   : 
+01-19 14:02:12.384  3114     1 I Unity   : [SERVER] Received discovery request. Send discovery response
+01-19 14:02:12.384  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:12.384  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:12.384  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.384  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:12.384  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:12.384  3114     1 I Unity   : UnityEngine.Logger:Log(LogType, Object)
+01-19 14:02:12.384  3114     1 I Unity   : UnityEngine.Debug:Log(Object)
+01-19 14:02:12.384  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:12.384  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:12.384  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:12.384  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:12.384  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:12.384  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.384  3114     1 I Unity   :  
+01-19 14:02:12.384  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:12.384  3114     1 I Unity   : 
+01-19 14:02:12.402  3114     1 I Unity   : [S]System.Net.Sockets.SocketException: Access denied
+01-19 14:02:12.402  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.402  3114     1 I Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.402  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.402  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.402  3114     1 I Unity   :   at LiteNetLib.NetSocket.SendTo (System.Byte[] data, Int32 offset, Int32 size, System.Net.IPEndPoint remoteEndPoint, SocketError& errorCode) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.402  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRaw (System.Byte[] message, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.402  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRawAndRecycle (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.402  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.402  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.402  3114     1 I Unity   :   at GameServer.OnNetworkReceiveUnconnected (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, UnconnectedMessageType messageType) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.402  3114     1 I Unity   :   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.402  3114     1 I Unity   :   at LiteNetLib.NetManager.PollEvents () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.402  3114     1 I Unity   :   at GameServer.Update () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.402  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.402  3114     1 I Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.402  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:12.402  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:12.402  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.402  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:12.402  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:12.402  3114     1 I Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 14:02:12.402  3114     1 I Unity   : UnityEngine.Debug:LogFormat(String, Object[])
+01-19 14:02:12.402  3114     1 I Unity   : GameServer:WriteNet(NetLogLevel, String, Object[])
+01-19 14:02:12.402  3114     1 I Unity   : LiteNetLib.NetDebug:WriteLogic(NetLogLevel, String, Object[])
+01-19 14:02:12.402  3114     1 I Unity   : LiteNetLib.NetDebug:WriteError(String, Object[])
+01-19 14:02:12.402  3114     1 I Unity   : LiteNetLib.NetSocket:SendTo(Byte[], Int32, Int32, IPEndPoint, SocketError&)
+01-19 14:02:12.402  3114     1 I Unity   : LiteNetLib.NetManager:SendRaw(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:12.402  3114     1 I Unity   : LiteNetLib.NetManager:SendRawAndRecycle(NetPacket, IPEndPoint)
+01-19 14:02:12.402  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:12.402  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], IPEndPoint)
+01-19 14:02:12.402  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:12.402  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:12.402  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:12.402  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:12.402  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:12.402  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.402  3114     1 I Unity   :  
+01-19 14:02:12.402  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:12.402  3114     1 I Unity   : 
+01-19 14:02:12.411  3114     1 I Unity   : [SERVER] Received discovery request. Send discovery response
+01-19 14:02:12.411  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:12.411  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:12.411  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.411  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:12.411  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:12.411  3114     1 I Unity   : UnityEngine.Logger:Log(LogType, Object)
+01-19 14:02:12.411  3114     1 I Unity   : UnityEngine.Debug:Log(Object)
+01-19 14:02:12.411  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:12.411  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:12.411  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:12.411  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:12.411  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:12.411  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.411  3114     1 I Unity   :  
+01-19 14:02:12.411  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:12.411  3114     1 I Unity   : 
+01-19 14:02:12.430  3114     1 I Unity   : [S]System.Net.Sockets.SocketException: Access denied
+01-19 14:02:12.430  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.430  3114     1 I Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.430  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.430  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.430  3114     1 I Unity   :   at LiteNetLib.NetSocket.SendTo (System.Byte[] data, Int32 offset, Int32 size, System.Net.IPEndPoint remoteEndPoint, SocketError& errorCode) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.430  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRaw (System.Byte[] message, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.430  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRawAndRecycle (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.430  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.430  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.430  3114     1 I Unity   :   at GameServer.OnNetworkReceiveUnconnected (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, UnconnectedMessageType messageType) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.430  3114     1 I Unity   :   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.430  3114     1 I Unity   :   at LiteNetLib.NetManager.PollEvents () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.430  3114     1 I Unity   :   at GameServer.Update () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.430  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.430  3114     1 I Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.430  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:12.430  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:12.430  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.430  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:12.430  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:12.430  3114     1 I Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 14:02:12.430  3114     1 I Unity   : UnityEngine.Debug:LogFormat(String, Object[])
+01-19 14:02:12.430  3114     1 I Unity   : GameServer:WriteNet(NetLogLevel, String, Object[])
+01-19 14:02:12.430  3114     1 I Unity   : LiteNetLib.NetDebug:WriteLogic(NetLogLevel, String, Object[])
+01-19 14:02:12.430  3114     1 I Unity   : LiteNetLib.NetDebug:WriteError(String, Object[])
+01-19 14:02:12.430  3114     1 I Unity   : LiteNetLib.NetSocket:SendTo(Byte[], Int32, Int32, IPEndPoint, SocketError&)
+01-19 14:02:12.430  3114     1 I Unity   : LiteNetLib.NetManager:SendRaw(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:12.430  3114     1 I Unity   : LiteNetLib.NetManager:SendRawAndRecycle(NetPacket, IPEndPoint)
+01-19 14:02:12.430  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:12.430  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], IPEndPoint)
+01-19 14:02:12.430  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:12.430  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:12.430  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:12.430  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:12.430  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:12.430  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.430  3114     1 I Unity   :  
+01-19 14:02:12.430  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:12.430  3114     1 I Unity   : 
+01-19 14:02:12.473  3114     1 I Unity   : [SERVER] Received discovery request. Send discovery response
+01-19 14:02:12.473  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:12.473  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:12.473  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.473  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:12.473  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:12.473  3114     1 I Unity   : UnityEngine.Logger:Log(LogType, Object)
+01-19 14:02:12.473  3114     1 I Unity   : UnityEngine.Debug:Log(Object)
+01-19 14:02:12.473  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:12.473  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:12.473  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:12.473  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:12.473  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:12.473  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.473  3114     1 I Unity   :  
+01-19 14:02:12.473  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:12.473  3114     1 I Unity   : 
+01-19 14:02:12.493  3114     1 I Unity   : [S]System.Net.Sockets.SocketException: Access denied
+01-19 14:02:12.493  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.493  3114     1 I Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.493  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.493  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.493  3114     1 I Unity   :   at LiteNetLib.NetSocket.SendTo (System.Byte[] data, Int32 offset, Int32 size, System.Net.IPEndPoint remoteEndPoint, SocketError& errorCode) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.493  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRaw (System.Byte[] message, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.493  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRawAndRecycle (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.493  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.493  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.493  3114     1 I Unity   :   at GameServer.OnNetworkReceiveUnconnected (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, UnconnectedMessageType messageType) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.493  3114     1 I Unity   :   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.493  3114     1 I Unity   :   at LiteNetLib.NetManager.PollEvents () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.493  3114     1 I Unity   :   at GameServer.Update () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.493  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.493  3114     1 I Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.493  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:12.493  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:12.493  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.493  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:12.493  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:12.493  3114     1 I Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 14:02:12.493  3114     1 I Unity   : UnityEngine.Debug:LogFormat(String, Object[])
+01-19 14:02:12.493  3114     1 I Unity   : GameServer:WriteNet(NetLogLevel, String, Object[])
+01-19 14:02:12.493  3114     1 I Unity   : LiteNetLib.NetDebug:WriteLogic(NetLogLevel, String, Object[])
+01-19 14:02:12.493  3114     1 I Unity   : LiteNetLib.NetDebug:WriteError(String, Object[])
+01-19 14:02:12.493  3114     1 I Unity   : LiteNetLib.NetSocket:SendTo(Byte[], Int32, Int32, IPEndPoint, SocketError&)
+01-19 14:02:12.493  3114     1 I Unity   : LiteNetLib.NetManager:SendRaw(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:12.493  3114     1 I Unity   : LiteNetLib.NetManager:SendRawAndRecycle(NetPacket, IPEndPoint)
+01-19 14:02:12.493  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:12.493  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], IPEndPoint)
+01-19 14:02:12.493  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:12.493  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:12.493  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:12.493  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:12.493  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:12.493  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.493  3114     1 I Unity   :  
+01-19 14:02:12.493  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:12.493  3114     1 I Unity   : 
+01-19 14:02:12.501  3114     1 I Unity   : [SERVER] Received discovery request. Send discovery response
+01-19 14:02:12.501  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:12.501  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:12.501  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.501  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:12.501  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:12.501  3114     1 I Unity   : UnityEngine.Logger:Log(LogType, Object)
+01-19 14:02:12.501  3114     1 I Unity   : UnityEngine.Debug:Log(Object)
+01-19 14:02:12.501  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:12.501  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:12.501  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:12.501  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:12.501  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:12.501  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.501  3114     1 I Unity   :  
+01-19 14:02:12.501  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:12.501  3114     1 I Unity   : 
+01-19 14:02:12.522  3114     1 I Unity   : [S]System.Net.Sockets.SocketException: Access denied
+01-19 14:02:12.522  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.522  3114     1 I Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.522  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.522  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.522  3114     1 I Unity   :   at LiteNetLib.NetSocket.SendTo (System.Byte[] data, Int32 offset, Int32 size, System.Net.IPEndPoint remoteEndPoint, SocketError& errorCode) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.522  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRaw (System.Byte[] message, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.522  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRawAndRecycle (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.522  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.522  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.522  3114     1 I Unity   :   at GameServer.OnNetworkReceiveUnconnected (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, UnconnectedMessageType messageType) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.522  3114     1 I Unity   :   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.522  3114     1 I Unity   :   at LiteNetLib.NetManager.PollEvents () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.522  3114     1 I Unity   :   at GameServer.Update () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.522  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.522  3114     1 I Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.522  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:12.522  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:12.522  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.522  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:12.522  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:12.522  3114     1 I Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 14:02:12.522  3114     1 I Unity   : UnityEngine.Debug:LogFormat(String, Object[])
+01-19 14:02:12.522  3114     1 I Unity   : GameServer:WriteNet(NetLogLevel, String, Object[])
+01-19 14:02:12.522  3114     1 I Unity   : LiteNetLib.NetDebug:WriteLogic(NetLogLevel, String, Object[])
+01-19 14:02:12.522  3114     1 I Unity   : LiteNetLib.NetDebug:WriteError(String, Object[])
+01-19 14:02:12.522  3114     1 I Unity   : LiteNetLib.NetSocket:SendTo(Byte[], Int32, Int32, IPEndPoint, SocketError&)
+01-19 14:02:12.522  3114     1 I Unity   : LiteNetLib.NetManager:SendRaw(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:12.522  3114     1 I Unity   : LiteNetLib.NetManager:SendRawAndRecycle(NetPacket, IPEndPoint)
+01-19 14:02:12.522  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:12.522  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], IPEndPoint)
+01-19 14:02:12.522  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:12.522  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:12.522  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:12.522  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:12.522  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:12.522  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.522  3114     1 I Unity   :  
+01-19 14:02:12.522  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:12.522  3114     1 I Unity   : 
+01-19 14:02:12.569  3114     1 I Unity   : [SERVER] Received discovery request. Send discovery response
+01-19 14:02:12.569  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:12.569  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:12.569  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.569  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:12.569  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:12.569  3114     1 I Unity   : UnityEngine.Logger:Log(LogType, Object)
+01-19 14:02:12.569  3114     1 I Unity   : UnityEngine.Debug:Log(Object)
+01-19 14:02:12.569  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:12.569  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:12.569  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:12.569  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:12.569  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:12.569  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.569  3114     1 I Unity   :  
+01-19 14:02:12.569  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:12.569  3114     1 I Unity   : 
+01-19 14:02:12.589  3114     1 I Unity   : [S]System.Net.Sockets.SocketException: Access denied
+01-19 14:02:12.589  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.589  3114     1 I Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.589  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.589  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.589  3114     1 I Unity   :   at LiteNetLib.NetSocket.SendTo (System.Byte[] data, Int32 offset, Int32 size, System.Net.IPEndPoint remoteEndPoint, SocketError& errorCode) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.589  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRaw (System.Byte[] message, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.589  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRawAndRecycle (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.589  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.589  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.589  3114     1 I Unity   :   at GameServer.OnNetworkReceiveUnconnected (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, UnconnectedMessageType messageType) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.589  3114     1 I Unity   :   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.589  3114     1 I Unity   :   at LiteNetLib.NetManager.PollEvents () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.589  3114     1 I Unity   :   at GameServer.Update () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.589  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.589  3114     1 I Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.589  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:12.589  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:12.589  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.589  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:12.589  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:12.589  3114     1 I Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 14:02:12.589  3114     1 I Unity   : UnityEngine.Debug:LogFormat(String, Object[])
+01-19 14:02:12.589  3114     1 I Unity   : GameServer:WriteNet(NetLogLevel, String, Object[])
+01-19 14:02:12.589  3114     1 I Unity   : LiteNetLib.NetDebug:WriteLogic(NetLogLevel, String, Object[])
+01-19 14:02:12.589  3114     1 I Unity   : LiteNetLib.NetDebug:WriteError(String, Object[])
+01-19 14:02:12.589  3114     1 I Unity   : LiteNetLib.NetSocket:SendTo(Byte[], Int32, Int32, IPEndPoint, SocketError&)
+01-19 14:02:12.589  3114     1 I Unity   : LiteNetLib.NetManager:SendRaw(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:12.589  3114     1 I Unity   : LiteNetLib.NetManager:SendRawAndRecycle(NetPacket, IPEndPoint)
+01-19 14:02:12.589  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:12.589  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], IPEndPoint)
+01-19 14:02:12.589  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:12.589  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:12.589  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:12.589  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:12.589  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:12.589  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.589  3114     1 I Unity   :  
+01-19 14:02:12.589  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:12.589  3114     1 I Unity   : 
+01-19 14:02:12.598  3114     1 I Unity   : [SERVER] Received discovery request. Send discovery response
+01-19 14:02:12.598  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:12.598  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:12.598  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.598  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:12.598  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:12.598  3114     1 I Unity   : UnityEngine.Logger:Log(LogType, Object)
+01-19 14:02:12.598  3114     1 I Unity   : UnityEngine.Debug:Log(Object)
+01-19 14:02:12.598  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:12.598  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:12.598  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:12.598  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:12.598  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:12.598  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.598  3114     1 I Unity   :  
+01-19 14:02:12.598  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 14:02:12.598  3114     1 I Unity   : 
+01-19 14:02:12.617  3114     1 I Unity   : [S]System.Net.Sockets.SocketException: Access denied
+01-19 14:02:12.617  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.617  3114     1 I Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.617  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.617  3114     1 I Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.617  3114     1 I Unity   :   at LiteNetLib.NetSocket.SendTo (System.Byte[] data, Int32 offset, Int32 size, System.Net.IPEndPoint remoteEndPoint, SocketError& errorCode) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.617  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRaw (System.Byte[] message, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.617  3114     1 I Unity   :   at LiteNetLib.NetManager.SendRawAndRecycle (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.617  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, Int32 start, Int32 length, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.617  3114     1 I Unity   :   at LiteNetLib.NetManager.SendDiscoveryResponse (System.Byte[] data, System.Net.IPEndPoint remoteEndPoint) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.617  3114     1 I Unity   :   at GameServer.OnNetworkReceiveUnconnected (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, UnconnectedMessageType messageType) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.617  3114     1 I Unity   :   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.617  3114     1 I Unity   :   at LiteNetLib.NetManager.PollEvents () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.617  3114     1 I Unity   :   at GameServer.Update () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.617  3114     1 I Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:02:12.617  3114     1 I Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:02:12.617  3114     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:02:12.617  3114     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 14:02:12.617  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.617  3114     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 14:02:12.617  3114     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 14:02:12.617  3114     1 I Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 14:02:12.617  3114     1 I Unity   : UnityEngine.Debug:LogFormat(String, Object[])
+01-19 14:02:12.617  3114     1 I Unity   : GameServer:WriteNet(NetLogLevel, String, Object[])
+01-19 14:02:12.617  3114     1 I Unity   : LiteNetLib.NetDebug:WriteLogic(NetLogLevel, String, Object[])
+01-19 14:02:12.617  3114     1 I Unity   : LiteNetLib.NetDebug:WriteError(String, Object[])
+01-19 14:02:12.617  3114     1 I Unity   : LiteNetLib.NetSocket:SendTo(Byte[], Int32, Int32, IPEndPoint, SocketError&)
+01-19 14:02:12.617  3114     1 I Unity   : LiteNetLib.NetManager:SendRaw(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:12.617  3114     1 I Unity   : LiteNetLib.NetManager:SendRawAndRecycle(NetPacket, IPEndPoint)
+01-19 14:02:12.617  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], Int32, Int32, IPEndPoint)
+01-19 14:02:12.617  3114     1 I Unity   : LiteNetLib.NetManager:SendDiscoveryResponse(Byte[], IPEndPoint)
+01-19 14:02:12.617  3114     1 I Unity   : GameServer:OnNetworkReceiveUnconnected(IPEndPoint, NetPacketReader, UnconnectedMessageType)
+01-19 14:02:12.617  3114     1 I Unity   : LiteNetLib.NetManager:ProcessEvent(NetEvent)
+01-19 14:02:12.617  3114     1 I Unity   : LiteNetLib.NetManager:PollEvents()
+01-19 14:02:12.617  3114     1 I Unity   : GameServer:Update()
+01-19 14:02:12.617  3114     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:02:12.617  3114     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:02:12.617  3114     1 I Unity   :  
+01-19 14:02:12.617  3114     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)

@@ -1,0 +1,48 @@
+13786: fps 36.94  ms/f 27.07
+UnityPerf: Entering main at 0.000000 seconds.
+Lumin Unity Player built with Lumin SDK Version: 0.18.0.20180913p
+No argument list from lifecycle was found.
+Error: MeshingExample._visualBounds is not set, disabling script.
+UnityEngine.CSSLayout.Native:.cctor()
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+MagicLeap.MeshingExample:Awake()
+System.Security.Cryptography.RijndaelTransform:Decrypt256(Byte[], Byte[], UInt32[])
+UnityEngine.CSSLayout.Native:.cctor()
+ 
+(Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+
+MLMeshingCreateClient returned 7
+ML: Near clip distance 0.370370 meters is smaller than 0.370371 meter minimum. Setting to minimum.
+AutoMuse Start
+UnityEngine.CSSLayout.Native:.cctor()
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AutoMuse:Start()
+System.Security.Cryptography.RijndaelTransform:Decrypt256(Byte[], Byte[], UInt32[])
+UnityEngine.CSSLayout.Native:.cctor()
+ 
+(Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+
+NullReferenceException: A null value was found where an object instance was required.
+  at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+  at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+  at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+  at AutoMuse.Start () [0x00000] in <filename unknown>:0 
+  at System.Security.Cryptography.RijndaelTransform.Decrypt256 (System.Byte[] indata, System.Byte[] outdata, System.UInt32[] ekey) [0x00000] in <filename unknown>:0 
+  at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+System.Security.Cryptography.RijndaelTransform:Decrypt256(Byte[], Byte[], UInt32[])
+UnityEngine.CSSLayout.Native:.cctor()
+ 
+(Filename: currently not available on il2cpp Line: -1)
+
+233: fps 46.78  ms/f 21.38
+533: fps 59.96  ms/f 16.68
+833: fps 59.94  ms/f 16.68
+1133: fps 59.98  ms/f 16.67
+1433: fps 59.99  ms/f 16.67
+1733: fps 60.00  ms/f 16.67

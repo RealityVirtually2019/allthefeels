@@ -1,0 +1,56 @@
+01-19 13:06:46.190  2360     1 E Unity   : Error: HandTrackingVisualizer failed starting MLHands, disabling script. Reason: MLResult_PrivilegeDenied
+01-19 13:06:46.190  2360     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 13:06:46.190  2360     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 13:06:46.190  2360     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 13:06:46.190  2360     1 E Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 13:06:46.190  2360     1 E Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 13:06:46.190  2360     1 E Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 13:06:46.190  2360     1 E Unity   : UnityEngine.Debug:LogErrorFormat(String, Object[])
+01-19 13:06:46.190  2360     1 E Unity   : Grab:Start()
+01-19 13:06:46.190  2360     1 E Unity   : System.Security.Cryptography.RijndaelTransform:Decrypt256(Byte[], Byte[], UInt32[])
+01-19 13:06:46.190  2360     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 13:06:46.190  2360     1 E Unity   :  
+01-19 13:06:46.190  2360     1 E Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 13:06:46.190  2360     1 E Unity   : 
+01-19 13:06:46.214  2360     1 E bin/Player.elf: ERR: Gestures feature is not available due to lack of privileges. Please request for GesturesConfig and GesturesSubscribe privilege.
+01-19 13:06:46.215  2360     1 E bin/Player.elf: ERR: Gestures feature is not available due to lack of privileges. Please request for GesturesConfig and GesturesSubscribe privilege.
+01-19 13:06:46.225  2360     1 E Unity   : Error: MLHands.StartAPI failed to initialize native hand tracker. Reason: MLResult_PrivilegeDenied
+01-19 13:06:46.225  2360     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 13:06:46.225  2360     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 13:06:46.225  2360     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 13:06:46.225  2360     1 E Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 13:06:46.225  2360     1 E Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 13:06:46.225  2360     1 E Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 13:06:46.225  2360     1 E Unity   : UnityEngine.Debug:LogErrorFormat(String, Object[])
+01-19 13:06:46.225  2360     1 E Unity   : UnityEngine.XR.MagicLeap.MLPluginLog:ErrorFormat(String, Object[])
+01-19 13:06:46.225  2360     1 E Unity   : UnityEngine.XR.MagicLeap.MLHands:StartAPI()
+01-19 13:06:46.225  2360     1 E Unity   : UnityEngine.XR.MagicLeap.MLAPISingleton`1:BaseStart()
+01-19 13:06:46.225  2360     1 E Unity   : UnityEngine.XR.MagicLeap.MLHands:Start()
+01-19 13:06:46.225  2360     1 E Unity   : Grab:Start()
+01-19 13:06:46.225  2360     1 E Unity   : System.Security.Cryptography.RijndaelTransform:Decrypt256(Byte[], Byte[], UInt32[])
+01-19 13:06:46.225  2360     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 13:06:46.225  2360     1 E Unity   :  
+01-19 13:06:46.225  2360     1 E Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 13:06:46.225  2360     1 E Unity   : 
+01-19 13:06:46.234  2360     1 E Unity   : Error: MLAPISingleton.BaseStart failed to start MLHands API. Reason: MLResult_PrivilegeDenied
+01-19 13:06:46.234  2360     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 13:06:46.234  2360     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 13:06:46.234  2360     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 13:06:46.234  2360     1 E Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 13:06:46.234  2360     1 E Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 13:06:46.234  2360     1 E Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 13:06:46.234  2360     1 E Unity   : UnityEngine.Debug:LogErrorFormat(String, Object[])
+01-19 13:06:46.234  2360     1 E Unity   : UnityEngine.XR.MagicLeap.MLPluginLog:ErrorFormat(String, Object[])
+01-19 13:06:46.234  2360     1 E Unity   : UnityEngine.XR.MagicLeap.MLAPISingleton`1:BaseStart()
+01-19 13:06:46.234  2360     1 E Unity   : UnityEngine.XR.MagicLeap.MLHands:Start()
+01-19 13:06:46.234  2360     1 E Unity   : Grab:Start()
+01-19 13:06:46.234  2360     1 E Unity   : System.Security.Cryptography.RijndaelTransform:Decrypt256(Byte[], Byte[], UInt32[])
+01-19 13:06:46.234  2360     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 13:06:46.234  2360     1 E Unity   :  
+01-19 13:06:46.234  2360     1 E Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 13:06:46.234  2360     1 E Unity   : 
+01-19 13:06:46.241  2360     1 E Unity   : Error: HandTrackingVisualizer failed starting MLHands, disabling script. Reason: MLResult_PrivilegeDenied
+01-19 13:06:46.241  2360     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 13:06:46.241  2360     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 13:06:46.241  2360     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 13:06:46.241  2360     1 E Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)

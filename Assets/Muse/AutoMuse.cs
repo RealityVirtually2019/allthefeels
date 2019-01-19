@@ -8,6 +8,7 @@ using System;
 public class AutoMuse : MonoBehaviour {
 
     public void startScanning() {
+        Debug.Log("AutoMuse startScanning");
         // Must register at least MuseListeners before scanning for headbands.
         // Otherwise no callbacks will be triggered to get a notification.
         muse.startListening();
@@ -30,9 +31,11 @@ public class AutoMuse : MonoBehaviour {
     // Use this for initialization
     void Start() {
 
+        Debug.Log("AutoMuse Start");
+
 #if UNITY_IPHONE
         muse = new LibmuseBridgeIos();
-#elif UNITY_ANDROID
+#elif UNITY_ANDROID || PLATFORM_LUMIN
         muse = new LibmuseBridgeAndroid();
 #endif
         Debug.Log("Libmuse version = " + muse.getLibmuseVersion());
@@ -90,6 +93,7 @@ public class AutoMuse : MonoBehaviour {
 
         // Convert string to list of muses and populate the dropdown menu.
         List<string> muses = data.Split(' ').ToList<string>();
+        Debug.Log("AutoMuse connect");
         muse.connect(muses[0]);
     }
 

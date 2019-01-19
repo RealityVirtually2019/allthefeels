@@ -1,0 +1,105 @@
+01-19 13:06:46.190  2360     1 E Unity   : Error: HandTrackingVisualizer failed starting MLHands, disabling script. Reason: MLResult_PrivilegeDenied
+01-19 13:06:46.190  2360     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 13:06:46.190  2360     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 13:06:46.190  2360     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 13:06:46.190  2360     1 E Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 13:06:46.190  2360     1 E Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 13:06:46.190  2360     1 E Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 13:06:46.190  2360     1 E Unity   : UnityEngine.Debug:LogErrorFormat(String, Object[])
+01-19 13:06:46.190  2360     1 E Unity   : Grab:Start()
+01-19 13:06:46.190  2360     1 E Unity   : System.Security.Cryptography.RijndaelTransform:Decrypt256(Byte[], Byte[], UInt32[])
+01-19 13:06:46.190  2360     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 13:06:46.190  2360     1 E Unity   :  
+01-19 13:06:46.190  2360     1 E Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 13:06:46.190  2360     1 E Unity   : 
+01-19 13:06:46.214  2360     1 E bin/Player.elf: ERR: Gestures feature is not available due to lack of privileges. Please request for GesturesConfig and GesturesSubscribe privilege.
+01-19 13:06:46.215  2360     1 E bin/Player.elf: ERR: Gestures feature is not available due to lack of privileges. Please request for GesturesConfig and GesturesSubscribe privilege.
+01-19 13:06:46.225  2360     1 E Unity   : Error: MLHands.StartAPI failed to initialize native hand tracker. Reason: MLResult_PrivilegeDenied
+01-19 13:06:46.225  2360     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 13:06:46.225  2360     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 13:06:46.225  2360     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 13:06:46.225  2360     1 E Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 13:06:46.225  2360     1 E Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 13:06:46.225  2360     1 E Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 13:06:46.225  2360     1 E Unity   : UnityEngine.Debug:LogErrorFormat(String, Object[])
+01-19 13:06:46.225  2360     1 E Unity   : UnityEngine.XR.MagicLeap.MLPluginLog:ErrorFormat(String, Object[])
+01-19 13:06:46.225  2360     1 E Unity   : UnityEngine.XR.MagicLeap.MLHands:StartAPI()
+01-19 13:06:46.225  2360     1 E Unity   : UnityEngine.XR.MagicLeap.MLAPISingleton`1:BaseStart()
+01-19 13:06:46.225  2360     1 E Unity   : UnityEngine.XR.MagicLeap.MLHands:Start()
+01-19 13:06:46.225  2360     1 E Unity   : Grab:Start()
+01-19 13:06:46.225  2360     1 E Unity   : System.Security.Cryptography.RijndaelTransform:Decrypt256(Byte[], Byte[], UInt32[])
+01-19 13:06:46.225  2360     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 13:06:46.225  2360     1 E Unity   :  
+01-19 13:06:46.225  2360     1 E Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 13:06:46.225  2360     1 E Unity   : 
+01-19 13:06:46.234  2360     1 E Unity   : Error: MLAPISingleton.BaseStart failed to start MLHands API. Reason: MLResult_PrivilegeDenied
+01-19 13:06:46.234  2360     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 13:06:46.234  2360     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 13:06:46.234  2360     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 13:06:46.234  2360     1 E Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 13:06:46.234  2360     1 E Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 13:06:46.234  2360     1 E Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 13:06:46.234  2360     1 E Unity   : UnityEngine.Debug:LogErrorFormat(String, Object[])
+01-19 13:06:46.234  2360     1 E Unity   : UnityEngine.XR.MagicLeap.MLPluginLog:ErrorFormat(String, Object[])
+01-19 13:06:46.234  2360     1 E Unity   : UnityEngine.XR.MagicLeap.MLAPISingleton`1:BaseStart()
+01-19 13:06:46.234  2360     1 E Unity   : UnityEngine.XR.MagicLeap.MLHands:Start()
+01-19 13:06:46.234  2360     1 E Unity   : Grab:Start()
+01-19 13:06:46.234  2360     1 E Unity   : System.Security.Cryptography.RijndaelTransform:Decrypt256(Byte[], Byte[], UInt32[])
+01-19 13:06:46.234  2360     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 13:06:46.234  2360     1 E Unity   :  
+01-19 13:06:46.234  2360     1 E Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 13:06:46.234  2360     1 E Unity   : 
+01-19 13:06:46.241  2360     1 E Unity   : Error: HandTrackingVisualizer failed starting MLHands, disabling script. Reason: MLResult_PrivilegeDenied
+01-19 13:06:46.241  2360     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 13:06:46.241  2360     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 13:06:46.241  2360     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 13:06:46.241  2360     1 E Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 13:06:46.241  2360     1 E Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 13:06:46.241  2360     1 E Unity   : UnityEngine.Logger:LogFormat(LogType, String, Object[])
+01-19 13:06:46.241  2360     1 E Unity   : UnityEngine.Debug:LogErrorFormat(String, Object[])
+01-19 13:06:46.241  2360     1 E Unity   : Grab:Start()
+01-19 13:06:46.241  2360     1 E Unity   : System.Security.Cryptography.RijndaelTransform:Decrypt256(Byte[], Byte[], UInt32[])
+01-19 13:06:46.241  2360     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 13:06:46.241  2360     1 E Unity   :  
+01-19 13:06:46.241  2360     1 E Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 13:06:46.241  2360     1 E Unity   : 
+01-19 13:06:46.468  2360     1 I Unity   : 227: fps 45.50  ms/f 21.98
+01-19 13:06:51.473  2360     1 I Unity   : 527: fps 59.94  ms/f 16.68
+01-19 13:06:56.473  2360     1 I Unity   : 819: fps 58.40  ms/f 17.12
+01-19 13:07:01.479  2360     1 I Unity   : 1119: fps 59.93  ms/f 16.69
+01-19 13:07:03.678   616   690 D graph_pss: ALW: reason=autoOpaqueControllerInRecovery,id=t-0-autoopaq
+01-19 13:07:03.738   616   692 E graph_pss: ERR: reason=autoOpaqueControllerLockLost,id=t-0-autoopaq
+01-19 13:07:03.754   616   692 D graph_pss: ALW: reason=autoOpaqueControllerLockFound,id=t-0-autoopaq
+01-19 13:07:03.754   616   692 D graph_pss: ALW: reason=autoOpaqueControllerRecovered,id=t-0-autoopaq
+01-19 13:07:06.479  2360     1 I Unity   : 1419: fps 59.99  ms/f 16.67
+01-19 13:07:11.482  2360     1 I Unity   : 1719: fps 59.97  ms/f 16.68
+01-19 13:07:11.631   616   689 D graph_pss: ALW: reason=autoOpaqueControllerInRecovery,id=t-0-autoopaq
+01-19 13:07:11.694   616   690 D graph_pss: ALW: reason=autoOpaqueControllerRecovered,id=t-0-autoopaq
+01-19 13:07:15.638   616   689 D graph_pss: ALW: reason=autoOpaqueControllerInRecovery,id=t-0-autoopaq
+01-19 13:07:15.690   616   692 D graph_pss: ALW: reason=autoOpaqueControllerRecovered,id=t-0-autoopaq
+01-19 13:07:16.482  2360     1 I Unity   : 2019: fps 59.99  ms/f 16.67
+01-19 13:07:21.485  2360     1 I Unity   : 2319: fps 59.97  ms/f 16.68
+01-19 13:07:26.489  2360     1 I Unity   : 2619: fps 59.95  ms/f 16.68
+01-19 13:07:31.489  2360     1 I Unity   : 2919: fps 60.00  ms/f 16.67
+01-19 13:07:36.491  2360     1 I Unity   : 3219: fps 59.99  ms/f 16.67
+01-19 13:07:41.491  2360     1 I Unity   : 3519: fps 59.99  ms/f 16.67
+01-19 13:07:46.492  2360     1 I Unity   : 3819: fps 59.99  ms/f 16.67
+01-19 13:07:51.493  2360     1 I Unity   : 4119: fps 59.98  ms/f 16.67
+01-19 13:07:56.494  2360     1 I Unity   : 4419: fps 60.00  ms/f 16.67
+01-19 13:08:01.494  2360     1 I Unity   : 4719: fps 59.99  ms/f 16.67
+01-19 13:08:02.803   616   694 D graph_pss: ALW: reason=autoOpaqueControllerInRecovery,id=t-0-autoopaq
+01-19 13:08:02.867   616   691 E graph_pss: ERR: reason=autoOpaqueControllerLockLost,id=t-0-autoopaq
+01-19 13:08:02.875   616   691 D graph_pss: ALW: reason=autoOpaqueControllerLockFound,id=t-0-autoopaq
+01-19 13:08:02.875   616   691 D graph_pss: ALW: reason=autoOpaqueControllerRecovered,id=t-0-autoopaq
+01-19 13:08:06.495  2360     1 I Unity   : 5019: fps 59.99  ms/f 16.67
+01-19 13:08:11.496  2360     1 I Unity   : 5319: fps 60.00  ms/f 16.67
+01-19 13:08:16.496  2360     1 I Unity   : 5619: fps 59.99  ms/f 16.67
+01-19 13:08:21.496  2360     1 I Unity   : 5919: fps 60.00  ms/f 16.67
+01-19 13:08:26.497  2360     1 I Unity   : 6219: fps 59.99  ms/f 16.67
+01-19 13:08:31.498  2360     1 I Unity   : 6519: fps 59.99  ms/f 16.67
+01-19 13:08:32.672   616   695 D graph_pss: ALW: reason=autoOpaqueControllerInRecovery,id=t-0-autoopaq
+01-19 13:08:32.736   616   694 E graph_pss: ERR: reason=autoOpaqueControllerLockLost,id=t-0-autoopaq
+01-19 13:08:32.740   616   695 D graph_pss: ALW: reason=autoOpaqueControllerLockFound,id=t-0-autoopaq
+01-19 13:08:32.740   616   695 D graph_pss: ALW: reason=autoOpaqueControllerRecovered,id=t-0-autoopaq
+01-19 13:08:36.498  2360     1 I Unity   : 6819: fps 59.99  ms/f 16.67
+01-19 13:08:37.972   616   691 D graph_pss: ALW: reason=autoOpaqueControllerInRecovery,id=t-0-autoopaq
