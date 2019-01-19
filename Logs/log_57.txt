@@ -1,0 +1,108 @@
+01-19 15:17:47.715  3796     1 I Unity   : 24246: fps 60.00  ms/f 16.67
+01-19 15:17:52.716  3796     1 I Unity   : 24546: fps 59.98  ms/f 16.67
+01-19 15:17:57.732  3796     1 I Unity   : 24847: fps 60.01  ms/f 16.66
+01-19 15:18:02.732  3796     1 I Unity   : 25147: fps 60.00  ms/f 16.67
+01-19 15:18:07.733  3796     1 I Unity   : 25447: fps 59.99  ms/f 16.67
+01-19 15:18:12.750  3796     1 I Unity   : 25748: fps 60.00  ms/f 16.67
+01-19 15:18:17.750  3796     1 I Unity   : 26048: fps 60.00  ms/f 16.67
+01-19 15:18:22.750  3796     1 I Unity   : 26348: fps 60.00  ms/f 16.67
+01-19 15:18:27.752  3796     1 I Unity   : 26648: fps 59.98  ms/f 16.67
+01-19 15:18:32.767  3796     1 I Unity   : 26949: fps 60.01  ms/f 16.66
+01-19 15:18:37.769  3796     1 I Unity   : 27249: fps 59.98  ms/f 16.67
+01-19 15:18:42.770  3796     1 I Unity   : 27549: fps 59.99  ms/f 16.67
+01-19 15:18:47.785  3796     1 I Unity   : 27850: fps 60.01  ms/f 16.66
+01-19 15:18:52.787  3796     1 I Unity   : 28150: fps 59.98  ms/f 16.67
+01-19 15:18:57.787  3796     1 I Unity   : 28450: fps 60.00  ms/f 16.67
+01-19 15:19:02.803  3796     1 I Unity   : 28751: fps 60.00  ms/f 16.67
+01-19 15:19:07.804  3796     1 I Unity   : 29051: fps 59.99  ms/f 16.67
+01-19 15:19:12.805  3796     1 I Unity   : 29351: fps 59.98  ms/f 16.67
+01-19 15:19:17.821  3796     1 I Unity   : 29652: fps 60.01  ms/f 16.66
+01-19 15:19:22.822  3796     1 I Unity   : 29952: fps 59.99  ms/f 16.67
+01-19 15:19:27.825  3796     1 I Unity   : 30252: fps 59.96  ms/f 16.68
+01-19 15:19:32.827  3796     1 I Unity   : 30552: fps 59.98  ms/f 16.67
+01-19 15:19:37.828  3796     1 I Unity   : 30852: fps 59.99  ms/f 16.67
+01-19 15:19:42.828  3796     1 I Unity   : 31152: fps 60.00  ms/f 16.67
+01-19 15:19:47.830  3796     1 I Unity   : 31452: fps 59.98  ms/f 16.67
+01-19 15:19:52.845  3796     1 I Unity   : 31753: fps 60.01  ms/f 16.66
+01-19 15:19:57.846  3796     1 I Unity   : 32053: fps 59.99  ms/f 16.67
+01-19 15:20:02.848  3796     1 I Unity   : 32353: fps 59.98  ms/f 16.67
+01-19 15:20:07.864  3796     1 I Unity   : 32654: fps 60.01  ms/f 16.66
+01-19 15:20:12.865  3796     1 I Unity   : 32954: fps 59.98  ms/f 16.67
+01-19 15:20:17.881  3796     1 I Unity   : 33255: fps 60.01  ms/f 16.66
+01-19 15:20:22.881  3796     1 I Unity   : 33555: fps 60.00  ms/f 16.67
+01-19 15:20:27.886  3796     1 I Unity   : 33855: fps 59.94  ms/f 16.68
+01-19 15:20:32.886  3796     1 I Unity   : 34155: fps 60.00  ms/f 16.67
+01-19 15:20:37.887  3796     1 I Unity   : 34455: fps 59.99  ms/f 16.67
+01-19 15:20:42.887  3796     1 I Unity   : 34755: fps 59.99  ms/f 16.67
+01-19 15:20:47.888  3796     1 I Unity   : 35055: fps 59.99  ms/f 16.67
+01-19 15:20:52.905  3796     1 I Unity   : 35356: fps 60.00  ms/f 16.67
+01-19 15:20:57.906  3796     1 I Unity   : 35656: fps 59.98  ms/f 16.67
+01-19 15:21:02.922  3796     1 I Unity   : 35957: fps 60.01  ms/f 16.66
+01-19 15:21:07.938  3796     1 I Unity   : 36258: fps 60.00  ms/f 16.67
+01-19 15:21:12.939  3796     1 I Unity   : 36558: fps 59.99  ms/f 16.67
+01-19 15:21:17.939  3796     1 I Unity   : 36858: fps 60.00  ms/f 16.67
+01-19 15:21:22.941  3796     1 I Unity   : 37158: fps 59.98  ms/f 16.67
+01-19 15:21:27.941  3796     1 I Unity   : 37458: fps 60.00  ms/f 16.67
+01-19 15:21:32.941  3796     1 I Unity   : 37758: fps 60.00  ms/f 16.67
+01-19 15:21:37.942  3796     1 I Unity   : 38058: fps 59.99  ms/f 16.67
+01-19 15:21:42.959  3796     1 I Unity   : 38359: fps 60.00  ms/f 16.67
+01-19 15:21:47.960  3796     1 I Unity   : 38659: fps 59.99  ms/f 16.67
+01-19 15:21:52.977  3796     1 I Unity   : 38960: fps 60.00  ms/f 16.67
+01-19 15:21:57.978  3796     1 I Unity   : 39260: fps 59.98  ms/f 16.67
+01-19 15:22:02.979  3796     1 I Unity   : 39560: fps 60.00  ms/f 16.67
+01-19 15:22:07.996  3796     1 I Unity   : 39861: fps 60.00  ms/f 16.67
+01-19 15:22:13.011  3796     1 I Unity   : 40162: fps 60.01  ms/f 16.66
+01-19 15:22:18.011  3796     1 I Unity   : 40462: fps 60.00  ms/f 16.67
+01-19 15:22:23.012  3796     1 I Unity   : 40762: fps 59.99  ms/f 16.67
+01-19 15:22:28.029  3796     1 I Unity   : 41063: fps 60.00  ms/f 16.67
+01-19 15:22:33.030  3796     1 I Unity   : 41363: fps 59.98  ms/f 16.67
+01-19 15:22:38.046  3796     1 I Unity   : 41664: fps 60.00  ms/f 16.67
+01-19 15:22:43.046  3796     1 I Unity   : 41964: fps 60.00  ms/f 16.67
+01-19 15:22:48.048  3796     1 I Unity   : 42264: fps 59.98  ms/f 16.67
+01-19 15:22:53.064  3796     1 I Unity   : 42565: fps 60.01  ms/f 16.66
+01-19 15:22:58.064  3796     1 I Unity   : 42865: fps 59.99  ms/f 16.67
+01-19 15:23:03.081  3796     1 I Unity   : 43166: fps 60.00  ms/f 16.67
+01-19 15:23:08.082  3796     1 I Unity   : 43466: fps 59.99  ms/f 16.67
+01-19 15:23:13.082  3796     1 I Unity   : 43766: fps 60.00  ms/f 16.67
+01-19 15:23:18.082  3796     1 I Unity   : 44066: fps 60.00  ms/f 16.67
+01-19 15:23:23.083  3796     1 I Unity   : 44366: fps 59.98  ms/f 16.67
+01-19 15:23:28.100  3796     1 I Unity   : 44667: fps 60.00  ms/f 16.67
+01-19 15:23:29.670  3796     1 I Unity   : Closed OSC listener
+01-19 15:23:29.670  3796     1 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 15:23:29.670  3796     1 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 15:23:29.670  3796     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 15:23:29.670  3796     1 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 15:23:29.670  3796     1 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 15:23:29.670  3796     1 I Unity   : UnityEngine.Logger:Log(LogType, Object)
+01-19 15:23:29.670  3796     1 I Unity   : UnityEngine.Debug:Log(Object)
+01-19 15:23:29.670  3796     1 I Unity   : UnityEngine.MonoBehaviour:print(Object)
+01-19 15:23:29.670  3796     1 I Unity   : OSC:Close()
+01-19 15:23:29.670  3796     1 I Unity   : OSC:OnDestroy()
+01-19 15:23:29.670  3796     1 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 15:23:29.670  3796     1 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 15:23:29.670  3796     1 I Unity   :  
+01-19 15:23:29.670  3796     1 I Unity   : (Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+01-19 15:23:29.670  3796     1 I Unity   : 
+01-19 15:23:50.673  4019     1 I Unity   : UnityPerf: Entering main at 0.000000 seconds.
+01-19 15:23:50.673  4019     1 I Unity   : Lumin Unity Player built with Lumin SDK Version: 0.18.0.20180913p
+01-19 15:23:50.683  4019     1 I Unity   : No argument list from lifecycle was found.
+01-19 15:23:52.740  4019     8 W Unity   : WaitOnVirtualCameras MLGraphicsBeginFrame succeeded.
+01-19 15:23:56.238  4019     1 W Unity   : ML: Near clip distance 0.300000 meters is smaller than 0.370371 meter minimum. Setting to minimum.
+01-19 15:23:56.238  4019     1 W Unity   : Camera not cleared to transparent black. Please correct for improved performance.
+01-19 15:23:56.266  4019    36 I Unity   : ReceivePacket!
+01-19 15:23:56.266  4019    36 I Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 15:23:56.266  4019    36 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace()
+01-19 15:23:56.266  4019    36 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 15:23:56.266  4019    36 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+01-19 15:23:56.266  4019    36 I Unity   : UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+01-19 15:23:56.266  4019    36 I Unity   : UnityEngine.Logger:Log(LogType, Object)
+01-19 15:23:56.266  4019    36 I Unity   : UnityEngine.Debug:Log(Object)
+01-19 15:23:56.266  4019    36 I Unity   : UDPPacketIO:ReceivePacket(Byte[])
+01-19 15:23:56.266  4019    36 I Unity   : OSC:Read()
+01-19 15:23:56.266  4019    36 I Unity   : System.Threading.ThreadStart:Invoke()
+01-19 15:23:56.266  4019    36 I Unity   : System.Collections.Generic.IEnumerable`1:GetEnumerator()
+01-19 15:23:56.266  4019    36 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 15:23:56.266  4019    36 I Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 15:23:56.266  4019    36 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 15:23:56.266  4019    36 I Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 15:23:56.266  4019    36 I Unity   :  

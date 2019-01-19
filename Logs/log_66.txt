@@ -1,0 +1,155 @@
+27249: fps 59.98  ms/f 16.67
+27549: fps 59.99  ms/f 16.67
+27850: fps 60.01  ms/f 16.66
+28150: fps 59.98  ms/f 16.67
+28450: fps 60.00  ms/f 16.67
+28751: fps 60.00  ms/f 16.67
+29051: fps 59.99  ms/f 16.67
+29351: fps 59.98  ms/f 16.67
+29652: fps 60.01  ms/f 16.66
+29952: fps 59.99  ms/f 16.67
+30252: fps 59.96  ms/f 16.68
+30552: fps 59.98  ms/f 16.67
+30852: fps 59.99  ms/f 16.67
+31152: fps 60.00  ms/f 16.67
+31452: fps 59.98  ms/f 16.67
+31753: fps 60.01  ms/f 16.66
+32053: fps 59.99  ms/f 16.67
+32353: fps 59.98  ms/f 16.67
+32654: fps 60.01  ms/f 16.66
+32954: fps 59.98  ms/f 16.67
+33255: fps 60.01  ms/f 16.66
+33555: fps 60.00  ms/f 16.67
+33855: fps 59.94  ms/f 16.68
+34155: fps 60.00  ms/f 16.67
+34455: fps 59.99  ms/f 16.67
+34755: fps 59.99  ms/f 16.67
+35055: fps 59.99  ms/f 16.67
+35356: fps 60.00  ms/f 16.67
+35656: fps 59.98  ms/f 16.67
+35957: fps 60.01  ms/f 16.66
+36258: fps 60.00  ms/f 16.67
+36558: fps 59.99  ms/f 16.67
+36858: fps 60.00  ms/f 16.67
+37158: fps 59.98  ms/f 16.67
+37458: fps 60.00  ms/f 16.67
+37758: fps 60.00  ms/f 16.67
+38058: fps 59.99  ms/f 16.67
+38359: fps 60.00  ms/f 16.67
+38659: fps 59.99  ms/f 16.67
+38960: fps 60.00  ms/f 16.67
+39260: fps 59.98  ms/f 16.67
+39560: fps 60.00  ms/f 16.67
+39861: fps 60.00  ms/f 16.67
+40162: fps 60.01  ms/f 16.66
+40462: fps 60.00  ms/f 16.67
+40762: fps 59.99  ms/f 16.67
+41063: fps 60.00  ms/f 16.67
+41363: fps 59.98  ms/f 16.67
+41664: fps 60.00  ms/f 16.67
+41964: fps 60.00  ms/f 16.67
+42264: fps 59.98  ms/f 16.67
+42565: fps 60.01  ms/f 16.66
+42865: fps 59.99  ms/f 16.67
+43166: fps 60.00  ms/f 16.67
+43466: fps 59.99  ms/f 16.67
+43766: fps 60.00  ms/f 16.67
+44066: fps 60.00  ms/f 16.67
+44366: fps 59.98  ms/f 16.67
+44667: fps 60.00  ms/f 16.67
+Closed OSC listener
+System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+UnityEngine.StackTraceUtility:ExtractStackTrace()
+UnityEngine.CSSLayout.Native:.cctor()
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+OSC:Close()
+OSC:OnDestroy()
+UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+UnityEngine.CSSLayout.Native:.cctor()
+ 
+(Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+
+UnityPerf: Entering main at 0.000000 seconds.
+Lumin Unity Player built with Lumin SDK Version: 0.18.0.20180913p
+No argument list from lifecycle was found.
+WaitOnVirtualCameras MLGraphicsBeginFrame succeeded.
+ML: Near clip distance 0.300000 meters is smaller than 0.370371 meter minimum. Setting to minimum.
+Camera not cleared to transparent black. Please correct for improved performance.
+ReceivePacket!
+System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+UnityEngine.StackTraceUtility:ExtractStackTrace()
+UnityEngine.CSSLayout.Native:.cctor()
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UDPPacketIO:ReceivePacket(Byte[])
+OSC:Read()
+System.Threading.ThreadStart:Invoke()
+System.Collections.Generic.IEnumerable`1:GetEnumerator()
+UnityEngine.CSSLayout.Native:.cctor()
+UnityEngine.CSSLayout.Native:.cctor()
+UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+ 
+(Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+
+Opening OSC listener on port 6969
+System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+UnityEngine.StackTraceUtility:ExtractStackTrace()
+UnityEngine.CSSLayout.Native:.cctor()
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UDPPacketIO:Open()
+UDPPacketIO:ReceivePacket(Byte[])
+OSC:Read()
+System.Threading.ThreadStart:Invoke()
+System.Collections.Generic.IEnumerable`1:GetEnumerator()
+UnityEngine.CSSLayout.Native:.cctor()
+UnityEngine.CSSLayout.Native:.cctor()
+UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+ 
+(Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+
+LocalAreaNetwork Privilege Granted
+System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+UnityEngine.StackTraceUtility:ExtractStackTrace()
+UnityEngine.CSSLayout.Native:.cctor()
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+UnityEngine.XR.MagicLeap.PrivilegeRequester:HandlePrivilegeAsyncRequest(MLResult, MLPrivilegeId)
+System.Action`2:Invoke(T1, T2)
+UnityEngine.XR.MagicLeap.MLPrivileges:ProcessCompletedQueries(List`1)
+UnityEngine.XR.MagicLeap.MLPrivileges:ProcessPendingQueries()
+UnityEngine.XR.MagicLeap.MLPrivileges:Update(Single, IntPtr)
+System.Action`2:Invoke(T1, T2)
+UnityEngine.XR.MagicLeap.MagicLeapDevice:Update()
+System.Collections.Generic.IEnumerable`1:GetEnumerator()
+UnityEngine.CSSLayout.Native:.cctor()
+ 
+(Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+
+LAN YES!!!
+System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+UnityEngine.StackTraceUtility:ExtractStackTrace()
+UnityEngine.CSSLayout.Native:.cctor()
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.XR.MagicLeap.PrivilegeRequester:UpdatePrivilege()
+UnityEngine.XR.MagicLeap.PrivilegeRequester:Update()
+System.Collections.Generic.IEnumerable`1:GetEnumerator()
+UnityEngine.CSSLayout.Native:.cctor()
+ 
+(Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+

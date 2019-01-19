@@ -60,6 +60,9 @@ public class GameClient : MonoBehaviour, INetEventListener
 
     public void OnNetworkReceive(NetPeer peer, NetPacketReader reader, DeliveryMethod deliveryMethod)
     {
+
+        Debug.Log("[CLIENT] OnNetworkReceive");
+
         _newBallPosX = reader.GetFloat();
 
         var pos = _clientBall.transform.position;
@@ -88,7 +91,7 @@ public class GameClient : MonoBehaviour, INetEventListener
 
     public void OnConnectionRequest(ConnectionRequest request)
     {
-        
+        Debug.Log("[CLIENT] OnConnectionRequest");
     }
 
     public void OnPeerDisconnected(NetPeer peer, DisconnectInfo disconnectInfo)

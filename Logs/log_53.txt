@@ -1,0 +1,1459 @@
+01-19 14:49:45.321  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.321  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.321  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.321  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.321  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.321  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.321  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.321  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.321  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.321  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.321  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.321  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.321  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.321  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.321  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.321  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.321  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.321  3533     1 E Unity   :  
+01-19 14:49:45.321  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.321  3533     1 E Unity   : 
+01-19 14:49:45.338  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.338  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.338  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.338  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.338  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.338  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.338  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.338  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.338  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.338  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.338  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.338  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.338  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.338  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.338  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.338  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.338  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.338  3533     1 E Unity   :  
+01-19 14:49:45.338  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.338  3533     1 E Unity   : 
+01-19 14:49:45.354  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.354  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.354  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.354  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.354  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.354  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.354  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.354  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.354  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.354  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.354  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.354  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.354  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.354  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.354  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.354  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.354  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.354  3533     1 E Unity   :  
+01-19 14:49:45.354  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.354  3533     1 E Unity   : 
+01-19 14:49:45.372  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.372  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.372  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.372  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.372  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.372  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.372  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.372  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.372  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.372  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.372  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.372  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.372  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.372  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.372  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.372  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.372  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.372  3533     1 E Unity   :  
+01-19 14:49:45.372  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.372  3533     1 E Unity   : 
+01-19 14:49:45.388  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.388  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.388  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.388  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.388  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.388  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.388  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.388  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.388  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.388  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.388  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.388  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.388  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.388  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.388  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.388  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.388  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.388  3533     1 E Unity   :  
+01-19 14:49:45.388  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.388  3533     1 E Unity   : 
+01-19 14:49:45.405  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.405  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.405  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.405  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.405  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.405  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.405  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.405  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.405  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.405  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.405  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.405  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.405  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.405  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.405  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.405  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.405  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.405  3533     1 E Unity   :  
+01-19 14:49:45.405  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.405  3533     1 E Unity   : 
+01-19 14:49:45.421  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.421  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.421  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.421  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.421  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.421  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.421  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.421  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.421  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.421  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.421  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.421  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.421  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.421  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.421  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.421  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.421  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.421  3533     1 E Unity   :  
+01-19 14:49:45.421  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.421  3533     1 E Unity   : 
+01-19 14:49:45.438  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.438  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.438  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.438  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.438  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.438  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.438  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.438  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.438  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.438  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.438  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.438  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.438  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.438  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.438  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.438  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.438  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.438  3533     1 E Unity   :  
+01-19 14:49:45.438  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.438  3533     1 E Unity   : 
+01-19 14:49:45.455  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.455  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.455  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.455  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.455  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.455  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.455  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.455  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.455  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.455  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.455  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.455  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.455  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.455  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.455  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.455  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.455  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.455  3533     1 E Unity   :  
+01-19 14:49:45.455  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.455  3533     1 E Unity   : 
+01-19 14:49:45.472  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.472  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.472  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.472  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.472  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.472  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.472  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.472  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.472  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.472  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.472  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.472  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.472  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.472  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.472  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.472  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.472  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.472  3533     1 E Unity   :  
+01-19 14:49:45.472  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.472  3533     1 E Unity   : 
+01-19 14:49:45.488  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.488  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.488  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.488  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.488  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.488  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.488  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.488  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.488  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.488  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.488  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.488  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.488  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.488  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.488  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.488  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.488  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.488  3533     1 E Unity   :  
+01-19 14:49:45.488  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.488  3533     1 E Unity   : 
+01-19 14:49:45.505  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.505  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.505  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.505  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.505  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.505  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.505  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.505  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.505  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.505  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.505  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.505  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.505  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.505  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.505  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.505  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.505  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.505  3533     1 E Unity   :  
+01-19 14:49:45.505  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.505  3533     1 E Unity   : 
+01-19 14:49:45.521  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.521  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.521  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.521  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.521  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.521  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.521  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.521  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.521  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.521  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.521  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.521  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.521  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.521  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.521  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.521  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.521  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.521  3533     1 E Unity   :  
+01-19 14:49:45.521  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.521  3533     1 E Unity   : 
+01-19 14:49:45.538  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.538  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.538  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.538  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.538  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.538  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.538  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.538  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.538  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.538  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.538  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.538  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.538  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.538  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.538  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.538  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.538  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.538  3533     1 E Unity   :  
+01-19 14:49:45.538  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.538  3533     1 E Unity   : 
+01-19 14:49:45.554  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.554  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.554  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.554  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.554  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.554  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.554  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.554  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.554  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.554  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.554  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.554  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.554  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.554  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.554  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.554  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.554  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.554  3533     1 E Unity   :  
+01-19 14:49:45.554  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.554  3533     1 E Unity   : 
+01-19 14:49:45.571  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.571  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.571  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.571  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.571  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.571  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.571  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.571  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.571  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.571  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.571  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.571  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.571  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.571  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.571  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.571  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.571  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.571  3533     1 E Unity   :  
+01-19 14:49:45.571  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.571  3533     1 E Unity   : 
+01-19 14:49:45.588  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.588  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.588  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.588  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.588  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.588  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.588  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.588  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.588  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.588  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.588  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.588  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.588  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.588  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.588  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.588  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.588  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.588  3533     1 E Unity   :  
+01-19 14:49:45.588  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.588  3533     1 E Unity   : 
+01-19 14:49:45.605  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.605  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.605  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.605  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.605  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.605  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.605  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.605  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.605  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.605  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.605  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.605  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.605  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.605  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.605  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.605  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.605  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.605  3533     1 E Unity   :  
+01-19 14:49:45.605  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.605  3533     1 E Unity   : 
+01-19 14:49:45.621  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.621  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.621  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.621  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.621  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.621  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.621  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.621  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.621  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.621  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.621  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.621  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.621  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.621  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.621  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.621  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.621  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.621  3533     1 E Unity   :  
+01-19 14:49:45.621  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.621  3533     1 E Unity   : 
+01-19 14:49:45.638  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.638  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.638  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.638  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.638  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.638  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.638  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.638  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.638  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.638  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.638  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.638  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.638  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.638  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.638  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.638  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.638  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.638  3533     1 E Unity   :  
+01-19 14:49:45.638  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.638  3533     1 E Unity   : 
+01-19 14:49:45.654  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.654  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.654  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.654  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.654  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.654  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.654  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.654  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.654  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.654  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.654  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.654  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.654  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.654  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.654  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.654  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.654  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.654  3533     1 E Unity   :  
+01-19 14:49:45.654  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.654  3533     1 E Unity   : 
+01-19 14:49:45.672  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.672  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.672  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.672  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.672  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.672  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.672  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.672  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.672  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.672  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.672  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.672  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.672  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.672  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.672  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.672  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.672  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.672  3533     1 E Unity   :  
+01-19 14:49:45.672  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.672  3533     1 E Unity   : 
+01-19 14:49:45.688  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.688  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.688  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.688  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.688  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.688  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.688  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.688  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.688  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.688  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.688  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.688  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.688  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.688  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.688  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.688  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.688  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.688  3533     1 E Unity   :  
+01-19 14:49:45.688  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.688  3533     1 E Unity   : 
+01-19 14:49:45.705  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.705  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.705  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.705  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.705  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.705  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.705  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.705  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.705  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.705  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.705  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.705  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.705  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.705  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.705  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.705  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.705  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.705  3533     1 E Unity   :  
+01-19 14:49:45.705  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.705  3533     1 E Unity   : 
+01-19 14:49:45.720  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.720  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.720  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.720  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.720  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.720  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.720  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.720  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.720  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.720  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.720  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.720  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.720  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.720  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.720  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.720  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.720  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.720  3533     1 E Unity   :  
+01-19 14:49:45.720  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.720  3533     1 E Unity   : 
+01-19 14:49:45.739  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.739  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.739  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.739  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.739  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.739  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.739  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.739  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.739  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.739  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.739  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.739  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.739  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.739  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.739  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.739  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.739  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.739  3533     1 E Unity   :  
+01-19 14:49:45.739  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.739  3533     1 E Unity   : 
+01-19 14:49:45.754  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.754  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.754  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.754  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.754  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.754  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.754  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.754  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.754  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.754  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.754  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.754  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.754  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.754  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.754  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.754  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.754  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.754  3533     1 E Unity   :  
+01-19 14:49:45.754  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.754  3533     1 E Unity   : 
+01-19 14:49:45.771  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.771  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.771  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.771  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.771  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.771  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.771  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.771  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.771  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.771  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.771  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.771  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.771  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.771  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.771  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.771  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.771  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.771  3533     1 E Unity   :  
+01-19 14:49:45.771  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.771  3533     1 E Unity   : 
+01-19 14:49:45.787  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.787  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.787  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.787  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.787  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.787  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.787  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.787  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.787  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.787  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.787  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.787  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.787  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.787  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.787  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.787  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.787  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.787  3533     1 E Unity   :  
+01-19 14:49:45.787  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.787  3533     1 E Unity   : 
+01-19 14:49:45.805  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.805  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.805  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.805  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.805  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.805  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.805  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.805  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.805  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.805  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.805  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.805  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.805  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.805  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.805  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.805  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.805  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.805  3533     1 E Unity   :  
+01-19 14:49:45.805  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.805  3533     1 E Unity   : 
+01-19 14:49:45.821  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.821  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.821  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.821  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.821  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.821  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.821  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.821  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.821  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.821  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.821  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.821  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.821  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.821  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.821  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.821  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.821  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.821  3533     1 E Unity   :  
+01-19 14:49:45.821  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.821  3533     1 E Unity   : 
+01-19 14:49:45.838  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.838  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.838  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.838  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.838  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.838  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.838  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.838  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.838  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.838  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.838  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.838  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.838  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.838  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.838  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.838  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.838  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.838  3533     1 E Unity   :  
+01-19 14:49:45.838  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.838  3533     1 E Unity   : 
+01-19 14:49:45.854  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.854  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.854  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.854  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.854  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.854  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.854  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.854  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.854  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.854  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.854  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.854  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.854  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.854  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.854  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.854  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.854  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.854  3533     1 E Unity   :  
+01-19 14:49:45.854  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.854  3533     1 E Unity   : 
+01-19 14:49:45.872  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.872  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.872  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.872  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.872  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.872  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.872  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.872  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.872  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.872  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.872  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.872  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.872  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.872  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.872  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.872  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.872  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.872  3533     1 E Unity   :  
+01-19 14:49:45.872  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.872  3533     1 E Unity   : 
+01-19 14:49:45.888  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.888  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.888  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.888  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.888  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.888  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.888  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.888  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.888  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.888  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.888  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.888  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.888  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.888  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.888  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.888  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.888  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.888  3533     1 E Unity   :  
+01-19 14:49:45.888  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.888  3533     1 E Unity   : 
+01-19 14:49:45.905  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.905  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.905  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.905  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.905  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.905  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.905  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.905  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.905  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.905  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.905  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.905  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.905  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.905  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.905  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.905  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.905  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.905  3533     1 E Unity   :  
+01-19 14:49:45.905  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.905  3533     1 E Unity   : 
+01-19 14:49:45.921  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.921  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.921  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.921  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.921  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.921  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.921  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.921  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.921  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.921  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.921  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.921  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.921  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.921  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.921  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.921  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.921  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.921  3533     1 E Unity   :  
+01-19 14:49:45.921  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.921  3533     1 E Unity   : 
+01-19 14:49:45.938  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.938  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.938  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.938  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.938  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.938  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.938  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.938  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.938  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.938  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.938  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.938  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.938  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.938  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.938  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.938  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.938  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.938  3533     1 E Unity   :  
+01-19 14:49:45.938  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.938  3533     1 E Unity   : 
+01-19 14:49:45.954  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.954  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.954  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.954  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.954  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.954  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.954  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.954  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.954  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.954  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.954  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.954  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.954  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.954  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.954  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.954  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.954  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.954  3533     1 E Unity   :  
+01-19 14:49:45.954  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.954  3533     1 E Unity   : 
+01-19 14:49:45.972  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.972  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.972  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.972  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.972  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.972  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.972  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.972  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.972  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.972  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.972  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.972  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.972  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.972  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.972  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.972  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.972  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.972  3533     1 E Unity   :  
+01-19 14:49:45.972  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.972  3533     1 E Unity   : 
+01-19 14:49:45.988  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:45.988  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.988  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.988  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.988  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.988  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.988  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.988  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.988  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.988  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.988  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.988  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:45.988  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:45.988  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:45.988  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:45.988  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:45.988  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:45.988  3533     1 E Unity   :  
+01-19 14:49:45.988  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:45.988  3533     1 E Unity   : 
+01-19 14:49:46.005  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.005  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.005  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.005  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.005  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.005  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.005  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.005  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.005  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.005  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.005  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.005  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.005  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.005  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.005  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.005  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.005  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.005  3533     1 E Unity   :  
+01-19 14:49:46.005  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:46.005  3533     1 E Unity   : 
+01-19 14:49:46.021  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.021  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.021  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.021  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.021  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.021  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.021  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.021  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.021  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.021  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.021  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.021  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.021  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.021  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.021  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.021  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.021  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.021  3533     1 E Unity   :  
+01-19 14:49:46.021  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:46.021  3533     1 E Unity   : 
+01-19 14:49:46.038  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.038  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.038  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.038  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.038  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.038  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.038  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.038  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.038  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.038  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.038  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.038  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.038  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.038  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.038  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.038  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.038  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.038  3533     1 E Unity   :  
+01-19 14:49:46.038  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:46.038  3533     1 E Unity   : 
+01-19 14:49:46.054  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.054  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.054  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.054  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.054  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.054  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.054  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.054  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.054  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.054  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.054  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.054  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.054  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.054  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.054  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.054  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.054  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.054  3533     1 E Unity   :  
+01-19 14:49:46.054  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:46.054  3533     1 E Unity   : 
+01-19 14:49:46.072  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.072  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.072  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.072  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.072  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.072  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.072  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.072  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.072  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.072  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.072  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.072  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.072  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.072  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.072  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.072  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.072  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.072  3533     1 E Unity   :  
+01-19 14:49:46.072  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:46.072  3533     1 E Unity   : 
+01-19 14:49:46.088  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.088  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.088  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.088  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.088  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.088  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.088  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.088  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.088  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.088  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.088  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.088  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.088  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.088  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.088  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.088  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.088  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.088  3533     1 E Unity   :  
+01-19 14:49:46.088  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:46.088  3533     1 E Unity   : 
+01-19 14:49:46.105  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.105  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.105  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.105  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.105  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.105  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.105  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.105  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.105  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.105  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.105  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.105  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.105  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.105  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.105  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.105  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.105  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.105  3533     1 E Unity   :  
+01-19 14:49:46.105  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:46.105  3533     1 E Unity   : 
+01-19 14:49:46.121  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.121  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.121  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.121  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.121  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.121  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.121  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.121  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.121  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.121  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.121  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.121  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.121  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.121  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.121  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.121  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.121  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.121  3533     1 E Unity   :  
+01-19 14:49:46.121  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:46.121  3533     1 E Unity   : 
+01-19 14:49:46.138  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.138  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.138  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.138  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.138  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.138  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.138  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.138  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.138  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.138  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.138  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.138  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.138  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.138  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.138  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.138  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.138  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.138  3533     1 E Unity   :  
+01-19 14:49:46.138  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:46.138  3533     1 E Unity   : 
+01-19 14:49:46.154  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.154  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.154  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.154  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.154  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.154  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.154  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.154  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.154  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.154  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.154  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.154  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.154  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.154  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.154  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.154  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.154  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.154  3533     1 E Unity   :  
+01-19 14:49:46.154  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:46.154  3533     1 E Unity   : 
+01-19 14:49:46.171  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.171  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.171  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.171  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.171  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.171  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.171  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.171  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.171  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.171  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.171  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.171  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.171  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.171  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.171  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.171  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.171  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.171  3533     1 E Unity   :  
+01-19 14:49:46.171  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:46.171  3533     1 E Unity   : 
+01-19 14:49:46.187  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.187  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.187  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.187  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.187  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.187  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.187  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.187  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.187  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.187  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.187  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.187  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.187  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.187  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.187  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.187  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.187  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.187  3533     1 E Unity   :  
+01-19 14:49:46.187  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:46.187  3533     1 E Unity   : 
+01-19 14:49:46.205  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.205  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.205  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.205  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.205  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.205  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.205  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.205  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.205  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.205  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.205  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.205  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.205  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.205  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.205  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.205  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.205  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.205  3533     1 E Unity   :  
+01-19 14:49:46.205  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:46.205  3533     1 E Unity   : 
+01-19 14:49:46.221  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.221  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.221  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.221  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.221  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.221  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.221  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.221  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.221  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.221  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.221  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.221  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.221  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.221  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.221  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.221  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.221  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.221  3533     1 E Unity   :  
+01-19 14:49:46.221  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:46.221  3533     1 E Unity   : 
+01-19 14:49:46.239  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.239  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.239  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.239  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.239  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.239  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.239  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.239  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.239  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.239  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.239  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.239  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.239  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.239  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.239  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.239  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.239  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.239  3533     1 E Unity   :  
+01-19 14:49:46.239  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:46.239  3533     1 E Unity   : 
+01-19 14:49:46.254  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.254  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.254  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.254  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.254  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.254  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.254  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.254  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.254  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.254  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.254  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.254  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.254  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.254  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.254  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.254  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.254  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.254  3533     1 E Unity   :  
+01-19 14:49:46.254  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:46.254  3533     1 E Unity   : 
+01-19 14:49:46.271  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.271  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.271  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.271  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.271  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.271  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.271  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.271  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.271  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.271  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.271  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.271  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.271  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.271  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.271  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.271  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.271  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.271  3533     1 E Unity   :  
+01-19 14:49:46.271  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:46.271  3533     1 E Unity   : 
+01-19 14:49:46.288  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.288  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.288  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.288  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.288  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.288  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.288  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.288  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.288  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.288  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.288  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.288  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.288  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.288  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.288  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.288  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.288  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.288  3533     1 E Unity   :  
+01-19 14:49:46.288  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:46.288  3533     1 E Unity   : 
+01-19 14:49:46.305  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.305  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.305  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.305  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.305  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.305  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.305  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.305  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.305  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.305  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.305  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.305  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.305  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.305  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.305  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.305  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.305  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.305  3533     1 E Unity   :  
+01-19 14:49:46.305  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:46.305  3533     1 E Unity   : 
+01-19 14:49:46.321  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.321  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.321  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.321  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.321  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.321  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.321  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.321  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.321  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.321  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.321  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.321  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.321  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.321  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.321  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.321  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.321  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.321  3533     1 E Unity   :  
+01-19 14:49:46.321  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:46.321  3533     1 E Unity   : 
+01-19 14:49:46.338  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.338  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.338  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.338  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.338  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.338  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.338  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.338  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.338  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.338  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.338  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.338  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.338  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.338  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.338  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.338  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.338  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.338  3533     1 E Unity   :  
+01-19 14:49:46.338  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:46.338  3533     1 E Unity   : 
+01-19 14:49:46.354  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.354  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.354  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.354  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.354  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.354  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.354  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.354  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.354  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.354  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.354  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.354  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.354  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.354  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.354  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.354  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.354  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.354  3533     1 E Unity   :  
+01-19 14:49:46.354  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:46.354  3533     1 E Unity   : 
+01-19 14:49:46.371  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.371  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.371  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.371  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.371  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.371  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.371  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.371  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.371  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.371  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.371  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.371  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.371  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.371  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.371  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.371  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.371  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.371  3533     1 E Unity   :  
+01-19 14:49:46.371  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:46.371  3533     1 E Unity   : 
+01-19 14:49:46.388  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.388  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.388  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.388  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.388  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.388  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.388  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.388  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.388  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.388  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.388  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.388  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.388  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.388  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.388  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.388  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.388  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.388  3533     1 E Unity   :  
+01-19 14:49:46.388  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:46.388  3533     1 E Unity   : 
+01-19 14:49:46.405  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.405  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.405  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.405  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.405  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.405  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.405  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.405  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.405  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.405  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.405  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.405  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.405  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.405  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.405  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.405  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.405  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.405  3533     1 E Unity   :  
+01-19 14:49:46.405  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:46.405  3533     1 E Unity   : 
+01-19 14:49:46.421  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.421  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.421  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.421  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.421  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.421  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.421  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.421  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.421  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.421  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.421  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.421  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.421  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.421  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.421  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.421  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.421  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.421  3533     1 E Unity   :  
+01-19 14:49:46.421  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:46.421  3533     1 E Unity   : 
+01-19 14:49:46.438  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.438  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.438  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.438  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.438  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.438  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.438  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.438  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.438  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.438  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.438  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.438  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.438  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.438  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.438  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.438  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.438  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.438  3533     1 E Unity   :  
+01-19 14:49:46.438  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:46.438  3533     1 E Unity   : 
+01-19 14:49:46.454  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.454  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.454  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.454  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.454  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.454  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.454  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.454  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.454  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.454  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.454  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.454  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.454  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.454  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.454  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.454  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.454  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.454  3533     1 E Unity   :  
+01-19 14:49:46.454  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:46.454  3533     1 E Unity   : 
+01-19 14:49:46.472  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.472  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.472  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.472  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.472  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.472  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.472  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.472  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.472  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.472  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.472  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.472  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.472  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.472  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.472  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.472  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.472  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.472  3533     1 E Unity   :  
+01-19 14:49:46.472  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:46.472  3533     1 E Unity   : 
+01-19 14:49:46.488  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.488  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.488  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.488  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.488  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.488  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.488  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.488  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.488  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.488  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.488  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.488  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.488  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.488  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.488  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.488  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.488  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.488  3533     1 E Unity   :  
+01-19 14:49:46.488  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:46.488  3533     1 E Unity   : 
+01-19 14:49:46.505  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.505  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.505  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.505  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.505  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.505  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.505  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.505  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.505  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.505  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.505  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.505  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.505  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.505  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.505  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.505  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.505  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.505  3533     1 E Unity   :  
+01-19 14:49:46.505  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+01-19 14:49:46.505  3533     1 E Unity   : 
+01-19 14:49:46.521  3533     1 E Unity   : SocketException: Access denied
+01-19 14:49:46.521  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.521  3533     1 E Unity   :   at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.521  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.521  3533     1 E Unity   :   at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint remote_end) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.521  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.DoSend (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.521  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.Net.IPEndPoint endPoint) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.521  3533     1 E Unity   :   at System.Net.Sockets.UdpClient.Send (System.Byte[] dgram, Int32 bytes, System.String hostname, Int32 port) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.521  3533     1 E Unity   :   at UDPPacketIO.SendPacket (System.Byte[] packet, Int32 length) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.521  3533     1 E Unity   :   at OSC.Send (.OscMessage oscMessage) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.521  3533     1 E Unity   :   at SendPositionOnUpdate.Update () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.521  3533     1 E Unity   :   at UnityEngine.ImageConversion.LoadImage (UnityEngine.Texture2D tex, System.Byte[] data) [0x00000] in <filename unknown>:0 
+01-19 14:49:46.521  3533     1 E Unity   :   at UnityEngine.CSSLayout.Native..cctor () [0x00000] in <filename unknown>:0 
+01-19 14:49:46.521  3533     1 E Unity   : System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+01-19 14:49:46.521  3533     1 E Unity   : UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+01-19 14:49:46.521  3533     1 E Unity   : UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+01-19 14:49:46.521  3533     1 E Unity   : UnityEngine.CSSLayout.Native:.cctor()
+01-19 14:49:46.521  3533     1 E Unity   :  
+01-19 14:49:46.521  3533     1 E Unity   : (Filename: currently not available on il2cpp Line: -1)

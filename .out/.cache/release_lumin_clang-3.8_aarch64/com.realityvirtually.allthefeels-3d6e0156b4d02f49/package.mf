@@ -2,30 +2,93 @@
  "entries": [
   {
    "compression": 8,
-   "hash": "ed94076992021be8fd7e90cc5ba11793df6e3e00",
+   "hash": "a91c42bb42d4386e8b2954695ea32c323f67f634",
    "pkgpath": "Data/095890d8c9bde1a45b549a17e6e6f961",
    "size": 5036,
    "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/095890d8c9bde1a45b549a17e6e6f961"
   },
   {
    "compression": 8,
-   "hash": "25418f1c10cac2489e1ee3a2689b6cd09453104b",
+   "hash": "4949f6d2b5d2c67afa08dbf68ab5c8c3e49ec525",
+   "pkgpath": "Data/170c02e10c121294486c57133d65b5cc",
+   "size": 50074,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/170c02e10c121294486c57133d65b5cc"
+  },
+  {
+   "compression": 8,
+   "hash": "cd3d81e3d82ad27ad9fff5e01fdaa948d301f3e5",
+   "pkgpath": "Data/1e71f539decd80f4bb2541c46a153223",
+   "size": 50094,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/1e71f539decd80f4bb2541c46a153223"
+  },
+  {
+   "compression": 8,
+   "hash": "b43467e117fcc51ec4da91b1050e665c3b5542c8",
+   "pkgpath": "Data/2b303258409019f428ed17a87cda4ac9",
+   "size": 50342,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/2b303258409019f428ed17a87cda4ac9"
+  },
+  {
+   "compression": 8,
+   "hash": "dbff325bfad543a7260e42d0a4f2403f040152b1",
+   "pkgpath": "Data/479521f96370b384d810a07599e7b084",
+   "size": 50254,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/479521f96370b384d810a07599e7b084"
+  },
+  {
+   "compression": 8,
+   "hash": "2469df024d59ad317a7e76013bc82f408d5efefe",
+   "pkgpath": "Data/51731a8a220e240478717934f6e99543",
+   "size": 49482,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/51731a8a220e240478717934f6e99543"
+  },
+  {
+   "compression": 8,
+   "hash": "efa6b8f8eee29eb940c9f345d15299af3c4563c9",
+   "pkgpath": "Data/63e7f9bd47d71334aa0ffb67cc5bbfb1",
+   "size": 49654,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/63e7f9bd47d71334aa0ffb67cc5bbfb1"
+  },
+  {
+   "compression": 8,
+   "hash": "edef7ddee8b73c5861e9c05cb4969d178222ed12",
+   "pkgpath": "Data/7f93338dc6150ea45b387e442e8102da",
+   "size": 49366,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/7f93338dc6150ea45b387e442e8102da"
+  },
+  {
+   "compression": 8,
+   "hash": "65df50cd3f774b7dba4a1b741a61d0511e750f4b",
+   "pkgpath": "Data/8401b9c91b47d6449a4be596c8138a90",
+   "size": 50466,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/8401b9c91b47d6449a4be596c8138a90"
+  },
+  {
+   "compression": 8,
+   "hash": "4ad51582405d12865acc4cf8619118f8276f80c0",
+   "pkgpath": "Data/917dc8bcba1c29c4c8bd325b59088d1c",
+   "size": 49310,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/917dc8bcba1c29c4c8bd325b59088d1c"
+  },
+  {
+   "compression": 8,
+   "hash": "beeb2cbd84f6b07806f2a891d30d740eaac6bcbd",
    "pkgpath": "Data/9c9078c06443df049a2830962f9dd5ef",
    "size": 49642,
    "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/9c9078c06443df049a2830962f9dd5ef"
   },
   {
    "compression": 8,
-   "hash": "f37394e83abf73a45e03e98c923db788ebd28ac3",
+   "hash": "ab9f58dfbcb823ba5a22c00090f7029301ee6763",
    "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
-   "size": 3228436,
+   "size": 3245504,
    "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
   },
   {
    "compression": 8,
-   "hash": "c62b81c1b6ccf8ef4da6f4a51589b04f4ccfadb7",
+   "hash": "51a48d1b8f81031c61a6883bb324049a2a16b5a7",
    "pkgpath": "bin/libil2cpp.so",
-   "size": 40459584,
+   "size": 40611256,
    "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/Native/libil2cpp.so",
    "xfrm_flags": {
     "signed": {
@@ -36,9 +99,9 @@
      "version": 3
     }
    },
-   "xfrm_hash": "b5ae884c58fd02c3062ecac32a139c48210d5e43",
+   "xfrm_hash": "65cf458e867d5534cfedbf186a364466bad85f79",
    "xfrm_path": "/Users/aidanwolf/Dropbox/2019/allthefeels/.out/.cache/release_lumin_clang-3.8_aarch64/com.realityvirtually.allthefeels-3d6e0156b4d02f49/libil2cpp.so-f7b3817891ac5c60",
-   "xfrm_size": 40460342
+   "xfrm_size": 40612014
   },
   {
    "compression": 8,
@@ -181,7 +244,7 @@
   },
   {
    "compression": 8,
-   "hash": "47a69aadfbdae6f1fef906e1f95eeb1601f10c0c",
+   "hash": "5c18367ea31b7fc24b76d7da35e71558f3327fdc",
    "pkgpath": "Data/adcae46baa3736748a69f9f489676bd7",
    "size": 49726,
    "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/adcae46baa3736748a69f9f489676bd7"
@@ -195,45 +258,31 @@
   },
   {
    "compression": 8,
-   "hash": "6f98f0a5bda1696bd01ffbc9a60f20f910513487",
+   "hash": "417a5e68c977bcd5cd7638a4066e69fa79569775",
    "pkgpath": "Data/globalgamemanagers",
-   "size": 37992,
+   "size": 38312,
    "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/globalgamemanagers"
   },
   {
    "compression": 8,
-   "hash": "6c3cc60e2dc75aa7cf77a9c200a8bd631fcc586c",
+   "hash": "bc703bd39224c06ab085928a7de9d46841a0e277",
    "pkgpath": "Data/globalgamemanagers.assets",
-   "size": 44128,
+   "size": 45352,
    "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/globalgamemanagers.assets"
   },
   {
    "compression": 8,
-   "hash": "3fbc136462dd0bedcbe59ab6373d9cd41367856a",
+   "hash": "a4c25afda68b24e162219d86b00a859938b3e825",
    "pkgpath": "Data/level0",
-   "size": 17428,
+   "size": 6468,
    "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/level0"
   },
   {
    "compression": 8,
-   "hash": "2229c7f7197ce7509b3351eaf5feee3b900dc16b",
-   "pkgpath": "Data/level0.resS",
-   "size": 131232,
-   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/level0.resS"
-  },
-  {
-   "compression": 8,
-   "hash": "d4dfda4d280e56474a6e9c15d20e09513efdfea5",
+   "hash": "bf758aac47f88f4eef358a23a94d0d173fccc237",
    "pkgpath": "Data/sharedassets0.assets",
-   "size": 1001612,
+   "size": 93592,
    "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/sharedassets0.assets"
-  },
-  {
-   "compression": 8,
-   "hash": "bd2f1fe5f73604141e8d4ba68b4c304977102e77",
-   "pkgpath": "Data/sharedassets0.assets.resS",
-   "size": 7361876,
-   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/sharedassets0.assets.resS"
   },
   {
    "compression": 8,
@@ -256,9 +305,9 @@
   },
   {
    "compression": 8,
-   "hash": "db6b6200887fc6eea1b8733b225e18127b49b4b1",
+   "hash": "929f5cebf6dda7a2a757f16b96b1337b1dc192a1",
    "pkgpath": "manifest.xml",
-   "size": 794,
+   "size": 847,
    "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/manifest.xml",
    "xfrm_flags": {
     "manifest": {
@@ -266,9 +315,9 @@
      "developer_id": "8e7343e0-9c81-4127-9f58-576b9e7441ce"
     }
    },
-   "xfrm_hash": "e1450fe81bcd073522b6b6e91f705f418ce8f2af",
+   "xfrm_hash": "1033ebff3147d27ca521439193f075dd06dff883",
    "xfrm_path": "/Users/aidanwolf/Dropbox/2019/allthefeels/.out/.cache/release_lumin_clang-3.8_aarch64/com.realityvirtually.allthefeels-3d6e0156b4d02f49/manifest.xml-083e3e81e5149cb3",
-   "xfrm_size": 807
+   "xfrm_size": 860
   },
   {
    "compression": 8,

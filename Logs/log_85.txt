@@ -1,0 +1,126 @@
+2631: fps 59.98  ms/f 16.67
+2932: fps 60.01  ms/f 16.66
+3232: fps 59.98  ms/f 16.67
+3533: fps 60.00  ms/f 16.67
+3834: fps 60.02  ms/f 16.66
+4134: fps 60.00  ms/f 16.67
+4434: fps 59.97  ms/f 16.67
+4735: fps 60.01  ms/f 16.67
+5035: fps 60.00  ms/f 16.67
+5335: fps 59.99  ms/f 16.67
+5636: fps 60.00  ms/f 16.67
+5936: fps 59.98  ms/f 16.67
+6237: fps 60.00  ms/f 16.67
+6538: fps 60.00  ms/f 16.67
+6838: fps 60.00  ms/f 16.67
+7138: fps 60.00  ms/f 16.67
+7438: fps 60.00  ms/f 16.67
+7738: fps 59.99  ms/f 16.67
+8038: fps 59.99  ms/f 16.67
+8338: fps 59.99  ms/f 16.67
+8638: fps 59.99  ms/f 16.67
+8939: fps 60.01  ms/f 16.66
+9240: fps 60.00  ms/f 16.67
+9540: fps 59.99  ms/f 16.67
+9840: fps 59.97  ms/f 16.67
+10141: fps 60.01  ms/f 16.66
+10442: fps 60.00  ms/f 16.67
+10742: fps 59.99  ms/f 16.67
+11042: fps 59.99  ms/f 16.67
+11342: fps 59.99  ms/f 16.67
+11643: fps 60.00  ms/f 16.67
+11943: fps 59.98  ms/f 16.67
+12244: fps 60.01  ms/f 16.66
+12544: fps 59.98  ms/f 16.67
+12845: fps 60.01  ms/f 16.66
+13145: fps 59.99  ms/f 16.67
+13445: fps 59.99  ms/f 16.67
+Closed OSC listener
+System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+UnityEngine.StackTraceUtility:ExtractStackTrace()
+UnityEngine.CSSLayout.Native:.cctor()
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+OSC:Close()
+OSC:OnDestroy()
+System.Collections.Generic.IEnumerable`1:GetEnumerator()
+UnityEngine.CSSLayout.Native:.cctor()
+ 
+(Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+
+UnityPerf: Entering main at 0.000000 seconds.
+Lumin Unity Player built with Lumin SDK Version: 0.18.0.20180913p
+No argument list from lifecycle was found.
+WaitOnVirtualCameras MLGraphicsBeginFrame succeeded.
+ML: Near clip distance 0.300000 meters is smaller than 0.370371 meter minimum. Setting to minimum.
+Camera not cleared to transparent black. Please correct for improved performance.
+LocalAreaNetwork Privilege Granted
+System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+UnityEngine.StackTraceUtility:ExtractStackTrace()
+UnityEngine.CSSLayout.Native:.cctor()
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+UnityEngine.XR.MagicLeap.PrivilegeRequester:HandlePrivilegeAsyncRequest(MLResult, MLPrivilegeId)
+System.Action`2:Invoke(T1, T2)
+UnityEngine.XR.MagicLeap.MLPrivileges:ProcessCompletedQueries(List`1)
+UnityEngine.XR.MagicLeap.MLPrivileges:ProcessPendingQueries()
+UnityEngine.XR.MagicLeap.MLPrivileges:Update(Single, IntPtr)
+System.Action`2:Invoke(T1, T2)
+UnityEngine.XR.MagicLeap.MagicLeapDevice:Update()
+System.Collections.Generic.IList`1:Insert(Int32, T)
+UnityEngine.CSSLayout.Native:.cctor()
+ 
+(Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+
+LAN YES!!!
+System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+UnityEngine.StackTraceUtility:ExtractStackTrace()
+UnityEngine.CSSLayout.Native:.cctor()
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.XR.MagicLeap.PrivilegeRequester:UpdatePrivilege()
+UnityEngine.XR.MagicLeap.PrivilegeRequester:Update()
+System.Collections.Generic.IList`1:Insert(Int32, T)
+UnityEngine.CSSLayout.Native:.cctor()
+ 
+(Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+
+ReceivePacket!
+System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+UnityEngine.StackTraceUtility:ExtractStackTrace()
+UnityEngine.CSSLayout.Native:.cctor()
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UDPPacketIO:ReceivePacket(Byte[])
+OSC:Read()
+System.Threading.ThreadStart:Invoke()
+System.Collections.Generic.IList`1:Insert(Int32, T)
+UnityEngine.CSSLayout.Native:.cctor()
+UnityEngine.CSSLayout.Native:.cctor()
+UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+UnityEngine.ImageConversion:LoadImage(Texture2D, Byte[])
+ 
+(Filename: C:/buildslave/unity/build\Runtime/Export/Debug.bindings.h Line: 43)
+
+Opening OSC listener on port 6969
+System.Diagnostics.StackTrace:.ctor(Int32, Boolean)
+UnityEngine.StackTraceUtility:ExtractStackTrace()
+UnityEngine.CSSLayout.Native:.cctor()
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UDPPacketIO:Open()
+UDPPacketIO:ReceivePacket(Byte[])
+OSC:Read()
+System.Threading.ThreadStart:Invoke()
+System.Collections.Generic.IList`1:Insert(Int32, T)
