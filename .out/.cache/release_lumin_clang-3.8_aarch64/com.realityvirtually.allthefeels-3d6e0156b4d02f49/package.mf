@@ -1,0 +1,303 @@
+{
+ "entries": [
+  {
+   "compression": 8,
+   "hash": "c42cc47b61f1ed93247e02e550ecc07be56934c0",
+   "pkgpath": "Data/095890d8c9bde1a45b549a17e6e6f961",
+   "size": 5036,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/095890d8c9bde1a45b549a17e6e6f961"
+  },
+  {
+   "compression": 8,
+   "hash": "f4730e282dd31f8bce3054b3f19e3b314cd062da",
+   "pkgpath": "Data/9c9078c06443df049a2830962f9dd5ef",
+   "size": 49642,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/9c9078c06443df049a2830962f9dd5ef"
+  },
+  {
+   "compression": 8,
+   "hash": "156232fefbb006913782c72711753d9d61ed66db",
+   "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
+   "size": 3134880,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "6804c39f1b3ccb65a4084ed1b0d7d39ea5a222b9",
+   "pkgpath": "bin/libil2cpp.so",
+   "size": 39443368,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/Native/libil2cpp.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/aidanwolf/Dropbox/2019/allthefeels/realityvirtually.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "47056f377f0f99e051fd6f419def7b95fe86653c",
+   "xfrm_path": "/Users/aidanwolf/Dropbox/2019/allthefeels/.out/.cache/release_lumin_clang-3.8_aarch64/com.realityvirtually.allthefeels-3d6e0156b4d02f49/libil2cpp.so-f7b3817891ac5c60",
+   "xfrm_size": 39444126
+  },
+  {
+   "compression": 8,
+   "hash": "dc64ed4bee950e5ce1ab12268f627a3db179e4af",
+   "pkgpath": "bin/AudioPluginMSASpatializer.so",
+   "size": 220456,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/Plugins/AudioPluginMSASpatializer.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/aidanwolf/Dropbox/2019/allthefeels/realityvirtually.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "b5dd309e684c1ae691162fd59ab33e54489e9ba2",
+   "xfrm_path": "/Users/aidanwolf/Dropbox/2019/allthefeels/.out/.cache/release_lumin_clang-3.8_aarch64/com.realityvirtually.allthefeels-3d6e0156b4d02f49/AudioPluginMSASpatializer.so-b7eae3d6bb2f009d",
+   "xfrm_size": 221214
+  },
+  {
+   "compression": 8,
+   "hash": "aed32544e1ea67c511396569fcb89b586b15d839",
+   "pkgpath": "bin/UnityEngine.SpatialTracking.dll",
+   "size": 9216,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/Plugins/UnityEngine.SpatialTracking.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "715f293d231a26472ba1672c3e59f76cb0e5e364",
+   "pkgpath": "bin/UnityEngine.TestRunner.dll",
+   "size": 65536,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/Plugins/UnityEngine.TestRunner.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "d93ff7b64d92abd6dbb8419c3348ab5f56ad5ec5",
+   "pkgpath": "bin/UnityMagicLeap.so",
+   "size": 728232,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/Plugins/UnityMagicLeap.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/aidanwolf/Dropbox/2019/allthefeels/realityvirtually.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "4cdf4903f2676930b575836bc515322874d1aff2",
+   "xfrm_path": "/Users/aidanwolf/Dropbox/2019/allthefeels/.out/.cache/release_lumin_clang-3.8_aarch64/com.realityvirtually.allthefeels-3d6e0156b4d02f49/UnityMagicLeap.so-b7eae3d6bb2f009d",
+   "xfrm_size": 728990
+  },
+  {
+   "compression": 8,
+   "hash": "a765bb75be250a6992c1a46fc23a55501e369b85",
+   "pkgpath": "bin/libml_camera_plugin.so",
+   "size": 14184,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/Plugins/libml_camera_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/aidanwolf/Dropbox/2019/allthefeels/realityvirtually.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "a89733b5f3b24379ac38d050106bfb9b75282889",
+   "xfrm_path": "/Users/aidanwolf/Dropbox/2019/allthefeels/.out/.cache/release_lumin_clang-3.8_aarch64/com.realityvirtually.allthefeels-3d6e0156b4d02f49/libml_camera_plugin.so-b7eae3d6bb2f009d",
+   "xfrm_size": 14942
+  },
+  {
+   "compression": 8,
+   "hash": "633780c922a0dbfe032638afff9a25e3fc49219f",
+   "pkgpath": "bin/libml_mediaplayer_plugin.so",
+   "size": 38792,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/Plugins/libml_mediaplayer_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/aidanwolf/Dropbox/2019/allthefeels/realityvirtually.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "1eaef5c736b8b75c99a56a887de13c02bb6e31b8",
+   "xfrm_path": "/Users/aidanwolf/Dropbox/2019/allthefeels/.out/.cache/release_lumin_clang-3.8_aarch64/com.realityvirtually.allthefeels-3d6e0156b4d02f49/libml_mediaplayer_plugin.so-b7eae3d6bb2f009d",
+   "xfrm_size": 39550
+  },
+  {
+   "compression": 8,
+   "hash": "19946a1bb01346dde4ca54e83798f5b10a6257b9",
+   "pkgpath": "Data/Plugins/libmuse_android.jar",
+   "size": 222189,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/Plugins/libmuse_android.jar"
+  },
+  {
+   "compression": 8,
+   "hash": "7581b1e6c1015782d7fba97b385715a3eed19650",
+   "pkgpath": "Data/Plugins/libmuse_unity_android.jar",
+   "size": 8600,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/Plugins/libmuse_unity_android.jar"
+  },
+  {
+   "compression": 8,
+   "hash": "5629c7ff5fb59ddc72778d4b9d3dbadcde480998",
+   "pkgpath": "bin/nunit.framework.dll",
+   "size": 328192,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/Plugins/nunit.framework.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "e6124da6073b916e29e013cf3ae3f58a4c5fdb0e",
+   "pkgpath": "Data/Resources/mscorlib.dll-resources.dat",
+   "size": 337563,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/Resources/mscorlib.dll-resources.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "dc1423ee40a78f4701880b37e1f07bc4f3500e9d",
+   "pkgpath": "Data/Resources/unity default resources",
+   "size": 3308004,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/Resources/unity default resources"
+  },
+  {
+   "compression": 8,
+   "hash": "2110ad3f8721dac3305982e785d922f32811f251",
+   "pkgpath": "Data/Resources/unity_builtin_extra",
+   "size": 399564,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/Resources/unity_builtin_extra"
+  },
+  {
+   "compression": 8,
+   "hash": "9bbb5e3aae616602db933abd34140e11132fccea",
+   "pkgpath": "Data/UnitySubsystems/Runtime/UnitySubsystemsManifest.json",
+   "size": 438,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/UnitySubsystems/Runtime/UnitySubsystemsManifest.json"
+  },
+  {
+   "compression": 8,
+   "hash": "8ba1ca2689e0e87ddbe8dc7b3e6831d071bd09e0",
+   "pkgpath": "Data/adcae46baa3736748a69f9f489676bd7",
+   "size": 49726,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/adcae46baa3736748a69f9f489676bd7"
+  },
+  {
+   "compression": 8,
+   "hash": "b088e6387dff2186fa558355a759723407bcbc0a",
+   "pkgpath": "Data/boot.config",
+   "size": 55,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/boot.config"
+  },
+  {
+   "compression": 8,
+   "hash": "08ce0c0d284f45d37cc5c15a96db509e72bff181",
+   "pkgpath": "Data/globalgamemanagers",
+   "size": 37904,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/globalgamemanagers"
+  },
+  {
+   "compression": 8,
+   "hash": "c02c89e3c8446f40c00254c5f3532bf91b1a0748",
+   "pkgpath": "Data/globalgamemanagers.assets",
+   "size": 43920,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/globalgamemanagers.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "509f98989dc5c1c280dd5686fbd552e3564a6e1f",
+   "pkgpath": "Data/level0",
+   "size": 16188,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/level0"
+  },
+  {
+   "compression": 8,
+   "hash": "2229c7f7197ce7509b3351eaf5feee3b900dc16b",
+   "pkgpath": "Data/level0.resS",
+   "size": 131232,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/level0.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "3cbf26d25f496889f7c651d1601aeac2cf1ae98c",
+   "pkgpath": "Data/sharedassets0.assets",
+   "size": 1001444,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/sharedassets0.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "10c33a355dfedc9038c7e97a6faf5784f7021bc8",
+   "pkgpath": "Data/sharedassets0.assets.resS",
+   "size": 7340032,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/sharedassets0.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "8f59c553fa65e4c62b244f94275fdf50ef6a40e8",
+   "pkgpath": "bin/Player.elf",
+   "size": 22318968,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Player.elf",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/aidanwolf/Dropbox/2019/allthefeels/realityvirtually.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "829c70eac14950ef2e1f61e25cefdf58f119098a",
+   "xfrm_path": "/Users/aidanwolf/Dropbox/2019/allthefeels/.out/.cache/release_lumin_clang-3.8_aarch64/com.realityvirtually.allthefeels-3d6e0156b4d02f49/Player.elf-083e3e81e5149cb3",
+   "xfrm_size": 22319726
+  },
+  {
+   "compression": 8,
+   "hash": "b5cb693b0131a3996e377ecb9344990c87797a8e",
+   "pkgpath": "manifest.xml",
+   "size": 695,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/manifest.xml",
+   "xfrm_flags": {
+    "manifest": {
+     "cert_hash": "7dd1b6ca83be32f6b520200b360fa5cb723bc4bd",
+     "developer_id": "8e7343e0-9c81-4127-9f58-576b9e7441ce"
+    }
+   },
+   "xfrm_hash": "c0b89aa3cda69017f19b7f97a713af8f585220cb",
+   "xfrm_path": "/Users/aidanwolf/Dropbox/2019/allthefeels/.out/.cache/release_lumin_clang-3.8_aarch64/com.realityvirtually.allthefeels-3d6e0156b4d02f49/manifest.xml-083e3e81e5149cb3",
+   "xfrm_size": 708
+  },
+  {
+   "compression": 8,
+   "hash": "5925de9f4d7b83c65d1fd7b25ced5f0bf8c27e73",
+   "pkgpath": "bin/libc++_shared.so",
+   "size": 976832,
+   "src": "/Users/aidanwolf/MagicLeap/mlsdk/v0.19.0/lumin/stl/libc++/lib/libc++_shared.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/aidanwolf/Dropbox/2019/allthefeels/realityvirtually.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "2a7e7fa1ee9beff38e91964749e487aa8651568f",
+   "xfrm_path": "/Users/aidanwolf/Dropbox/2019/allthefeels/.out/.cache/release_lumin_clang-3.8_aarch64/com.realityvirtually.allthefeels-3d6e0156b4d02f49/libc++_shared.so-50f522cdef38489a",
+   "xfrm_size": 977590
+  }
+ ],
+ "pkgflags": {
+  "signed": {
+   "cert": "/Users/aidanwolf/Dropbox/2019/allthefeels/realityvirtually.cert"
+  },
+  "taildata": {
+   "devcert": "/Users/aidanwolf/Dropbox/2019/allthefeels/realityvirtually.cert",
+   "sbox": "USER",
+   "version": 3
+  }
+ }
+}

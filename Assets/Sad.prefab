@@ -169,7 +169,7 @@ MonoBehaviour:
   faceDirectionofVelocity: 0
   stickyPrefab: {fileID: 1356876841675370, guid: 729366672aa14447fa5f581313a432ae,
     type: 2}
-  stickyDistance: 0.3
+  stickyDistance: 0.25
 --- !u!135 &135462060126303760
 SphereCollider:
   m_ObjectHideFlags: 1

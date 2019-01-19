@@ -22,7 +22,7 @@ public class SadParticleBehavior : ParticleBehavior {
         RaycastHit[] hits = Physics.SphereCastAll(transform.position, stickyDistance, transform.forward);
 
         foreach (RaycastHit hit in hits) {
-            if (!sticked.ContainsValue(hit.collider.transform)) {
+            if (!sticked.ContainsValue(hit.collider.transform) && hit.collider.gameObject != this.gameObject) {
                 GameObject sticky = Instantiate(stickyPrefab);
                 sticky.transform.position = transform.position;
                 sticky.transform.SetParent(transform);

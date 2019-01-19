@@ -20,7 +20,7 @@ public class ParticleManager : MonoBehaviour {
     // Update is called once per frame
     void Update() {
         if (Random.Range(0, 100) >= 99) {
-            ParticleType pt = particles[Random.Range(0, 2)];
+            ParticleType pt = particles[Random.Range(0, particles.Length)];
             GameObject p = Instantiate(pt.prefab, transform.position, transform.rotation);
             p.GetComponent<Rigidbody>().velocity = transform.forward * p.GetComponent<ParticleBehavior>().launchVelocity;
             UpdateParticleGroupLeaders(pt);

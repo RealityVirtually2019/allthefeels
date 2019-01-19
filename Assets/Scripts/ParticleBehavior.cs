@@ -50,11 +50,14 @@ public class ParticleBehavior : MonoBehaviour {
     [SerializeField]
     public AttractionDefinition[] attractions;
 
-    private Rigidbody rigidbody;
-
-    private float time = 0f;
-    private float intervalTime = 0f;
-    private Vector3 direction;
+    [NonSerialized]
+    public Rigidbody rigidbody;
+    [NonSerialized]
+    public float time = 0f;
+    [NonSerialized]
+    public float intervalTime = 0f;
+    [NonSerialized]
+    public Vector3 direction;
 
     public bool faceDirectionofVelocity = false;
 

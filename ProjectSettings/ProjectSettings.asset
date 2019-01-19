@@ -155,7 +155,8 @@ PlayerSettings:
   resolutionScalingMode: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier: {}
+  applicationIdentifier:
+    Lumin: com.realityvirtually.allthefeels
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16
@@ -663,13 +664,16 @@ PlayerSettings:
     m_ModelFolderPath: 
     m_PortalFolderPath: 
   luminCert:
-    m_CertPath: 
+    m_CertPath: /Users/aidanwolf/Dropbox/2019/allthefeels/realityvirtually.cert
     m_PrivateKeyPath: 
   luminIsChannelApp: 0
   luminVersion:
     m_VersionCode: 1
     m_VersionName: 
-  luminPrivilege: []
+  luminPrivilege:
+  - LocalAreaNetwork
+  - Internet
+  - BackgroundDownload
   luminMinimumPlatformAPILevel: 3
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2

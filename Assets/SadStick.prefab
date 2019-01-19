@@ -49,7 +49,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1356876841675370}
-  m_LocalRotation: {x: 0.008370321, y: -0, z: -0, w: 0.999965}
+  m_LocalRotation: {x: 0.008370501, y: -0, z: -0, w: 0.99996495}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -83,11 +83,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   endPointTransform: {fileID: 4969030082076318}
   pointsInLineRenderer: 11
-  sagAmplitude: 0.02
-  swayMultiplier: 0.005
-  swayXMultiplier: 1
+  sagAmplitude: 0.01
+  swayMultiplier: 0.05
+  swayXMultiplier: 0.5
   swayYMultiplier: 0.5
-  swayFrequency: 1
+  swayFrequency: 3
 --- !u!120 &120977129811841794
 LineRenderer:
   m_ObjectHideFlags: 1
@@ -125,31 +125,40 @@ LineRenderer:
   m_SortingOrder: 0
   m_Positions:
   - {x: 0, y: 0.0123, z: 0.2653}
-  - {x: -0.0011446344, y: -0.019794054, z: 0.33877063}
-  - {x: -0.0021772238, y: -0.048866928, z: 0.4122412}
-  - {x: -0.002996692, y: -0.07219317, z: 0.48571166}
-  - {x: -0.0035228224, y: -0.08760986, z: 0.559182}
-  - {x: -0.0037041146, y: -0.09372829, z: 0.63265204}
-  - {x: -0.0035228222, y: -0.09006997, z: 0.706122}
-  - {x: -0.0029966917, y: -0.07711343, z: 0.7795917}
-  - {x: -0.0021772236, y: -0.0562473, z: 0.8530612}
-  - {x: -0.0011446344, y: -0.029634569, z: 0.92653066}
-  - {x: 3.23824e-10, y: -0.000000631087, z: 1}
+  - {x: 0.007725017, y: 0.011841094, z: 0.33883464}
+  - {x: 0.014693855, y: 0.0113067, z: 0.41236296}
+  - {x: 0.020224359, y: 0.010628719, z: 0.48587927}
+  - {x: 0.023775158, y: 0.009753102, z: 0.559379}
+  - {x: 0.02499868, y: 0.008645156, z: 0.63285923}
+  - {x: 0.023775157, y: 0.007292921, z: 0.706319}
+  - {x: 0.020224357, y: 0.0057083555, z: 0.7797593}
+  - {x: 0.014693853, y: 0.003926157, z: 0.853183}
+  - {x: 0.0077250176, y: 0.0020003705, z: 0.9265947}
+  - {x: -0.000000002185454, y: -0.00000090639503, z: 1}
   m_Parameters:
     serializedVersion: 2
-    widthMultiplier: 0.005
+    widthMultiplier: 0.01
     widthCurve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
         value: 1
-        inSlope: 0
-        outSlope: 0
+        inSlope: -3.5028596
+        outSlope: -3.5028596
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
-        outWeight: 0.33333334
+        outWeight: 0.14754212
+      - serializedVersion: 3
+        time: 0.99591064
+        value: 1
+        inSlope: 2.9597583
+        outSlope: 2.9597583
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.11474726
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
