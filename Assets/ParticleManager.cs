@@ -1,18 +1,39 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
+using Random = UnityEngine.Random;
+
+[Serializable]
+public class ParticleType {
+    public GameObject prefab;
+    public string tag = "";
+    public int groupSize = 1;
+}
 
 public class ParticleManager : MonoBehaviour {
 
-    public int group = 3;
+    public GameObject spawner;
+
+    [SerializeField]
+    public ParticleType[] particles;
 
     // Update is called once per frame
     void Update() {
-        ParticleBehavior[] pbs = FindObjectsOfType<ParticleBehavior>();
-        foreach (ParticleBehavior pb in pbs) {
-            pb.hasBecomeLeader = false;
+        if (Random.Range(0, 100) >= 99) {
+            ParticleType pt = particles[Random.Range(0, 2)];
+            GameObject p = Instantiate(pt.prefab, transform.position, transform.rotation);
+            p.GetComponent<Rigidbody>().velocity = transform.forward * p.GetComponent<ParticleBehavior>().launchVelocity;
+            UpdateParticleGroupLeaders(pt);
         }
-        for (int i = 0; i < pbs.Length; i = i + group) {
-            pbs[i].hasBecomeLeader = true;
+    }
+
+    public void UpdateParticleGroupLeaders (ParticleType pt) {
+        GameObject[] objs = GameObject.FindGameObjectsWithTag(pt.tag);
+        foreach (GameObject obj in objs) {
+            obj.GetComponent<ParticleBehavior>().hasBecomeLeader = false;
+        }
+        for (int i = 0; i < objs.Length; i = i + pt.groupSize) {
+            objs[i].GetComponent<ParticleBehavior>().hasBecomeLeader = true;
         }
     }
 }

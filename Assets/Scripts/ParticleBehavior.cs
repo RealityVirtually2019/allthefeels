@@ -59,14 +59,14 @@ public class ParticleBehavior : MonoBehaviour {
     public bool faceDirectionofVelocity = false;
 
     // Use this for initialization
-    void Start() {
+    public virtual void Start() {
         rigidbody = GetComponent<Rigidbody>();
         rigidbody.drag = drag;
         rigidbody.angularDrag = angulardrag;
     }
 
     // Update is called once per frame
-    void Update() {
+    public virtual void Update() {
 
         rigidbody.AddForce(new Vector3(0, gravity, 0), ForceMode.Acceleration);
 
@@ -111,7 +111,6 @@ public class ParticleBehavior : MonoBehaviour {
         return nearest;
     }
 
-
     public Vector3 CalculateTrajectory() {
 
         Vector3 v = Vector3.zero;
@@ -147,15 +146,11 @@ public class ParticleBehavior : MonoBehaviour {
 
     private void OnCollisionEnter(Collision collision) {
         if (collision.gameObject.layer == 0) {
-
-            Vector3 d = (Vector3.one - collision.transform.forward);
-
-            transform.localScale = new Vector3(transform.localScale.x * d.x, transform.localScale.y * d.y, transform.localScale.z * d.z);
             transform.position = collision.contacts[0].point;
-            transform.rotation = Quaternion.FromToRotation(transform.up, collision.contacts[0].normal) * transform.rotation;
             gameObject.GetComponent<Collider>().enabled = false;
             Destroy(gameObject.GetComponent<Rigidbody>());
             enabled = false;
+            transform.SetParent(collision.gameObject.transform,true);
         }
     }
 
