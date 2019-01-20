@@ -31,6 +31,14 @@ public class MuseManager : MonoBehaviour {
     [SerializeField]
     public MuseEvent EegEvent;
 
+    /*
+delta_absolute  1-4Hz           
+theta_absolute  4-8Hz           
+alpha_absolute  7.5-13Hz            
+beta_absolute   13-30Hz         
+gamma_absolute  30-44Hz
+*/
+
     private void Start() {
         instance = this;
     }
@@ -48,32 +56,58 @@ public class MuseManager : MonoBehaviour {
                 osc.SetAddressHandler("/muse/elements/touching_forehead", ReceiveForehead);
                 osc.SetAddressHandler("/muse/elements/algorithm/concentration", ReceiveConcentration);
                 osc.SetAddressHandler("/muse/elements/algorithm/mellow", ReceiveMellow);
-                osc.SetAddressHandler("/muse/elements/eeg", ReceiveEeg);
+                osc.SetAddressHandler("/muse/eeg", ReceiveEeg);
             }
         }
     }
 
+    public void PrintValue (string message, float min, float max) {
+        Debug.Log(message);
+        Debug.Log(float.Parse(message));
+        Debug.Log((float.Parse(message) - min) / max);
+    }
+
     public void ReceiveGamma(OscMessage message) {
+
+        Debug.Log("ReceiveGamma");
+        PrintValue(message.values[0].ToString(), 30f, 44f);
+
         if (GammaEvent != null)
-        GammaEvent.Invoke(float.Parse(message.values[0].ToString()));
+            GammaEvent.Invoke(float.Parse(message.values[0].ToString()));
     }
 
     void ReceiveAlpha(OscMessage message) {
+
+        Debug.Log("ReceiveAlpha");
+        PrintValue(message.values[0].ToString(), 7.5f, 13f);
+
         if (AlphaEvent != null)
             AlphaEvent.Invoke(float.Parse(message.values[0].ToString()));
     }
 
     void ReceiveBeta(OscMessage message) {
+
+        Debug.Log("ReceiveBeta");
+        PrintValue(message.values[0].ToString(), 13f, 30f);
+
         if (BetaEvent != null)
             BetaEvent.Invoke(float.Parse(message.values[0].ToString()));
     }
 
     void ReceiveTheta(OscMessage message) {
+
+        Debug.Log("ReceiveTheta");
+        PrintValue(message.values[0].ToString(), 4f, 8f);
+
         if (ThetaEvent != null)
             ThetaEvent.Invoke(float.Parse(message.values[0].ToString()));
     }
 
     void ReceiveDelta(OscMessage message) {
+
+        Debug.Log("ReceiveDelta");
+        PrintValue(message.values[0].ToString(), 1f, 4f);
+
         if (DeltaEvent != null)
             DeltaEvent.Invoke(float.Parse(message.values[0].ToString()));
     }
@@ -94,7 +128,12 @@ public class MuseManager : MonoBehaviour {
     }
 
     void ReceiveEeg(OscMessage message) {
+
+        Debug.Log("ReceiveEeg");
+        PrintValue(message.values[0].ToString(), 0f, 1023f);
+
         if (EegEvent != null)
             EegEvent.Invoke(float.Parse(message.values[0].ToString()));
     }
 }
+ 

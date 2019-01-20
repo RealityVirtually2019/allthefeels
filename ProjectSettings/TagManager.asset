@@ -13,6 +13,7 @@ TagManager:
   - Ink
   - Spikeball
   - Swarm
+  - String
   layers:
   - Default
   - TransparentFX
