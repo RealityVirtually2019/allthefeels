@@ -236,6 +236,8 @@ public class UDPPacketIO
 	{
         Debug.Log("ReceivePacket!");
 
+        Debug.Log(IsOpen());
+
 		if (!IsOpen())
 			Open();
 		if (!IsOpen())
@@ -245,6 +247,9 @@ public class UDPPacketIO
 		IPEndPoint iep = new IPEndPoint(IPAddress.Any, localPort);
 		byte[] incoming = Receiver.Receive( ref iep );
 		int count = Math.Min(buffer.Length, incoming.Length);
+
+        Debug.Log("Count = " + count);
+
 		System.Array.Copy(incoming, buffer, count);
 		return count;
 		
@@ -561,20 +566,29 @@ public class UDPPacketIO
 	/// </summary>
 	private void Read()
 	{
+        Debug.Log("Read 1");
 		try
 		{
-			while (ReaderRunning)
+            Debug.Log("Read 2");
+            while (ReaderRunning)
 			{
+                Debug.Log("Read 3");
 
-
-				int length = OscPacketIO.ReceivePacket(buffer);
+                int length = OscPacketIO.ReceivePacket(buffer);
 
 				if (length > 0)
 				{
-					lock(ReadThreadLock) {
+                    Debug.Log("Read 4");
+                    lock (ReadThreadLock) {
+                        Debug.Log("Read 5");
+                        if ( paused == false ) {
+                            Debug.Log("Read 6");
+                            ArrayList newMessages = OSC.PacketToOscMessages(buffer, length);
 
-						if ( paused == false ) {
-							ArrayList newMessages = OSC.PacketToOscMessages(buffer, length);
+                            Debug.Log("newMessages!");
+                            Debug.Log(newMessages.ToString());
+                            Debug.Log(newMessages.Count);
+
 							messagesReceived.AddRange(newMessages);
 						}
 
