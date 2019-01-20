@@ -8,6 +8,11 @@ TagManager:
   - Bubble
   - Sad
   - Block
+  - Goo
+  - HotHead
+  - Ink
+  - Spikeball
+  - Swarm
   layers:
   - Default
   - TransparentFX
@@ -19,7 +24,7 @@ TagManager:
   - 
   - PostProcessing
   - Interactive
-  - 
+  - Hand
   - 
   - 
   - 

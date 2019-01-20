@@ -2,30 +2,30 @@
  "entries": [
   {
    "compression": 8,
-   "hash": "be42485aee5eee599b6a00b2a81d5dde0767332f",
+   "hash": "3d2f106af801975c34a5bef246c3b6bd0a578adb",
    "pkgpath": "Data/095890d8c9bde1a45b549a17e6e6f961",
    "size": 5036,
    "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/095890d8c9bde1a45b549a17e6e6f961"
   },
   {
    "compression": 8,
-   "hash": "f4730e282dd31f8bce3054b3f19e3b314cd062da",
+   "hash": "945b043e447c4a4ad947d16972bbf49d4a885ec5",
    "pkgpath": "Data/9c9078c06443df049a2830962f9dd5ef",
    "size": 49642,
    "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/9c9078c06443df049a2830962f9dd5ef"
   },
   {
    "compression": 8,
-   "hash": "2700e37f7f807e2cf82a9a995b6ea078acf973f1",
+   "hash": "54fb61734bf5ee2f0afba3690ef5cbd22c2990ad",
    "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
-   "size": 3247572,
+   "size": 3261732,
    "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
   },
   {
    "compression": 8,
-   "hash": "f4f8cc3ebfafce39a7783ecf813bcadd91c92bd1",
+   "hash": "c0a0871fcda92573cc05b22d2c1541b65e1c61c2",
    "pkgpath": "bin/libil2cpp.so",
-   "size": 40626760,
+   "size": 40750544,
    "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/Native/libil2cpp.so",
    "xfrm_flags": {
     "signed": {
@@ -36,9 +36,9 @@
      "version": 3
     }
    },
-   "xfrm_hash": "a8e7ae82ab1671a0c7781140234a94252ef88840",
+   "xfrm_hash": "4c89f700d52b4902202d6aa40aa8eb935528ffbc",
    "xfrm_path": "/Users/aidanwolf/Dropbox/2019/allthefeels/.out/.cache/release_lumin_clang-3.8_aarch64/com.realityvirtually.allthefeels-3d6e0156b4d02f49/libil2cpp.so-f7b3817891ac5c60",
-   "xfrm_size": 40627518
+   "xfrm_size": 40751302
   },
   {
    "compression": 8,
@@ -181,7 +181,7 @@
   },
   {
    "compression": 8,
-   "hash": "8ba1ca2689e0e87ddbe8dc7b3e6831d071bd09e0",
+   "hash": "a034ff3bf913b52eff81e25d3edc71c611d0676c",
    "pkgpath": "Data/adcae46baa3736748a69f9f489676bd7",
    "size": 49726,
    "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/adcae46baa3736748a69f9f489676bd7"
@@ -195,23 +195,30 @@
   },
   {
    "compression": 8,
-   "hash": "0bb89791d6c5ffa43318bfd98d4a6eb193ec7b23",
+   "hash": "e12f207678db6bcc00cffbd54a4be501299e5d50",
+   "pkgpath": "Data/c7fd37d7d4b274140a75bcb9e6ffa71c",
+   "size": 4148,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/c7fd37d7d4b274140a75bcb9e6ffa71c"
+  },
+  {
+   "compression": 8,
+   "hash": "6c81fb17ddca45007bbc2915234f75d4b204c26f",
    "pkgpath": "Data/globalgamemanagers",
-   "size": 38520,
+   "size": 39272,
    "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/globalgamemanagers"
   },
   {
    "compression": 8,
-   "hash": "1f0e37679b1dcc9db180fbf208f524d812d0f164",
+   "hash": "527e8d55ce2745a44da00a9973f296af70c24bf7",
    "pkgpath": "Data/globalgamemanagers.assets",
-   "size": 45456,
+   "size": 46768,
    "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/globalgamemanagers.assets"
   },
   {
    "compression": 8,
-   "hash": "5e11ea06a1d2c12216ef1184ee86900a3d296b82",
+   "hash": "5c55bf8b36bf2e7a575e3e38bda32fb94d18ea98",
    "pkgpath": "Data/level0",
-   "size": 16636,
+   "size": 99692,
    "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/level0"
   },
   {
@@ -223,17 +230,24 @@
   },
   {
    "compression": 8,
-   "hash": "a0bfbc525593d7b3e706fba0aacea4d107d090c5",
+   "hash": "f6446842f80b66e93fac3318c840d6a90c39737e",
    "pkgpath": "Data/sharedassets0.assets",
-   "size": 1000860,
+   "size": 1214452,
    "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/sharedassets0.assets"
   },
   {
    "compression": 8,
-   "hash": "10c33a355dfedc9038c7e97a6faf5784f7021bc8",
+   "hash": "485b22b4ad8eec4bfda5b097a3af6b4064fa2318",
    "pkgpath": "Data/sharedassets0.assets.resS",
-   "size": 7340032,
+   "size": 7675104,
    "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/sharedassets0.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "9e353724c574fb7bef2bfbb0aad5212f2f6f6115",
+   "pkgpath": "Data/sharedassets0.resource",
+   "size": 63783456,
+   "src": "/Users/aidanwolf/Dropbox/2019/allthefeels/Temp/StagingArea/Data/sharedassets0.resource"
   },
   {
    "compression": 8,

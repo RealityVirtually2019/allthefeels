@@ -25,9 +25,11 @@ GameObject:
   - component: {fileID: 198837530410961048}
   - component: {fileID: 199835040323774038}
   - component: {fileID: 114916600076169010}
+  - component: {fileID: 114485957226373418}
+  - component: {fileID: 114975494248956386}
   m_Layer: 9
   m_Name: Swarm
-  m_TagString: Sad
+  m_TagString: Swarm
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60,6 +62,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &114485957226373418
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1146051538759416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2673e1811a41e43b292a71d6c54a89cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxVelocity: 5
+  velocity: {x: 0, y: 0, z: 0}
+  localVelocity: {x: 0, y: 0, z: 0}
+  pointAt: 0
 --- !u!114 &114786143024082986
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -85,23 +102,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hasBecomeLeader: 0
   interval: 0
-  intervalRandomness: {x: 1, y: 1}
+  intervalRandomness: {x: 0.1, y: 3}
   intervalBetween: 0
-  intervalBetweenRandomness: {x: 0, y: 0}
+  intervalBetweenRandomness: {x: 0.3, y: 2}
   speed: 0
-  speedRandomness: {x: 1, y: 1}
+  speedRandomness: {x: 1, y: 5}
   movementVelocity:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
+      time: -0.26108262
+      value: 0.8914739
+      inSlope: -0.47471094
+      outSlope: -0.47471094
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
-      outWeight: 0
+      outWeight: 1
     - serializedVersion: 3
       time: 1
       value: 0
@@ -118,13 +135,39 @@ MonoBehaviour:
   drag: 0.8
   angulardrag: 0.8
   gravity: 0
-  launchVelocity: 1
+  launchVelocity: 0.5
   AttractionWeight: 0.5
   attractions:
-  - tag: Sad
-    weight: -0.2
+  - tag: Swarm
+    weight: 0.4
     attractionModifier: 0
   faceDirectionofVelocity: 0
+--- !u!114 &114975494248956386
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1146051538759416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fe846f563a674b60bd89e723aaedb1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultParent: {fileID: 0}
+  breakForce: 500
+  attached: 0
+  defaultGravitySetting: 0
+  attachedObject: {fileID: 0}
+  OnAttach:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnDettach:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!135 &135723592166540692
 SphereCollider:
   m_ObjectHideFlags: 1

@@ -143,6 +143,7 @@ public class ParticleBehavior : MonoBehaviour {
         return v;
     }
 
+    /*
     private void OnCollisionEnter(Collision collision) {
         if (collision.gameObject.layer == 0) {
             transform.position = collision.contacts[0].point;
@@ -152,5 +153,5 @@ public class ParticleBehavior : MonoBehaviour {
             transform.SetParent(collision.gameObject.transform,true);
         }
     }
-
+    */
 }

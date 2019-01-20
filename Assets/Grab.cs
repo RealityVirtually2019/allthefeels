@@ -62,6 +62,13 @@ public class Grab : MonoBehaviour {
             if (_center != null) {
                 _center.position = Hand.Center;
             }
+
+            if (Hand.IsVisible) {
+                gameObject.tag = "Hand";
+            } else {
+                gameObject.tag = "Untagged";
+            }
+
         }
     }
     #endregion
