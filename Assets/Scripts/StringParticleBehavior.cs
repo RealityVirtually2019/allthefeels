@@ -13,6 +13,9 @@ public class StringParticleBehavior : ParticleBehavior {
     public override void Start() {
         base.Start();
         GetComponent<MeshFilter>().sharedMesh = stringMeshes[Random.Range(0, stringMeshes.Length)];
+        float f = 8.00f;
+        rigidbody.angularVelocity = new Vector3(Random.Range(-f, f), Random.Range(-f, f), Random.Range(-f, f));
+
     }
 
     public override void Update() {
@@ -32,9 +35,9 @@ public class StringParticleBehavior : ParticleBehavior {
 
             //GetComponent<MeshFilter>().sharedMesh = stringMeshes[Random.Range(0, stringMeshes.Length)];
 
-            float f = 3.00f;
-
+            float f = 8.00f;
             rigidbody.angularVelocity = new Vector3(Random.Range(-f, f), Random.Range(-f, f), Random.Range(-f, f));
+        
         }
     }
 
