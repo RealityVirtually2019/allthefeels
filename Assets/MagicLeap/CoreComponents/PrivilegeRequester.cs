@@ -83,8 +83,6 @@ namespace UnityEngine.XR.MagicLeap
         readonly List<MLPrivilegeId> _privilegesToRequest = new List<MLPrivilegeId>();
         readonly List<MLPrivilegeId> _privilegesGranted = new List<MLPrivilegeId>();
 
-        public TextMesh LANtext;
-
         #region Unity Methods
         /// <summary>
         /// Start the Privileges API and set the Privilege State
@@ -176,7 +174,6 @@ namespace UnityEngine.XR.MagicLeap
                     _state = PrivilegeState.Succeeded;
                     OnPrivilegesDone(MLResult.ResultOk);
                         this.gameObject.AddComponent<OSC>();
-                        LANtext.text = "LAN enabled";
                     break;
                 }
                 /// Privileges have been denied, respond appropriately.
