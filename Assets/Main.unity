@@ -7327,66 +7327,83 @@ MonoBehaviour:
     spawnCount: 2
     spawnRadius: 0
     clip: {fileID: 8300000, guid: a279de51ceaf84b7da0288e628f67164, type: 3}
+    Type: Alpha
+    minDb: 60
   - prefab: {fileID: 1038270269485948, guid: c3f2dca83fd7d47c68eac8079b64c24d, type: 2}
     tag: Goo
     groupSize: 1
     spawnCount: 2
     spawnRadius: 0.25
     clip: {fileID: 8300000, guid: 29c014c24862942c0a367664b7087827, type: 3}
+    Type: Beta
+    minDb: 60
   - prefab: {fileID: 1228692608646218, guid: f0989fdfe49c242bcaa15fa6956d5f46, type: 2}
     tag: Block
     groupSize: 10
     spawnCount: 3
     spawnRadius: 0.25
     clip: {fileID: 8300000, guid: 4e39a0dfd51224fae90bedc430edf4bc, type: 3}
+    Type: Alpha
+    minDb: 80
   - prefab: {fileID: 1160732980641542, guid: b96650f10daeb45abb96290037a2e848, type: 2}
     tag: Ink
     groupSize: 2
     spawnCount: 1
     spawnRadius: 0
     clip: {fileID: 8300000, guid: 8f44b6405ae1d4dce934805f30d1753e, type: 3}
-  - prefab: {fileID: 1146051538759416, guid: 9556f6d80d2444fd9b6a896d2b1f6a77, type: 2}
-    tag: Swarm
-    groupSize: 5
-    spawnCount: 1
-    spawnRadius: 0
-    clip: {fileID: 8300000, guid: bc5b9dad9da7641f7866918ae9f2d519, type: 3}
+    Type: Beta
+    minDb: 100
   - prefab: {fileID: 1626607359325280, guid: 4f6ade2ca4766423f9c9b6ee1056f36e, type: 2}
     tag: HotHead
     groupSize: 4
     spawnCount: 1
     spawnRadius: 0
     clip: {fileID: 8300000, guid: bc5b9dad9da7641f7866918ae9f2d519, type: 3}
+    Type: Theta
+    minDb: 100
   - prefab: {fileID: 1170182943949084, guid: f1b121f38b7714bd18fee61b8966559f, type: 2}
     tag: Spikeball
     groupSize: 2
     spawnCount: 1
     spawnRadius: 0.1
     clip: {fileID: 8300000, guid: ffa38b3a779cc405f9826577bf4dc898, type: 3}
+    Type: Beta
+    minDb: 80
   - prefab: {fileID: 1978639294662814, guid: 35d65b526c06943a4a6984ae1c956436, type: 2}
     tag: String
     groupSize: 3
     spawnCount: 1
     spawnRadius: 0
     clip: {fileID: 8300000, guid: 4e39a0dfd51224fae90bedc430edf4bc, type: 3}
+    Type: Delta
+    minDb: 100
   - prefab: {fileID: 1424749507693970, guid: 68036017a56b749f5b3fefd734814ab9, type: 2}
     tag: Origami
     groupSize: 4
     spawnCount: 1
     spawnRadius: 0
     clip: {fileID: 8300000, guid: 414bdb84372ed499b8ae2e0b43ca617d, type: 3}
+    Type: Theta
+    minDb: 100
   - prefab: {fileID: 1828970139074120, guid: 90f7bdfb17d334571903f8f76a47c640, type: 2}
     tag: Bands
     groupSize: 1
     spawnCount: 3
     spawnRadius: 0
     clip: {fileID: 8300000, guid: 6a1f7dfc61357439dac366a8acc41eae, type: 3}
+    Type: Alpha
+    minDb: 100
   - prefab: {fileID: 1151623269399200, guid: 56c0655be761f479a8bef906fe040dcc, type: 2}
     tag: Heart
     groupSize: 12
     spawnCount: 6
     spawnRadius: 0.4
     clip: {fileID: 8300000, guid: 3cf3ce23fce16419cae128f4b30b4190, type: 3}
+    Type: Gamma
+    minDb: 110
+  maxParticlesPerSecond: 5
+  particlesPerSecond: 0
+  particleTimer: 0
 --- !u!4 &1671676417
 Transform:
   m_ObjectHideFlags: 0
@@ -12417,12 +12434,12 @@ MonoBehaviour:
   GammaEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1671676416}
+        m_MethodName: SpawnParticle
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -12432,12 +12449,12 @@ MonoBehaviour:
   AlphaEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1671676416}
+        m_MethodName: SpawnParticle
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -12447,12 +12464,12 @@ MonoBehaviour:
   BetaEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1671676416}
+        m_MethodName: SpawnParticle
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -12462,12 +12479,12 @@ MonoBehaviour:
   ThetaEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1671676416}
+        m_MethodName: SpawnParticle
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -12477,12 +12494,12 @@ MonoBehaviour:
   DeltaEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1671676416}
+        m_MethodName: SpawnParticle
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -12491,18 +12508,7 @@ MonoBehaviour:
     m_TypeName: MuseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   ForeheadEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: MuseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   ConcentrationEvent:
     m_PersistentCalls:

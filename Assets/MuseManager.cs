@@ -2,9 +2,10 @@
 using System.Collections;
 using UnityEngine.Events;
 using System;
+using Random = UnityEngine.Random;
 
 [Serializable]
-public class MuseEvent : UnityEvent<float> { };
+public class MuseEvent : UnityEvent<string,float> { };
 
 public class MuseManager : MonoBehaviour {
 
@@ -48,16 +49,41 @@ gamma_absolute  30-44Hz
             osc = FindObjectOfType<OSC>();
 
             if (osc != null) {
+                Debug.Log("osc found, adding handlers!");
                 osc.SetAddressHandler("/muse/elements/gamma_absolute", ReceiveGamma);
                 osc.SetAddressHandler("/muse/elements/alpha_absolute", ReceiveAlpha);
                 osc.SetAddressHandler("/muse/elements/beta_absolute", ReceiveBeta);
                 osc.SetAddressHandler("/muse/elements/theta_absolute", ReceiveTheta);
                 osc.SetAddressHandler("/muse/elements/delta_absolute", ReceiveDelta);
-                osc.SetAddressHandler("/muse/elements/touching_forehead", ReceiveForehead);
-                osc.SetAddressHandler("/muse/elements/algorithm/concentration", ReceiveConcentration);
-                osc.SetAddressHandler("/muse/elements/algorithm/mellow", ReceiveMellow);
-                osc.SetAddressHandler("/muse/eeg", ReceiveEeg);
+                //osc.SetAddressHandler("/muse/elements/touching_forehead", ReceiveForehead);
+                //osc.SetAddressHandler("/muse/elements/algorithm/concentration", ReceiveConcentration);
+                //osc.SetAddressHandler("/muse/elements/algorithm/mellow", ReceiveMellow);
+                //osc.SetAddressHandler("/muse/eeg", ReceiveEeg);
+
             }
+        }
+
+
+        if (osc != null) {
+            OscMessage m = new OscMessage();
+            m.values = new ArrayList() { Random.Range(1f, 129f) };
+            ReceiveGamma(m);
+
+            OscMessage m2 = new OscMessage();
+            m.values = new ArrayList() { Random.Range(1f, 129f) };
+            ReceiveAlpha(m);
+
+            OscMessage m3 = new OscMessage();
+            m.values = new ArrayList() { Random.Range(1f, 129f) };
+            ReceiveBeta(m);
+
+            OscMessage m4 = new OscMessage();
+            m.values = new ArrayList() { Random.Range(1, 129f) };
+            ReceiveTheta(m);
+
+            OscMessage m5 = new OscMessage();
+            m.values = new ArrayList() { Random.Range(1f, 129f) };
+            ReceiveDelta(m);
         }
     }
 
@@ -70,61 +96,61 @@ gamma_absolute  30-44Hz
     public void ReceiveGamma(OscMessage message) {
 
         Debug.Log("ReceiveGamma");
-        PrintValue(message.values[0].ToString(), 30f, 44f);
+        //PrintValue(message.values[0].ToString(), 30f, 44f);
 
         if (GammaEvent != null)
-            GammaEvent.Invoke(float.Parse(message.values[0].ToString()));
+            GammaEvent.Invoke("Gamma", (float)message.values[0]);
     }
 
     void ReceiveAlpha(OscMessage message) {
 
         Debug.Log("ReceiveAlpha");
-        PrintValue(message.values[0].ToString(), 7.5f, 13f);
+       //PrintValue(message.values[0].ToString(), 7.5f, 13f);
 
         if (AlphaEvent != null)
-            AlphaEvent.Invoke(float.Parse(message.values[0].ToString()));
+            AlphaEvent.Invoke("Alpha", (float)message.values[0]);
     }
 
     void ReceiveBeta(OscMessage message) {
 
         Debug.Log("ReceiveBeta");
-        PrintValue(message.values[0].ToString(), 13f, 30f);
+        //PrintValue(message.values[0].ToString(), 13f, 30f);
 
         if (BetaEvent != null)
-            BetaEvent.Invoke(float.Parse(message.values[0].ToString()));
+            BetaEvent.Invoke("Beta", (float)message.values[0]);
     }
 
     void ReceiveTheta(OscMessage message) {
 
         Debug.Log("ReceiveTheta");
-        PrintValue(message.values[0].ToString(), 4f, 8f);
+        //PrintValue(message.values[0].ToString(), 4f, 8f);
 
         if (ThetaEvent != null)
-            ThetaEvent.Invoke(float.Parse(message.values[0].ToString()));
+            ThetaEvent.Invoke("Theta", (float)message.values[0]);
     }
 
     void ReceiveDelta(OscMessage message) {
 
         Debug.Log("ReceiveDelta");
-        PrintValue(message.values[0].ToString(), 1f, 4f);
+        //PrintValue(message.values[0].ToString(), 1f, 4f);
 
         if (DeltaEvent != null)
-            DeltaEvent.Invoke(float.Parse(message.values[0].ToString()));
+            DeltaEvent.Invoke("Delta", (float)message.values[0]);
     }
 
     void ReceiveForehead(OscMessage message) {
         if (ForeheadEvent != null)
-            ForeheadEvent.Invoke(float.Parse(message.values[0].ToString()));
+            ForeheadEvent.Invoke("Forehead",float.Parse(message.values[0].ToString()));
     }
 
     void ReceiveConcentration(OscMessage message) {
         if (ConcentrationEvent != null)
-            ConcentrationEvent.Invoke(float.Parse(message.values[0].ToString()));
+            ConcentrationEvent.Invoke("Concentration",float.Parse(message.values[0].ToString()));
     }
 
     void ReceiveMellow(OscMessage message) {
         if (MellowEvent != null)
-            MellowEvent.Invoke(float.Parse(message.values[0].ToString()));
+            MellowEvent.Invoke("Mellow",float.Parse(message.values[0].ToString()));
     }
 
     void ReceiveEeg(OscMessage message) {
@@ -133,7 +159,7 @@ gamma_absolute  30-44Hz
         PrintValue(message.values[0].ToString(), 0f, 1023f);
 
         if (EegEvent != null)
-            EegEvent.Invoke(float.Parse(message.values[0].ToString()));
+            EegEvent.Invoke("Eeg",(float.Parse(message.values[0].ToString()) - 0f) / 1023f);
     }
 }
  
